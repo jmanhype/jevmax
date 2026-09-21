@@ -4,11 +4,11 @@ title: "Brand Identity System package"
 status: closed
 priority: 2
 type: task
-labels: [studio, dogfood, delivered]
+labels: [studio, dogfood, delivered, accepted]
 parent: JEV-2fkt
 created_at: 2026-09-21T06:03:13Z
 created_by: batmanosama
-updated_at: 2026-09-21T06:44:46Z
+updated_at: 2026-09-21T06:44:47Z
 content_hash: "sha256:3744a2172bd939fcce84d683fb5dcfbc4437a9e439c821a145db1e3374f74948"
 assignee: dev-JEV-xwe6
 closed_at: 2026-09-21T06:44:46Z
