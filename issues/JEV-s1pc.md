@@ -4,7 +4,7 @@ title: "Growth Loop package"
 status: closed
 priority: 3
 type: task
-labels: [studio, dogfood, delivered, accepted]
+labels: [studio, dogfood, accepted]
 parent: JEV-2fkt
 created_at: 2026-09-21T06:03:13Z
 created_by: batmanosama
