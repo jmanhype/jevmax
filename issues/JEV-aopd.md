@@ -9,7 +9,7 @@ parent: JEV-2fkt
 created_at: 2026-09-21T06:03:13Z
 created_by: batmanosama
 updated_at: 2026-09-21T06:36:20Z
-content_hash: "sha256:5179b13c994721fe6621341650bdc2ed057c09f0412859e87250ce7b05cc8af7"
+content_hash: "sha256:ea59148a701af0b75ba19ba56d2eac62937b9914eb6707e88513b0d6c9d545ae"
 assignee: dev-JEV-aopd
 ---
 
@@ -29,6 +29,16 @@ Acceptance criteria:
 
 
 ## Notes
+
+
+## nd_contract
+status: delivered
+
+### evidence
+- Transitioned via pvg story deliver on 2026-09-21.
+
+### proof
+- [ ] Developer evidence block must remain authoritative above this contract.
 
 
 ## History
