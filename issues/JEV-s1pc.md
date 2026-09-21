@@ -8,8 +8,8 @@ labels: [studio, dogfood, delivered]
 parent: JEV-2fkt
 created_at: 2026-09-21T06:03:13Z
 created_by: batmanosama
-updated_at: 2026-09-21T06:13:46Z
-content_hash: "sha256:36f6df2891f9b3c4e1777391b2dfcdb45bb481e84d0ac9fe05659229bf35d106"
+updated_at: 2026-09-21T06:15:10Z
+content_hash: "sha256:ad9bf27ba46081decf0feb7664166c5176aea7ae30e220b15069111dad96ea7c"
 assignee: dev-JEV-s1pc
 ---
 
@@ -29,7 +29,21 @@ Acceptance criteria:
 
 
 ## Notes
+## nd_contract
+status: delivered
 
+### evidence
+- Created TEMPLATE.md, MANIFEST.json, EVIDENCE.md, and PORTFOLIO.md under studio/products/05-growth-loop only.
+- Commands run: jq manifest shape/path checks; python3 benchmark.py --min-pass-rate 0.99; python3 survival.py selftest; git diff --check -- studio/products/05-growth-loop.
+- Offline regression passed 36/36; survival selftest passed; 12/12 manifest artifact paths resolved.
+- Package assembly used 0 generation credits, 0 live API calls, and 0 live ad changes; no commit or push was created.
+- Commit SHA: 35758c3c0276b1068aafe41ab04ed3b8972fac64 (base; artifacts intentionally remain uncommitted).
+
+### proof
+- [x] AC #1: TEMPLATE.md is reusable and client-facing, with placeholders, scope, inputs, outputs, QA gates, and delivery checklist. Code: studio/products/05-growth-loop/TEMPLATE.md, Evidence: EVIDENCE.md.
+- [x] AC #2: MANIFEST.json uses the required v1 shape, parses as JSON, and all 12 artifact paths resolve from the package directory. Code: studio/products/05-growth-loop/MANIFEST.json, Test: jq shape/path validation, Evidence: EVIDENCE.md.
+- [x] AC #3: EVIDENCE.md records the 103-ID snapshot, hash, active weekly automation, bounded diff, first valid 60-day read, cost, QA, and limitations. Code: studio/products/05-growth-loop/EVIDENCE.md, Evidence: snapshots/2026-09-20.json and runs/2026-09-20/RUN_REPORT.md.
+- [x] AC #4: PORTFOLIO.md states outcome, inclusions, exclusions, timeline, price hypothesis, and normal Creative Test Sprint route. Code: studio/products/05-growth-loop/PORTFOLIO.md, Evidence: MANIFEST.json.
 
 ## nd_contract
 status: delivered
