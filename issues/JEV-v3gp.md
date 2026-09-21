@@ -1,15 +1,15 @@
 ---
 id: JEV-v3gp
 title: "Category Signal Audit package"
-status: in_progress
+status: open
 priority: 1
 type: task
 labels: [studio, dogfood]
 parent: JEV-2fkt
 created_at: 2026-09-21T06:03:13Z
 created_by: batmanosama
-updated_at: 2026-09-21T06:03:45Z
-content_hash: "sha256:a09842d6a8273c0f7e41cf6dfadf53dba612cd7df534abba29207903395e0911"
+updated_at: 2026-09-21T06:03:46Z
+content_hash: "sha256:c9db6897ddd97fc992feb3a39767636cfc61c86611b032973aafc77a209c8574"
 assignee: dev-JEV-v3gp
 ---
 
@@ -34,6 +34,7 @@ Acceptance criteria:
 ## History
 - 2026-09-21T06:03:45Z status: open -> in_progress
 - 2026-09-21T06:03:45Z claimed by dev-JEV-v3gp
+- 2026-09-21T06:03:46Z status: in_progress -> open
 
 ## Links
 - Parent: [[JEV-2fkt]]
