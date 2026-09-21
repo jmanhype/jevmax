@@ -9,7 +9,7 @@ parent: JEV-2fkt
 created_at: 2026-09-21T06:03:13Z
 created_by: batmanosama
 updated_at: 2026-09-21T06:45:03Z
-content_hash: "sha256:3dc36a325565444bfb2f3b4d5724a041845f76f6e6f2efa0089166d238a08b0b"
+content_hash: "sha256:41e7aa4c240aa84da4d6402b71155688b2cbb866d8881b08601d3e61f5ae7918"
 assignee: dev-JEV-sugs
 closed_at: 2026-09-21T06:45:03Z
 close_reason: "Accepted: Independently verified the reusable template and concrete sample, 6/6 manifest paths, existing V6 hero and thumbnail artifacts, 2/2 technical QA assets with zero issues, zero-new-generation package cost, disclosure/measurement/approval gates, explicit no-launch limitation, and Growth Loop route."
@@ -31,6 +31,18 @@ Acceptance criteria:
 
 
 ## Notes
+
+
+## nd_contract
+status: accepted
+
+### evidence
+- PM closeout applied via pvg story accept on 2026-09-21.
+
+### proof
+- [x] Story closed after accepted label was applied.
+
+
 ## Implementation Evidence
 
 ### Files
