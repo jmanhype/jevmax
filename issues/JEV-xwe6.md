@@ -9,7 +9,7 @@ parent: JEV-2fkt
 created_at: 2026-09-21T06:03:13Z
 created_by: batmanosama
 updated_at: 2026-09-21T06:44:47Z
-content_hash: "sha256:3744a2172bd939fcce84d683fb5dcfbc4437a9e439c821a145db1e3374f74948"
+content_hash: "sha256:df0a5780a805b0cb52fad79129ec61c571f56841e18d0422c04405fa1211bb31"
 assignee: dev-JEV-xwe6
 closed_at: 2026-09-21T06:44:46Z
 close_reason: "Accepted: Independently verified the reusable template, 14/14 manifest paths, approved Ava seed SHA-256 3acc728cbe8bd2e252f6f5459c3f2c5ec08984de75286bad0a2f71303815d0f9, mandatory persona constraints in both contracts, 0-credit GPT image evidence, existing 40-credit V6 identity-hold sample with zero QA issues, explicit limitations, and Creative Test Sprint route."
@@ -68,6 +68,17 @@ Commit SHA: 35758c3c0276b1068aafe41ab04ed3b8972fac64
 
 Commit SHA: 35758c3c0276b1068aafe41ab04ed3b8972fac64 is the current base HEAD; the four package files remain uncommitted because commits are prohibited without operator authorization.
 CI/Test Results update: `pvg story verify-delivery JEV-xwe6 --json` now passes 9/9 checks with 0 failures. Summary: delivery proof complete.
+
+
+## nd_contract
+status: accepted
+
+### evidence
+- PM closeout applied via pvg story accept on 2026-09-21.
+
+### proof
+- [x] Story closed after accepted label was applied.
+
 
 ## Implementation Evidence
 
