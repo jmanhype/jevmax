@@ -9,7 +9,7 @@ parent: JEV-2fkt
 created_at: 2026-09-21T06:03:13Z
 created_by: batmanosama
 updated_at: 2026-09-21T06:44:36Z
-content_hash: "sha256:060a5ccde847bc4d219f11f866a939eda8ece64e3e64f97acd0af48171c5461a"
+content_hash: "sha256:a920155e571c6c42eef388806b93f2468004e542609557ee3f149c1fcf069d8c"
 assignee: dev-JEV-v3gp
 closed_at: 2026-09-21T06:44:35Z
 close_reason: "Accepted: Independently verified the client-ready template/portfolio summary, valid 9-artifact manifest, 103-ID snapshot hash afec580b80129d2b5e375e710d9903f3cc29b4e915f5df5844daeb2194775e09, 50/21 scan counts, measured 1005/114 token audit cost, zero package-generation credits, bounded QA limitations, and next-route disclosure."
@@ -31,6 +31,18 @@ Acceptance criteria:
 
 
 ## Notes
+
+
+## nd_contract
+status: accepted
+
+### evidence
+- PM closeout applied via pvg story accept on 2026-09-21.
+
+### proof
+- [x] Story closed after accepted label was applied.
+
+
 ## Implementation Evidence
 
 ### Files
