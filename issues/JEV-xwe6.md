@@ -4,7 +4,7 @@ title: "Brand Identity System package"
 status: in_progress
 priority: 2
 type: task
-labels: [studio, dogfood]
+labels: [studio, dogfood, delivered]
 parent: JEV-2fkt
 created_at: 2026-09-21T06:03:13Z
 created_by: batmanosama
