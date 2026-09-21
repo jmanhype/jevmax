@@ -4,7 +4,7 @@ title: "Category Signal Audit package"
 status: closed
 priority: 1
 type: task
-labels: [studio, dogfood, delivered]
+labels: [studio, dogfood, delivered, accepted]
 parent: JEV-2fkt
 created_at: 2026-09-21T06:03:13Z
 created_by: batmanosama
