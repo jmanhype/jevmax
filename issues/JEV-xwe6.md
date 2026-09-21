@@ -8,8 +8,8 @@ labels: [studio, dogfood, delivered]
 parent: JEV-2fkt
 created_at: 2026-09-21T06:03:13Z
 created_by: batmanosama
-updated_at: 2026-09-21T06:11:11Z
-content_hash: "sha256:4ed2211242f09cba56a719aef5a9c31adf558c2b0a7ddfa5973b42634f5eec57"
+updated_at: 2026-09-21T06:11:12Z
+content_hash: "sha256:078eeebb4399e056bc19b2c24a5105e83020c95064e1507f53642c7f0bc61e0f"
 assignee: dev-JEV-xwe6
 ---
 
@@ -29,6 +29,16 @@ Acceptance criteria:
 
 
 ## Notes
+
+
+## nd_contract
+status: delivered
+
+### evidence
+- Transitioned via pvg story deliver on 2026-09-21.
+
+### proof
+- [ ] Developer evidence block must remain authoritative above this contract.
 
 
 ## History
