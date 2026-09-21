@@ -4,11 +4,11 @@ title: "Creative Test Sprint package"
 status: closed
 priority: 3
 type: task
-labels: [studio, dogfood, delivered, accepted]
+labels: [studio, dogfood, accepted]
 parent: JEV-2fkt
 created_at: 2026-09-21T06:03:13Z
 created_by: batmanosama
-updated_at: 2026-09-21T06:44:53Z
+updated_at: 2026-09-21T06:44:54Z
 content_hash: "sha256:f69962ef91ecf69b4fe3738e89d8f68d75381fdccd1e6be171bbee878b0d707a"
 assignee: dev-JEV-aopd
 closed_at: 2026-09-21T06:44:52Z
