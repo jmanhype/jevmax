@@ -1,15 +1,15 @@
 ---
 id: JEV-aopd
 title: "Creative Test Sprint package"
-status: open
+status: in_progress
 priority: 3
 type: task
 labels: [studio, dogfood]
 parent: JEV-2fkt
 created_at: 2026-09-21T06:03:13Z
 created_by: batmanosama
-updated_at: 2026-09-21T06:03:46Z
-content_hash: "sha256:a093a447f569334ee9b70df17ddd1660edc6197f7e11ad5c55d54ca80d3b1fa4"
+updated_at: 2026-09-21T06:36:19Z
+content_hash: "sha256:b2706967ac6ae377631da734c4cb89d707aed02fd5f09f4119637a8eacc067eb"
 assignee: dev-JEV-aopd
 ---
 
@@ -35,6 +35,8 @@ Acceptance criteria:
 - 2026-09-21T06:03:45Z status: open -> in_progress
 - 2026-09-21T06:03:45Z claimed by dev-JEV-aopd
 - 2026-09-21T06:03:46Z status: in_progress -> open
+- 2026-09-21T06:36:19Z status: open -> in_progress
+- 2026-09-21T06:36:19Z claimed by dev-JEV-aopd
 
 ## Links
 - Parent: [[JEV-2fkt]]
