@@ -4,7 +4,7 @@ title: "Jevmax Studio internal dogfood portfolio"
 status: closed
 priority: 0
 type: epic
-labels: [studio, dogfood, productization]
+labels: [studio, dogfood, productization, accepted]
 created_at: 2026-09-21T06:02:20Z
 created_by: batmanosama
 updated_at: 2026-09-21T06:45:29Z
