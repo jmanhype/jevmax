@@ -9,7 +9,7 @@ parent: JEV-2fkt
 created_at: 2026-09-21T06:03:13Z
 created_by: batmanosama
 updated_at: 2026-09-21T06:03:46Z
-content_hash: "sha256:fb015834d2868791023b163b30e315c84c258d9fae29ced7e2eb3e9be48fde89"
+content_hash: "sha256:d57e9dc671ec97ff986f0e3f6de7b9da629f0eb60fa6d33bec6755675fd4dd71"
 assignee: dev-JEV-xwe6
 ---
 
@@ -40,3 +40,6 @@ Acceptance criteria:
 - Parent: [[JEV-2fkt]]
 
 ## Comments
+
+### 2026-09-21T06:03:46Z batmanosama
+loop: reset orphaned in_progress to open (no developer worktree found; prior session presumed dead)
