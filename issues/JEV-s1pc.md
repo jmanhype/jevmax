@@ -8,8 +8,8 @@ labels: [studio, dogfood, delivered]
 parent: JEV-2fkt
 created_at: 2026-09-21T06:03:13Z
 created_by: batmanosama
-updated_at: 2026-09-21T06:15:10Z
-content_hash: "sha256:ad9bf27ba46081decf0feb7664166c5176aea7ae30e220b15069111dad96ea7c"
+updated_at: 2026-09-21T06:17:07Z
+content_hash: "sha256:4a4854fb583d02cf63f992023246a65bdd98c842104b5ea7637ee84af78ffd2f"
 assignee: dev-JEV-s1pc
 ---
 
@@ -29,6 +29,48 @@ Acceptance criteria:
 
 
 ## Notes
+## Implementation Evidence
+
+Summary: Created the scoped four-file Growth Loop package only; no paid generation, live API call, live ad change, commit, or push was performed.
+
+Commit SHA: 35758c3c0276b1068aafe41ab04ed3b8972fac64 (report base; owned files remain uncommitted per instruction).
+
+## CI/Test Results
+
+- Offline regression: PASS, 36/36 cases, 100%.
+- Survival selftest: PASS.
+- Manifest JSON and exact top-level shape: PASS.
+- Artifact resolution from package directory: PASS, 12 resolved / 0 failed.
+- git diff --check on owned package: PASS.
+
+Commands run:
+
+- jq exact-key and value validation on studio/products/05-growth-loop/MANIFEST.json
+- artifact existence loop resolving every MANIFEST.json path from studio/products/05-growth-loop
+- python3 benchmark.py --min-pass-rate 0.99
+- python3 survival.py selftest
+- git diff --check -- studio/products/05-growth-loop
+- openssl dgst -sha256 snapshots/2026-09-20.json
+- jq length snapshots/2026-09-20.json
+- pvg story claim JEV-s1pc
+- pvg story deliver JEV-s1pc
+
+## AC verification
+
+- [x] TEMPLATE.md is client-ready and reusable.
+- [x] MANIFEST.json validates and links only existing artifacts.
+- [x] EVIDENCE.md records the current snapshot and automation evidence.
+- [x] PORTFOLIO.md states outcome, inclusions, exclusions, timeline, and next route.
+
+## nd_contract
+status: delivered
+
+### evidence
+- Transitioned via pvg story deliver on 2026-09-21.
+
+### proof
+- [ ] Developer evidence block must remain authoritative above this contract.
+
 ## nd_contract
 status: delivered
 
@@ -44,15 +86,6 @@ status: delivered
 - [x] AC #2: MANIFEST.json uses the required v1 shape, parses as JSON, and all 12 artifact paths resolve from the package directory. Code: studio/products/05-growth-loop/MANIFEST.json, Test: jq shape/path validation, Evidence: EVIDENCE.md.
 - [x] AC #3: EVIDENCE.md records the 103-ID snapshot, hash, active weekly automation, bounded diff, first valid 60-day read, cost, QA, and limitations. Code: studio/products/05-growth-loop/EVIDENCE.md, Evidence: snapshots/2026-09-20.json and runs/2026-09-20/RUN_REPORT.md.
 - [x] AC #4: PORTFOLIO.md states outcome, inclusions, exclusions, timeline, price hypothesis, and normal Creative Test Sprint route. Code: studio/products/05-growth-loop/PORTFOLIO.md, Evidence: MANIFEST.json.
-
-## nd_contract
-status: delivered
-
-### evidence
-- Transitioned via pvg story deliver on 2026-09-21.
-
-### proof
-- [ ] Developer evidence block must remain authoritative above this contract.
 
 
 ## History
