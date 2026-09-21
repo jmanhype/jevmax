@@ -1,0 +1,118 @@
+{
+  "source": "benchmarks/citation_sample.csv",
+  "generated_at": "2026-09-20T20:27:49",
+  "own_domain": "example.com",
+  "answers": [
+    {
+      "engine": "ChatGPT",
+      "query": "airpods charger replacement",
+      "checks": 2,
+      "brand_mention_rate": 0.0,
+      "own_citation_rate": 0.0,
+      "average_cited_rank": null,
+      "top_cited_urls": {}
+    },
+    {
+      "engine": "Perplexity",
+      "query": "airpods charger replacement",
+      "checks": 2,
+      "brand_mention_rate": 0.0,
+      "own_citation_rate": 0.0,
+      "average_cited_rank": 1.0,
+      "top_cited_urls": {
+        "https://competitor.example/charger": 2
+      }
+    },
+    {
+      "engine": "Perplexity",
+      "query": "airpods pro replacement case",
+      "checks": 2,
+      "brand_mention_rate": 0.0,
+      "own_citation_rate": 0.0,
+      "average_cited_rank": 1.0,
+      "top_cited_urls": {
+        "https://competitor.example/pro-case": 2
+      }
+    },
+    {
+      "engine": "Perplexity",
+      "query": "best airpods pro case",
+      "checks": 2,
+      "brand_mention_rate": 0.5,
+      "own_citation_rate": 0.5,
+      "average_cited_rank": 1.5,
+      "top_cited_urls": {
+        "https://example.com/collections/cases": 1,
+        "https://competitor.example/cases": 1
+      }
+    },
+    {
+      "engine": "ChatGPT",
+      "query": "airpods pro replacement case",
+      "checks": 2,
+      "brand_mention_rate": 1.0,
+      "own_citation_rate": 1.0,
+      "average_cited_rank": 1.0,
+      "top_cited_urls": {
+        "https://example.com/products/airpods-pro-case": 2
+      }
+    },
+    {
+      "engine": "ChatGPT",
+      "query": "best airpods pro case",
+      "checks": 2,
+      "brand_mention_rate": 1.0,
+      "own_citation_rate": 1.0,
+      "average_cited_rank": 2.5,
+      "top_cited_urls": {
+        "https://example.com/collections/cases": 2
+      }
+    }
+  ],
+  "by_engine": {
+    "ChatGPT": {
+      "checks": 6,
+      "brand_mention_rate": 0.667,
+      "own_citation_rate": 0.667
+    },
+    "Perplexity": {
+      "checks": 6,
+      "brand_mention_rate": 0.167,
+      "own_citation_rate": 0.167
+    }
+  },
+  "gaps": [
+    {
+      "engine": "ChatGPT",
+      "query": "airpods charger replacement",
+      "checks": 2,
+      "brand_mention_rate": 0.0,
+      "own_citation_rate": 0.0,
+      "average_cited_rank": null,
+      "top_cited_urls": {}
+    },
+    {
+      "engine": "Perplexity",
+      "query": "airpods pro replacement case",
+      "checks": 2,
+      "brand_mention_rate": 0.0,
+      "own_citation_rate": 0.0,
+      "average_cited_rank": 1.0,
+      "top_cited_urls": {
+        "https://competitor.example/pro-case": 2
+      }
+    },
+    {
+      "engine": "Perplexity",
+      "query": "airpods charger replacement",
+      "checks": 2,
+      "brand_mention_rate": 0.0,
+      "own_citation_rate": 0.0,
+      "average_cited_rank": 1.0,
+      "top_cited_urls": {
+        "https://competitor.example/charger": 2
+      }
+    }
+  ],
+  "method_note": "Offline analysis of a citation export; no AI engine was queried."
+}

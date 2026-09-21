@@ -1,0 +1,134 @@
+{
+  "benchmark_version": "0.1.0",
+  "mode": "offline regression against recorded demo outputs",
+  "all_passed": true,
+  "total_cases": 36,
+  "total_passed": 36,
+  "aggregate_pass_rate": 1.0,
+  "suites": [
+    {
+      "name": "Workflow #4 \u2014 buyer-intent search-term sorting",
+      "n": 25,
+      "pass": 25,
+      "accuracy": 1.0,
+      "confusion": {
+        "KEEP": {
+          "KEEP": 10
+        },
+        "NEGATIVE": {
+          "NEGATIVE": 13
+        },
+        "WATCH": {
+          "WATCH": 2
+        }
+      },
+      "mean_p_buyer": {
+        "KEEP": 0.7849999999999999,
+        "WATCH": 0.33,
+        "NEGATIVE": 0.09307692307692307
+      },
+      "errors": [],
+      "unlabeled_actual_rows": []
+    },
+    {
+      "name": "Workflow #6 \u2014 ad/page promise match",
+      "n": 1,
+      "pass": 1,
+      "accuracy": 1.0,
+      "checks": {
+        "delivers_promise_at_most_0_20": true,
+        "match_score_at_most_1_50": true,
+        "gap_is_offer_mismatch": true,
+        "confidence_at_least_0_70": true
+      },
+      "error": null
+    },
+    {
+      "name": "Workflow #5 \u2014 creative fatigue decision bands",
+      "n": 5,
+      "pass": 5,
+      "accuracy": 1.0,
+      "human_review_count": 1,
+      "errors": []
+    },
+    {
+      "name": "Workflow #7 \u2014 lead quality scoring",
+      "n": 3,
+      "pass": 3,
+      "accuracy": 1.0,
+      "errors": []
+    },
+    {
+      "name": "Workflow #3 \u2014 brief scoring",
+      "n": 1,
+      "pass": 1,
+      "accuracy": 1.0,
+      "top_brief_total": 10.36,
+      "vague_brief_total": 0.28,
+      "error": null
+    },
+    {
+      "name": "Workflow #2 \u2014 survival boundary selftest",
+      "n": 1,
+      "pass": 1,
+      "accuracy": 1.0,
+      "stdout": "selftest OK",
+      "error": null
+    }
+  ],
+  "recorded_usage": {
+    "search_terms_25": {
+      "items": 25,
+      "input_tokens": 3570,
+      "output_tokens": 607,
+      "source": "README measured demo run; approximate because source script output was not persisted",
+      "total_tokens": 4177,
+      "tokens_per_item": 167.08
+    },
+    "briefs_3": {
+      "items": 3,
+      "input_tokens": 1050,
+      "output_tokens": 470,
+      "source": "README measured demo rate",
+      "total_tokens": 1520,
+      "tokens_per_item": 506.67
+    },
+    "fatigue_5_flagged": {
+      "items": 5,
+      "input_tokens": 1055,
+      "output_tokens": 250,
+      "source": "README measured post-batching run",
+      "total_tokens": 1305,
+      "tokens_per_item": 261.0
+    },
+    "page_match_1": {
+      "items": 1,
+      "input_tokens": 757,
+      "output_tokens": 101,
+      "source": "match.json",
+      "total_tokens": 858,
+      "tokens_per_item": 858.0
+    },
+    "leads_3": {
+      "items": 3,
+      "input_tokens": 950,
+      "output_tokens": 286,
+      "source": "README measured demo rate",
+      "total_tokens": 1236,
+      "tokens_per_item": 412.0
+    },
+    "ad_tagging_12": {
+      "items": 12,
+      "input_tokens": 4608,
+      "output_tokens": 1667,
+      "source": "README measured MCP-route run",
+      "total_tokens": 6275,
+      "tokens_per_item": 522.92
+    }
+  },
+  "limits": [
+    "This is not a blind holdout; expected labels document the intended semantics of the demo fixtures.",
+    "No TypeSafe API calls are made by benchmark.py.",
+    "30x, 90%, and whole-library claims are intentionally absent because they are not measured here."
+  ]
+}

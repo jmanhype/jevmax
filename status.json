@@ -1,0 +1,93 @@
+{
+  "root": "/Users/batmanosama/.zcode/workspace/default/jevmax",
+  "python": "3.14.3",
+  "workflows": [
+    {
+      "id": 1,
+      "name": "Ad Library tagging",
+      "script": "ad_library_scan.py",
+      "exists": true
+    },
+    {
+      "id": 2,
+      "name": "Survival snapshots",
+      "script": "survival.py",
+      "exists": true
+    },
+    {
+      "id": 3,
+      "name": "Brief scoring",
+      "script": "score_briefs.py",
+      "exists": true
+    },
+    {
+      "id": 4,
+      "name": "Buyer search-term sorting",
+      "script": "sort_search_terms.py",
+      "exists": true
+    },
+    {
+      "id": 5,
+      "name": "Creative fatigue",
+      "script": "fatigue.py",
+      "exists": true
+    },
+    {
+      "id": 6,
+      "name": "Ad/page promise match",
+      "script": "page_match.py",
+      "exists": true
+    },
+    {
+      "id": 7,
+      "name": "Lead scoring",
+      "script": "score_leads.py",
+      "exists": true
+    },
+    {
+      "id": 8,
+      "name": "Read-only account audit",
+      "script": "audit.py",
+      "exists": true
+    },
+    {
+      "id": 9,
+      "name": "SEO/GEO export analysis",
+      "script": "seo_geo.py",
+      "exists": true
+    },
+    {
+      "id": 10,
+      "name": "Bounded Ad Library sampler",
+      "script": "ad_library_sampler.py",
+      "exists": true
+    }
+  ],
+  "benchmark": {
+    "passed": 36,
+    "cases": 36,
+    "mode": "offline regression against recorded demo outputs"
+  },
+  "artifacts": {
+    "dashboard.html": true,
+    "benchmark_results.json": true,
+    "seo_geo_report.json": true,
+    "citation_report.json": true,
+    "samples/local_regression_combined.json": true,
+    "icp_airpods.md": true,
+    "google_ads_search_terms_template.csv": true
+  },
+  "snapshots": [
+    {
+      "date": "2026-09-20",
+      "path": "/Users/batmanosama/.zcode/workspace/default/jevmax/snapshots/2026-09-20.json"
+    }
+  ],
+  "missing_real_inputs": [
+    "Google Ads search-terms CSV",
+    "Search Console export for production domain",
+    "AI-citation export for production domain",
+    "60-day later Ad Library snapshot"
+  ],
+  "live_ad_changes": "disabled in status/selftest commands"
+}

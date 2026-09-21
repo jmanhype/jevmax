@@ -1,0 +1,15 @@
+variant_id,status,credits,video_id,video_url,local_file,error
+V002-E01,completed,50,425644707450662,https://media.pixverse.ai/pixverse%2Fmp4%2Fmedia%2Fweb%2Fori%2F4f3ff056-b442-4f3a-a39f-00e8abf49091_seed0.mp4,creative/pixverse/V002-E01.mp4,
+V002-E02,completed,50,425644834171551,https://media.pixverse.ai/pixverse%2Fmp4%2Fmedia%2Fweb%2Fori%2Fa5502fa6-6839-4fb3-8ed4-e4ec982ac460_seed0.mp4,creative/pixverse/V002-E02.mp4,
+V002-E03,completed,50,425644957526764,https://media.pixverse.ai/pixverse%2Fmp4%2Fmedia%2Fweb%2Fori%2Fe8ee4819-1970-4e5c-9bae-a26a153f6ea0_seed0.mp4,creative/pixverse/V002-E03.mp4,
+V002-E04,completed,50,425645090194402,https://media.pixverse.ai/pixverse%2Fmp4%2Fmedia%2Fweb%2Fori%2F271edd4d-d25b-4ea1-b491-20a5ce372db3_seed0.mp4,creative/pixverse/V002-E04.mp4,
+V002-E05,completed,50,425645194394271,https://media.pixverse.ai/pixverse%2Fmp4%2Fmedia%2Fweb%2Fori%2F57be3031-8c75-47b2-aae8-782e45d67652_seed0.mp4,creative/pixverse/V002-E05.mp4,
+V002-E06,error,,,,,"{
+  ""error"": ""Video generation failed (status: 7, video_id: 425645299673241)"",
+  ""code"": 0,
+  ""trace_id"": null
+}
+"
+V002-E07,completed,50,425645401727105,https://media.pixverse.ai/pixverse%2Fmp4%2Fmedia%2Fweb%2Fori%2F313373af-6796-47c7-9eaf-28a715503bb3_seed0.mp4,creative/pixverse/V002-E07.mp4,
+V002-E08,completed,50,425645513361594,https://media.pixverse.ai/pixverse%2Fmp4%2Fmedia%2Fweb%2Fori%2Fc798f4c9-9de0-46d4-b8f5-00a247401654_seed0.mp4,creative/pixverse/V002-E08.mp4,
+V002-E06,completed,50,425646656597557,https://media.pixverse.ai/pixverse%2Fmp4%2Fmedia%2Fweb%2Fori%2Fdfc587f7-99ee-4b59-81e9-80f05604a982_seed0.mp4,creative/pixverse/V002-E06.mp4,

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "commands": [
+    "compile",
+    "benchmark",
+    "survival",
+    "sampler-plan",
+    "sampler-combine",
+    "sampler-diff",
+    "sampler-report",
+    "seo",
+    "citations",
+    "dashboard"
+  ],
+  "live_ad_changes": false,
+  "api_calls": false
+}

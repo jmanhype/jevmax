@@ -1,0 +1,1137 @@
+{
+  "plan_file": "ad_library_sample_plan.json",
+  "plan_name": "AirPods compatible parts bounded intelligence sample",
+  "countries": [
+    "US"
+  ],
+  "ad_active_status": "ACTIVE",
+  "ad_type": "ALL",
+  "limit_per_query": 50,
+  "selected_queries": [
+    "airpods",
+    "airpods pro",
+    "airpods case",
+    "airpods pro case",
+    "airpods replacement",
+    "airpods charger",
+    "airpods ear tips",
+    "airpods battery replacement"
+  ],
+  "selected_query_count": 8,
+  "requested_max_ads": 400,
+  "policy": "Official ads_library_search only. This is bounded category sampling, not bulk extraction or a whole-library census.",
+  "fetch_instructions": [
+    "For each selected_queries entry, call official Meta Ads MCP ads_library_search once.",
+    "Use the plan countries/ad_active_status/ad_type/limit_per_query exactly.",
+    "Save each result as a JSON array before combining.",
+    "Do not retry indefinitely or attempt to circumvent the 50-result tool limit."
+  ],
+  "generated_at": "2026-09-21T01:27:48+00:00",
+  "input_files": [
+    "ad_library_mcp_raw.json",
+    "ad_library_mcp_raw_deep.json",
+    "ad_library_mcp_comfrt.json"
+  ],
+  "unique_ad_count": 74,
+  "input_ad_count": 99,
+  "duplicate_ad_count": 25,
+  "source_row_counts": {
+    "ad_library_mcp_raw.json": 49,
+    "ad_library_mcp_raw_deep.json": 25,
+    "ad_library_mcp_comfrt.json": 25
+  },
+  "ads": [
+    {
+      "id": "991104333997622",
+      "page_id": "",
+      "page_name": "Ypzvx",
+      "title": "",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw_deep.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "965007409992118",
+      "page_id": "",
+      "page_name": "Ypzvx",
+      "title": "",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw_deep.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "942884865538034",
+      "page_id": "",
+      "page_name": "Live Translator GP",
+      "title": "\ud83c\udf0dReal-Time Translation with Your Phone or AirPods.",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw_deep.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "934641679707973",
+      "page_id": "",
+      "page_name": "Heddz.co",
+      "title": "Try the trio for 39% off",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw_deep.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "905921525714359",
+      "page_id": "",
+      "page_name": "Kure for Hypnotherapy",
+      "title": "Press play. Close your eyes. Change everything \ud83d\ude46\u200d\u2642\ufe0f",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "4620417998179636",
+      "page_id": "",
+      "page_name": "Speak Without Borders",
+      "title": "\ud83c\udf0dReal-Time Translation with Your iPhone or AirPods.",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw_deep.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "4619884018332534",
+      "page_id": "",
+      "page_name": "Lucas Lucas",
+      "title": "AirPods 4 with Active Noise Cancellation",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "3863376620468726",
+      "page_id": "",
+      "page_name": "Kure for Hypnotherapy",
+      "title": "Press play. Close your eyes. Change everything \ud83d\ude46\u200d\u2642\ufe0f",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "28653988810897996",
+      "page_id": "",
+      "page_name": "Omega Choices",
+      "title": "Omega Choices | Best Daily Deals Across Categories",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "HUF",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "28273157185710174",
+      "page_id": "",
+      "page_name": "Matt Goodell",
+      "title": "Apple AirPods Pro",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "2822672268104885",
+      "page_id": "",
+      "page_name": "Servicell Reynosa",
+      "title": "",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "MXN",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "2619604288490690",
+      "page_id": "",
+      "page_name": "Kure for Hypnotherapy",
+      "title": "Press play. Close your eyes. Change everything \ud83d\ude46\u200d\u2642\ufe0f",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "2617232028728464",
+      "page_id": "",
+      "page_name": "Yardsale",
+      "title": "Shop The Day Bag",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "2453156815208116",
+      "page_id": "",
+      "page_name": "Salvador Mata",
+      "title": "AirPods Max",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw_deep.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "2367876897085532",
+      "page_id": "",
+      "page_name": "NEYOA",
+      "title": "Shop AirPods Pro 3 & AirPods 2nd Generation",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "2305989836840764",
+      "page_id": "",
+      "page_name": "Comfrt",
+      "title": "A Pillow You Don't Have to Carry",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": [
+        {
+          "source": "ad_library_mcp_comfrt.json",
+          "query": null
+        }
+      ]
+    },
+    {
+      "id": "2155969968289560",
+      "page_id": "",
+      "page_name": "Speak Without Borders",
+      "title": "\ud83c\udf0dReal-Time Translation with Your iPhone or AirPods.",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw_deep.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "2069139830377102",
+      "page_id": "",
+      "page_name": "InstantTranslator 01",
+      "title": "",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw_deep.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1991668948149848",
+      "page_id": "",
+      "page_name": "Speak Without Borders",
+      "title": "\ud83c\udf0dReal-Time Translation with Your iPhone or AirPods.",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw_deep.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1824139528946976",
+      "page_id": "",
+      "page_name": "J7506v-en.myshopify.com",
+      "title": "carlito-store-4.myshopify",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw_deep.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1817574532766685",
+      "page_id": "",
+      "page_name": "Comfrt",
+      "title": "A Pillow You Don't Have to Carry",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": [
+        {
+          "source": "ad_library_mcp_comfrt.json",
+          "query": null
+        }
+      ]
+    },
+    {
+      "id": "1804794663885542",
+      "page_id": "",
+      "page_name": "Ypzvx",
+      "title": "",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw_deep.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1794873385268488",
+      "page_id": "",
+      "page_name": "Kure for Hypnotherapy",
+      "title": "Press play. Close your eyes. Change everything \ud83d\ude46\u200d\u2642\ufe0f",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1781791562915706",
+      "page_id": "",
+      "page_name": "Happy Hour with Keith and Jenny",
+      "title": "",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1770953937448865",
+      "page_id": "",
+      "page_name": "InstantTranslator 01",
+      "title": "",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw_deep.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1748296616217443",
+      "page_id": "",
+      "page_name": "Kure for Hypnotherapy",
+      "title": "Press play. Close your eyes. Change everything \ud83d\ude46\u200d\u2642\ufe0f",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1739055324066368",
+      "page_id": "",
+      "page_name": "Comfrt",
+      "title": "A Pillow You Don't Have to Carry",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": [
+        {
+          "source": "ad_library_mcp_comfrt.json",
+          "query": null
+        }
+      ]
+    },
+    {
+      "id": "1716069472831778",
+      "page_id": "",
+      "page_name": "PhoneBros- Cash for Phones",
+      "title": "Paid Same Day - Message Us for a Quote!",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1669754034481617",
+      "page_id": "",
+      "page_name": "Kure for Hypnotherapy",
+      "title": "Press play. Close your eyes. Change everything \ud83d\ude46\u200d\u2642\ufe0f",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1641883424115497",
+      "page_id": "",
+      "page_name": "Angel Garcia",
+      "title": "AirPods Pro Gen 3",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1634942098080747",
+      "page_id": "",
+      "page_name": "Ypzvx",
+      "title": "",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw_deep.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1630486812056170",
+      "page_id": "",
+      "page_name": "Matt Goodell",
+      "title": "Apple AirPods Pro Charging Case and Single Earbud Left",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1614319307140776",
+      "page_id": "",
+      "page_name": "J7506v-en.myshopify.com",
+      "title": "carlito-store-4.myshopify",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw_deep.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1613837896864634",
+      "page_id": "",
+      "page_name": "Heddz.co",
+      "title": "Try the trio for 39% off",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw_deep.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1602576378315733",
+      "page_id": "",
+      "page_name": "Alphatech Apparel",
+      "title": "The Ultimate Snow Hoodie",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1574348157720120",
+      "page_id": "",
+      "page_name": "Hypnotherapy with Kure",
+      "title": "Press play. Close your eyes. Change everything \ud83d\ude46\u200d\u2642\ufe0f",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1568475251250356",
+      "page_id": "",
+      "page_name": "Comfrt",
+      "title": "A Pillow You Don't Have to Carry",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": [
+        {
+          "source": "ad_library_mcp_comfrt.json",
+          "query": null
+        }
+      ]
+    },
+    {
+      "id": "1537515114846311",
+      "page_id": "",
+      "page_name": "Speak Without Borders",
+      "title": "\ud83c\udf0dReal-Time Translation with Your iPhone or AirPods.",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw_deep.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1467796081832080",
+      "page_id": "",
+      "page_name": "Comfrt",
+      "title": "Your New Everyday Layer",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": [
+        {
+          "source": "ad_library_mcp_comfrt.json",
+          "query": null
+        }
+      ]
+    },
+    {
+      "id": "1456338179744737",
+      "page_id": "",
+      "page_name": "Alejandro Aguilera",
+      "title": "(Sealed) AirPods Pro 3 With Active Noise Cancellation (ANC) - Great Offer!",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1453522870172605",
+      "page_id": "",
+      "page_name": "Live Translator GP",
+      "title": "\ud83c\udf0d\u0422\u0440\u0430\u0434\u0438\u0446\u0438\u044f \u0432 \u0440\u0435\u0430\u043b\u044c\u043d\u043e\u043c \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u0441 \u0432\u0430\u0448\u0438\u043c \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u043e\u043c \u0438\u043b\u0438 \u0432\u0430\u0448\u0438\u043c\u0438 AirPods.",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw_deep.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1417687706987125",
+      "page_id": "",
+      "page_name": "The Inexcepted Co",
+      "title": "",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw_deep.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1410156334406896",
+      "page_id": "",
+      "page_name": "Live Translator GP",
+      "title": "\ud83c\udf0dReal-Time Translation with Your Phone or AirPods.",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw_deep.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1256609843297816",
+      "page_id": "",
+      "page_name": "Ypzvx",
+      "title": "",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw_deep.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1114876268185253",
+      "page_id": "",
+      "page_name": "Comfrt",
+      "title": "A Pillow You Don't Have to Carry",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": [
+        {
+          "source": "ad_library_mcp_comfrt.json",
+          "query": null
+        }
+      ]
+    },
+    {
+      "id": "1110780611673672",
+      "page_id": "",
+      "page_name": "Lenovra",
+      "title": "Apple AirPods Pro 3",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "EUR",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1106578908982901",
+      "page_id": "",
+      "page_name": "Live Translator GP",
+      "title": "\ud83c\udf0dReal-Time Translation with Your Phone or AirPods.",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw_deep.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1095915376246623",
+      "page_id": "",
+      "page_name": "Live Translator GP",
+      "title": "\ud83c\udf0d\u0422\u0440\u0430\u0434\u0438\u0446\u0438\u044f \u0432 \u0440\u0435\u0430\u043b\u044c\u043d\u043e\u043c \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u0441 \u0432\u0430\u0448\u0438\u043c \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u043e\u043c \u0438\u043b\u0438 \u0432\u0430\u0448\u0438\u043c\u0438 AirPods.",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw_deep.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1095464203072177",
+      "page_id": "",
+      "page_name": "Power Plate USA",
+      "title": "",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1092710189862756",
+      "page_id": "",
+      "page_name": "Live Translator GP",
+      "title": "\ud83c\udf0dReal-Time Translation with Your Phone or AirPods.",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw_deep.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1089407473809287",
+      "page_id": "",
+      "page_name": "Heddz.co",
+      "title": "Try the trio for 39% off",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw_deep.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1089292590524362",
+      "page_id": "",
+      "page_name": "Comfrt",
+      "title": "A Pillow You Don't Have to Carry",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": [
+        {
+          "source": "ad_library_mcp_comfrt.json",
+          "query": null
+        }
+      ]
+    },
+    {
+      "id": "1081527151529594",
+      "page_id": "",
+      "page_name": "Jay Saint",
+      "title": "Airpods gen 4 - Brand new",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1073615085516026",
+      "page_id": "",
+      "page_name": "sp5.supply_",
+      "title": "instagram.com",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1073343082263636",
+      "page_id": "",
+      "page_name": "Heddz.co",
+      "title": "Try the trio for 39% off",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1068117096129325",
+      "page_id": "",
+      "page_name": "Comfrt",
+      "title": "A Pillow You Don't Have to Carry",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": [
+        {
+          "source": "ad_library_mcp_comfrt.json",
+          "query": null
+        }
+      ]
+    },
+    {
+      "id": "1066444952762967",
+      "page_id": "",
+      "page_name": "Ypzvx",
+      "title": "",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw_deep.json",
+      "query": null,
+      "also_seen_in": []
+    },
+    {
+      "id": "1042535718829869",
+      "page_id": "",
+      "page_name": "Comfrt",
+      "title": "A Pillow You Don't Have to Carry",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789862400,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": [
+        {
+          "source": "ad_library_mcp_comfrt.json",
+          "query": null
+        }
+      ]
+    },
+    {
+      "id": "3807171142754853",
+      "page_id": "",
+      "page_name": "Comfrt",
+      "title": "Waffle Lounge Sets You'll Love",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789776000,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": [
+        {
+          "source": "ad_library_mcp_comfrt.json",
+          "query": null
+        }
+      ]
+    },
+    {
+      "id": "2289911708442547",
+      "page_id": "",
+      "page_name": "Comfrt",
+      "title": "Your New Everyday Layer",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789776000,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": [
+        {
+          "source": "ad_library_mcp_comfrt.json",
+          "query": null
+        }
+      ]
+    },
+    {
+      "id": "2270867723317828",
+      "page_id": "",
+      "page_name": "Comfrt",
+      "title": "Waffle Lounge Sets You'll Love",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789776000,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": [
+        {
+          "source": "ad_library_mcp_comfrt.json",
+          "query": null
+        }
+      ]
+    },
+    {
+      "id": "2173245786943094",
+      "page_id": "",
+      "page_name": "Comfrt",
+      "title": "Your New Everyday Layer",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789776000,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": [
+        {
+          "source": "ad_library_mcp_comfrt.json",
+          "query": null
+        }
+      ]
+    },
+    {
+      "id": "2146254872941002",
+      "page_id": "",
+      "page_name": "Comfrt",
+      "title": "Waffle Lounge Sets You'll Love",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789776000,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": [
+        {
+          "source": "ad_library_mcp_comfrt.json",
+          "query": null
+        }
+      ]
+    },
+    {
+      "id": "2005080096868063",
+      "page_id": "",
+      "page_name": "Comfrt",
+      "title": "Your New Everyday Layer",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789776000,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": [
+        {
+          "source": "ad_library_mcp_comfrt.json",
+          "query": null
+        }
+      ]
+    },
+    {
+      "id": "1954194982651772",
+      "page_id": "",
+      "page_name": "Comfrt",
+      "title": "Waffle Lounge Sets You'll Love",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789776000,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": [
+        {
+          "source": "ad_library_mcp_comfrt.json",
+          "query": null
+        }
+      ]
+    },
+    {
+      "id": "1823211902450521",
+      "page_id": "",
+      "page_name": "Comfrt",
+      "title": "Your New Everyday Layer",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789776000,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": [
+        {
+          "source": "ad_library_mcp_comfrt.json",
+          "query": null
+        }
+      ]
+    },
+    {
+      "id": "1769314910782226",
+      "page_id": "",
+      "page_name": "Comfrt",
+      "title": "Waffle Lounge Sets You'll Love",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789776000,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": [
+        {
+          "source": "ad_library_mcp_comfrt.json",
+          "query": null
+        }
+      ]
+    },
+    {
+      "id": "1749935296211130",
+      "page_id": "",
+      "page_name": "Comfrt",
+      "title": "Waffle Lounge Sets You'll Love",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789776000,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": [
+        {
+          "source": "ad_library_mcp_comfrt.json",
+          "query": null
+        }
+      ]
+    },
+    {
+      "id": "1741755267054050",
+      "page_id": "",
+      "page_name": "Comfrt",
+      "title": "Your New Everyday Layer",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789776000,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": [
+        {
+          "source": "ad_library_mcp_comfrt.json",
+          "query": null
+        }
+      ]
+    },
+    {
+      "id": "1481089823829248",
+      "page_id": "",
+      "page_name": "Comfrt",
+      "title": "Waffle Lounge Sets You'll Love",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789776000,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": [
+        {
+          "source": "ad_library_mcp_comfrt.json",
+          "query": null
+        }
+      ]
+    },
+    {
+      "id": "1399894461567443",
+      "page_id": "",
+      "page_name": "Comfrt",
+      "title": "Your New Everyday Layer",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789776000,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": [
+        {
+          "source": "ad_library_mcp_comfrt.json",
+          "query": null
+        }
+      ]
+    },
+    {
+      "id": "1152778457078900",
+      "page_id": "",
+      "page_name": "Comfrt",
+      "title": "Your New Everyday Layer",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789776000,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": [
+        {
+          "source": "ad_library_mcp_comfrt.json",
+          "query": null
+        }
+      ]
+    },
+    {
+      "id": "1079597841524490",
+      "page_id": "",
+      "page_name": "Comfrt",
+      "title": "Your New Everyday Layer",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789776000,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": [
+        {
+          "source": "ad_library_mcp_comfrt.json",
+          "query": null
+        }
+      ]
+    },
+    {
+      "id": "1068359849450716",
+      "page_id": "",
+      "page_name": "Comfrt",
+      "title": "Waffle Lounge Sets You'll Love",
+      "ad_creation_time": null,
+      "ad_delivery_start_time": 1789776000,
+      "currency": "USD",
+      "snapshot_url": "",
+      "source_file": "ad_library_mcp_raw.json",
+      "query": null,
+      "also_seen_in": [
+        {
+          "source": "ad_library_mcp_comfrt.json",
+          "query": null
+        }
+      ]
+    }
+  ],
+  "coverage_warnings": [
+    "Unique count can be smaller than requested_max_ads because queries overlap.",
+    "A clean combination of bounded queries is still not a whole-library census.",
+    "Newest-first/no-cursor behavior means long-running ads can be underrepresented."
+  ]
+}

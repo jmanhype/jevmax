@@ -1,0 +1,435 @@
+{
+  "source": "benchmarks/search_console_sample.csv",
+  "generated_at": "2026-09-20T20:27:49",
+  "own_domain": "example.com",
+  "min_impressions": 100,
+  "rows": [
+    {
+      "query": "airpods pro replacement case",
+      "page": "/products/airpods-pro-case",
+      "clicks": 42,
+      "impressions": 1800,
+      "ctr": 0.0233,
+      "expected_ctr": 0.025208,
+      "position": 8.4,
+      "click_potential": 3.4,
+      "own_page": true,
+      "action": "quick_win",
+      "recommendation": "Strengthen intent match, internal links, and above-fold proof"
+    },
+    {
+      "query": "airpods pro case",
+      "page": "/products/airpods-pro-case",
+      "clicks": 68,
+      "impressions": 4200,
+      "ctr": 0.0162,
+      "expected_ctr": 0.045658,
+      "position": 5.7,
+      "click_potential": 123.7,
+      "own_page": true,
+      "action": "quick_win",
+      "recommendation": "Strengthen intent match, internal links, and above-fold proof"
+    },
+    {
+      "query": "left airpod replacement",
+      "page": "/parts/left-airpod",
+      "clicks": 12,
+      "impressions": 3100,
+      "ctr": 0.0039,
+      "expected_ctr": 0.007037,
+      "position": 14.2,
+      "click_potential": 9.7,
+      "own_page": true,
+      "action": "quick_win",
+      "recommendation": "Strengthen intent match, internal links, and above-fold proof"
+    },
+    {
+      "query": "airpod ear tips falling out",
+      "page": "/guides/ear-tips-fit",
+      "clicks": 5,
+      "impressions": 2600,
+      "ctr": 0.0019,
+      "expected_ctr": 0.002615,
+      "position": 18.7,
+      "click_potential": 1.9,
+      "own_page": true,
+      "action": "refresh",
+      "recommendation": "Refresh/expand the page, add comparison schema, and build supporting links"
+    },
+    {
+      "query": "airpods pro tips small",
+      "page": "/products/ear-tips-small",
+      "clicks": 31,
+      "impressions": 1100,
+      "ctr": 0.0282,
+      "expected_ctr": 0.063509,
+      "position": 4.2,
+      "click_potential": 38.8,
+      "own_page": true,
+      "action": "quick_win",
+      "recommendation": "Strengthen intent match, internal links, and above-fold proof"
+    },
+    {
+      "query": "airpods pro 2 case cover",
+      "page": "/products/pro2-case-cover",
+      "clicks": 4,
+      "impressions": 2400,
+      "ctr": 0.0017,
+      "expected_ctr": 0.001542,
+      "position": 21.1,
+      "click_potential": 0,
+      "own_page": true,
+      "action": "refresh",
+      "recommendation": "Refresh/expand the page, add comparison schema, and build supporting links"
+    },
+    {
+      "query": "why do my airpods keep cutting out",
+      "page": "/guides/cutting-out",
+      "clicks": 2,
+      "impressions": 3600,
+      "ctr": 0.0006,
+      "expected_ctr": 0.001,
+      "position": 28.4,
+      "click_potential": 1.4,
+      "own_page": true,
+      "action": "refresh",
+      "recommendation": "Refresh/expand the page, add comparison schema, and build supporting links"
+    },
+    {
+      "query": "best airpods pro case",
+      "page": "/collections/cases",
+      "clicks": 18,
+      "impressions": 5100,
+      "ctr": 0.0035,
+      "expected_ctr": 0.010006,
+      "position": 12.6,
+      "click_potential": 33.2,
+      "own_page": true,
+      "action": "quick_win",
+      "recommendation": "Strengthen intent match, internal links, and above-fold proof"
+    },
+    {
+      "query": "airpods charger replacement",
+      "page": "/products/charging-cable",
+      "clicks": 48,
+      "impressions": 2600,
+      "ctr": 0.0185,
+      "expected_ctr": 0.041812,
+      "position": 6.1,
+      "click_potential": 60.6,
+      "own_page": true,
+      "action": "quick_win",
+      "recommendation": "Strengthen intent match, internal links, and above-fold proof"
+    },
+    {
+      "query": "airpods pro foam tips",
+      "page": "/products/foam-tips",
+      "clicks": 36,
+      "impressions": 1400,
+      "ctr": 0.0257,
+      "expected_ctr": 0.050967,
+      "position": 5.2,
+      "click_potential": 35.4,
+      "own_page": true,
+      "action": "quick_win",
+      "recommendation": "Strengthen intent match, internal links, and above-fold proof"
+    },
+    {
+      "query": "how to clean airpods",
+      "page": "/guides/cleaning",
+      "clicks": 1,
+      "impressions": 4400,
+      "ctr": 0.0002,
+      "expected_ctr": 0.001,
+      "position": 31.2,
+      "click_potential": 3.5,
+      "own_page": true,
+      "action": "monitor",
+      "recommendation": "No deterministic action yet; keep monitoring"
+    },
+    {
+      "query": "airpods pro warranty replacement",
+      "page": "/guides/warranty",
+      "clicks": 7,
+      "impressions": 1900,
+      "ctr": 0.0037,
+      "expected_ctr": 0.003558,
+      "position": 17.3,
+      "click_potential": 0,
+      "own_page": true,
+      "action": "refresh",
+      "recommendation": "Refresh/expand the page, add comparison schema, and build supporting links"
+    }
+  ],
+  "prioritized": [
+    {
+      "query": "airpods pro case",
+      "page": "/products/airpods-pro-case",
+      "clicks": 68,
+      "impressions": 4200,
+      "ctr": 0.0162,
+      "expected_ctr": 0.045658,
+      "position": 5.7,
+      "click_potential": 123.7,
+      "own_page": true,
+      "action": "quick_win",
+      "recommendation": "Strengthen intent match, internal links, and above-fold proof"
+    },
+    {
+      "query": "airpods charger replacement",
+      "page": "/products/charging-cable",
+      "clicks": 48,
+      "impressions": 2600,
+      "ctr": 0.0185,
+      "expected_ctr": 0.041812,
+      "position": 6.1,
+      "click_potential": 60.6,
+      "own_page": true,
+      "action": "quick_win",
+      "recommendation": "Strengthen intent match, internal links, and above-fold proof"
+    },
+    {
+      "query": "airpods pro tips small",
+      "page": "/products/ear-tips-small",
+      "clicks": 31,
+      "impressions": 1100,
+      "ctr": 0.0282,
+      "expected_ctr": 0.063509,
+      "position": 4.2,
+      "click_potential": 38.8,
+      "own_page": true,
+      "action": "quick_win",
+      "recommendation": "Strengthen intent match, internal links, and above-fold proof"
+    },
+    {
+      "query": "airpods pro foam tips",
+      "page": "/products/foam-tips",
+      "clicks": 36,
+      "impressions": 1400,
+      "ctr": 0.0257,
+      "expected_ctr": 0.050967,
+      "position": 5.2,
+      "click_potential": 35.4,
+      "own_page": true,
+      "action": "quick_win",
+      "recommendation": "Strengthen intent match, internal links, and above-fold proof"
+    },
+    {
+      "query": "best airpods pro case",
+      "page": "/collections/cases",
+      "clicks": 18,
+      "impressions": 5100,
+      "ctr": 0.0035,
+      "expected_ctr": 0.010006,
+      "position": 12.6,
+      "click_potential": 33.2,
+      "own_page": true,
+      "action": "quick_win",
+      "recommendation": "Strengthen intent match, internal links, and above-fold proof"
+    },
+    {
+      "query": "left airpod replacement",
+      "page": "/parts/left-airpod",
+      "clicks": 12,
+      "impressions": 3100,
+      "ctr": 0.0039,
+      "expected_ctr": 0.007037,
+      "position": 14.2,
+      "click_potential": 9.7,
+      "own_page": true,
+      "action": "quick_win",
+      "recommendation": "Strengthen intent match, internal links, and above-fold proof"
+    },
+    {
+      "query": "how to clean airpods",
+      "page": "/guides/cleaning",
+      "clicks": 1,
+      "impressions": 4400,
+      "ctr": 0.0002,
+      "expected_ctr": 0.001,
+      "position": 31.2,
+      "click_potential": 3.5,
+      "own_page": true,
+      "action": "monitor",
+      "recommendation": "No deterministic action yet; keep monitoring"
+    },
+    {
+      "query": "airpods pro replacement case",
+      "page": "/products/airpods-pro-case",
+      "clicks": 42,
+      "impressions": 1800,
+      "ctr": 0.0233,
+      "expected_ctr": 0.025208,
+      "position": 8.4,
+      "click_potential": 3.4,
+      "own_page": true,
+      "action": "quick_win",
+      "recommendation": "Strengthen intent match, internal links, and above-fold proof"
+    },
+    {
+      "query": "airpod ear tips falling out",
+      "page": "/guides/ear-tips-fit",
+      "clicks": 5,
+      "impressions": 2600,
+      "ctr": 0.0019,
+      "expected_ctr": 0.002615,
+      "position": 18.7,
+      "click_potential": 1.9,
+      "own_page": true,
+      "action": "refresh",
+      "recommendation": "Refresh/expand the page, add comparison schema, and build supporting links"
+    },
+    {
+      "query": "why do my airpods keep cutting out",
+      "page": "/guides/cutting-out",
+      "clicks": 2,
+      "impressions": 3600,
+      "ctr": 0.0006,
+      "expected_ctr": 0.001,
+      "position": 28.4,
+      "click_potential": 1.4,
+      "own_page": true,
+      "action": "refresh",
+      "recommendation": "Refresh/expand the page, add comparison schema, and build supporting links"
+    },
+    {
+      "query": "airpods pro 2 case cover",
+      "page": "/products/pro2-case-cover",
+      "clicks": 4,
+      "impressions": 2400,
+      "ctr": 0.0017,
+      "expected_ctr": 0.001542,
+      "position": 21.1,
+      "click_potential": 0,
+      "own_page": true,
+      "action": "refresh",
+      "recommendation": "Refresh/expand the page, add comparison schema, and build supporting links"
+    },
+    {
+      "query": "airpods pro warranty replacement",
+      "page": "/guides/warranty",
+      "clicks": 7,
+      "impressions": 1900,
+      "ctr": 0.0037,
+      "expected_ctr": 0.003558,
+      "position": 17.3,
+      "click_potential": 0,
+      "own_page": true,
+      "action": "refresh",
+      "recommendation": "Refresh/expand the page, add comparison schema, and build supporting links"
+    }
+  ],
+  "pages": [
+    {
+      "page": "/products/airpods-pro-case",
+      "impressions": 6000,
+      "clicks": 110,
+      "queries": 2,
+      "actions": {
+        "quick_win": 2
+      }
+    },
+    {
+      "page": "/collections/cases",
+      "impressions": 5100,
+      "clicks": 18,
+      "queries": 1,
+      "actions": {
+        "quick_win": 1
+      }
+    },
+    {
+      "page": "/guides/cleaning",
+      "impressions": 4400,
+      "clicks": 1,
+      "queries": 1,
+      "actions": {
+        "monitor": 1
+      }
+    },
+    {
+      "page": "/guides/cutting-out",
+      "impressions": 3600,
+      "clicks": 2,
+      "queries": 1,
+      "actions": {
+        "refresh": 1
+      }
+    },
+    {
+      "page": "/parts/left-airpod",
+      "impressions": 3100,
+      "clicks": 12,
+      "queries": 1,
+      "actions": {
+        "quick_win": 1
+      }
+    },
+    {
+      "page": "/guides/ear-tips-fit",
+      "impressions": 2600,
+      "clicks": 5,
+      "queries": 1,
+      "actions": {
+        "refresh": 1
+      }
+    },
+    {
+      "page": "/products/charging-cable",
+      "impressions": 2600,
+      "clicks": 48,
+      "queries": 1,
+      "actions": {
+        "quick_win": 1
+      }
+    },
+    {
+      "page": "/products/pro2-case-cover",
+      "impressions": 2400,
+      "clicks": 4,
+      "queries": 1,
+      "actions": {
+        "refresh": 1
+      }
+    },
+    {
+      "page": "/guides/warranty",
+      "impressions": 1900,
+      "clicks": 7,
+      "queries": 1,
+      "actions": {
+        "refresh": 1
+      }
+    },
+    {
+      "page": "/products/foam-tips",
+      "impressions": 1400,
+      "clicks": 36,
+      "queries": 1,
+      "actions": {
+        "quick_win": 1
+      }
+    },
+    {
+      "page": "/products/ear-tips-small",
+      "impressions": 1100,
+      "clicks": 31,
+      "queries": 1,
+      "actions": {
+        "quick_win": 1
+      }
+    }
+  ],
+  "action_mix": {
+    "quick_win": 7,
+    "refresh": 4,
+    "monitor": 1
+  },
+  "totals": {
+    "queries": 12,
+    "impressions": 34200,
+    "clicks": 274,
+    "estimated_click_potential": 311.6
+  },
+  "method_note": "Expected CTR is a rough prioritization curve, not a forecast. Actions require human review."
+}

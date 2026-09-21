@@ -1,0 +1,26 @@
+query,expected_verdict,rationale
+breeze pm pricing,KEEP,Brand/product pricing
+breeze demo request,KEEP,Direct demo request
+monday com alternatives,KEEP,Active category evaluation
+asana vs clickup 2026,KEEP,Active category comparison
+best project management software for small business,KEEP,High-intent category search
+project management tool free trial,KEEP,Commercial trial intent
+what is kanban,NEGATIVE,Educational definition
+agile vs waterfall,NEGATIVE,Educational comparison
+how do gantt charts work,NEGATIVE,Educational how-to
+project management definition,NEGATIVE,Educational definition
+project manager jobs remote,NEGATIVE,Job seeker
+product manager salary 2026,NEGATIVE,Salary research
+breeze airways review,NEGATIVE,Airline name collision
+breeze block sizes,NEGATIVE,Construction material collision
+free movies online,NEGATIVE,Unrelated freebie
+notion templates project management,WATCH,Adjacent template intent
+excel project management template free,WATCH,Free-template intent
+clickup pricing,KEEP,Competitor pricing with buying intent
+cheapest team collaboration software,KEEP,Price-driven buyer
+how to manage a small team,NEGATIVE,Management advice
+what does a project manager do,NEGATIVE,Job research
+smartsheet free alternative,KEEP,Alternative buyer
+trello vs breeze,KEEP,Direct brand comparison
+project management certification online,NEGATIVE,Certification seeker
+kanban board template,NEGATIVE,Generic template

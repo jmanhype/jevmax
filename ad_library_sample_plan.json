@@ -1,0 +1,20 @@
+{
+  "name": "AirPods compatible parts bounded intelligence sample",
+  "created_at": "2026-09-20",
+  "countries": ["US"],
+  "ad_active_status": "ACTIVE",
+  "ad_type": "ALL",
+  "limit_per_query": 50,
+  "max_queries_per_run": 8,
+  "policy": "Official ads_library_search only. This is bounded category sampling, not bulk extraction or a whole-library census.",
+  "queries": [
+    "airpods",
+    "airpods pro",
+    "airpods case",
+    "airpods pro case",
+    "airpods replacement",
+    "airpods charger",
+    "airpods ear tips",
+    "airpods battery replacement"
+  ]
+}

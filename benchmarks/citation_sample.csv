@@ -1,0 +1,13 @@
+date,engine,query,cited_url,rank,mentions_brand
+2026-09-01,ChatGPT,airpods pro replacement case,https://example.com/products/airpods-pro-case,1,yes
+2026-09-01,ChatGPT,best airpods pro case,https://example.com/collections/cases,3,yes
+2026-09-01,ChatGPT,airpods charger replacement,,,
+2026-09-01,Perplexity,airpods pro replacement case,https://competitor.example/pro-case,1,no
+2026-09-01,Perplexity,best airpods pro case,https://example.com/collections/cases,2,yes
+2026-09-01,Perplexity,airpods charger replacement,https://competitor.example/charger,1,no
+2026-09-08,ChatGPT,airpods pro replacement case,https://example.com/products/airpods-pro-case,1,yes
+2026-09-08,ChatGPT,best airpods pro case,https://example.com/collections/cases,2,yes
+2026-09-08,ChatGPT,airpods charger replacement,,,
+2026-09-08,Perplexity,airpods pro replacement case,https://competitor.example/pro-case,1,no
+2026-09-08,Perplexity,best airpods pro case,https://competitor.example/cases,1,no
+2026-09-08,Perplexity,airpods charger replacement,https://competitor.example/charger,1,no

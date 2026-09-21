@@ -1,0 +1,41 @@
+{
+  "recorded_runs": {
+    "search_terms_25": {
+      "items": 25,
+      "input_tokens": 3570,
+      "output_tokens": 607,
+      "source": "README measured demo run; approximate because source script output was not persisted"
+    },
+    "briefs_3": {
+      "items": 3,
+      "input_tokens": 1050,
+      "output_tokens": 470,
+      "source": "README measured demo rate"
+    },
+    "fatigue_5_flagged": {
+      "items": 5,
+      "input_tokens": 1055,
+      "output_tokens": 250,
+      "source": "README measured post-batching run"
+    },
+    "page_match_1": {
+      "items": 1,
+      "input_tokens": 757,
+      "output_tokens": 101,
+      "source": "match.json"
+    },
+    "leads_3": {
+      "items": 3,
+      "input_tokens": 950,
+      "output_tokens": 286,
+      "source": "README measured demo rate"
+    },
+    "ad_tagging_12": {
+      "items": 12,
+      "input_tokens": 4608,
+      "output_tokens": 1667,
+      "source": "README measured MCP-route run"
+    }
+  },
+  "note": "Usage entries are regression evidence, not a blind benchmark. Future benchmark runs should persist exact usage from the API response."
+}

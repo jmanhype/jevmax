@@ -1,0 +1,6 @@
+ad_id,name,frequency_delta,ctr_delta,call,confidence,band
+1001,UGC testimonial - 'saved my Fridays',1.8,-0.9,refresh,0.9,ACT
+1002,Static quote card - founder insight,0.3,-0.4,leave,0.91,ACT
+1003,Demo GIF - board in 15s,2.4,-1.6,refresh,0.82,ACT
+1005,Meme - status meeting horror,1.2,-0.5,refresh,0.29,REVIEW
+1007,UGC testimonial - client POV v2,2.9,-1.1,refresh,0.96,ACT

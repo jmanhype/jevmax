@@ -1,0 +1,4 @@
+company,title,message,budget_range,lead_score_0_100,confidence
+Northwind Digital,Agency Owner,We run 14 client accounts in one Breeze workspace now — can we add 6 more seats and get SSO on the Pro plan?,2000-5000/mo,92,0.71
+BrightPath Consulting,Ops Director,We're 40 consultants drowning in spreadsheets. Evaluating tools this quarter — need time tracking per client and a demo this week.,~600/mo,86,0.81
+Jake R.,Student,"Hi, I'm doing a college paper on project management tools, could you send me pricing info and how your company started?",n/a,11,0.99

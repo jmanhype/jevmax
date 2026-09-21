@@ -1,0 +1,10 @@
+{
+  "delivers_promise": 0.06,
+  "match_score_0_4": 1.09,
+  "match_confidence": 0.85,
+  "biggest_gap": "offer_mismatch",
+  "usage": {
+    "input_tokens": 757,
+    "output_tokens": 101
+  }
+}

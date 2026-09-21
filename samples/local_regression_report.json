@@ -1,0 +1,148 @@
+{
+  "sample": "samples/local_regression_combined.json",
+  "unique_ad_count": 74,
+  "tagged_ad_count": 74,
+  "top_advertisers": [
+    [
+      "Comfrt",
+      25
+    ],
+    [
+      "Ypzvx",
+      6
+    ],
+    [
+      "Live Translator GP",
+      6
+    ],
+    [
+      "Kure for Hypnotherapy",
+      6
+    ],
+    [
+      "Heddz.co",
+      4
+    ],
+    [
+      "Speak Without Borders",
+      4
+    ],
+    [
+      "Matt Goodell",
+      2
+    ],
+    [
+      "InstantTranslator 01",
+      2
+    ],
+    [
+      "J7506v-en.myshopify.com",
+      2
+    ],
+    [
+      "Lucas Lucas",
+      1
+    ],
+    [
+      "Omega Choices",
+      1
+    ],
+    [
+      "Servicell Reynosa",
+      1
+    ],
+    [
+      "Yardsale",
+      1
+    ],
+    [
+      "Salvador Mata",
+      1
+    ],
+    [
+      "NEYOA",
+      1
+    ]
+  ],
+  "top_link_titles": [
+    [
+      "(no title)",
+      12
+    ],
+    [
+      "your new everyday layer",
+      9
+    ],
+    [
+      "a pillow you don't have to carry",
+      8
+    ],
+    [
+      "waffle lounge sets you'll love",
+      8
+    ],
+    [
+      "press play. close your eyes. change everything \ud83d\ude46\u200d\u2642\ufe0f",
+      7
+    ],
+    [
+      "\ud83c\udf0dreal-time translation with your phone or airpods.",
+      4
+    ],
+    [
+      "try the trio for 39% off",
+      4
+    ],
+    [
+      "\ud83c\udf0dreal-time translation with your iphone or airpods.",
+      4
+    ],
+    [
+      "carlito-store-4.myshopify",
+      2
+    ],
+    [
+      "\ud83c\udf0d\u0442\u0440\u0430\u0434\u0438\u0446\u0438\u044f \u0432 \u0440\u0435\u0430\u043b\u044c\u043d\u043e\u043c \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u0441 \u0432\u0430\u0448\u0438\u043c \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u043e\u043c \u0438\u043b\u0438 \u0432\u0430\u0448\u0438\u043c\u0438 airpods.",
+      2
+    ],
+    [
+      "airpods 4 with active noise cancellation",
+      1
+    ],
+    [
+      "omega choices | best daily deals across categories",
+      1
+    ],
+    [
+      "apple airpods pro",
+      1
+    ],
+    [
+      "shop the day bag",
+      1
+    ],
+    [
+      "airpods max",
+      1
+    ]
+  ],
+  "delivery_start_dates": {
+    "2026-09-20": 58,
+    "2026-09-19": 16
+  },
+  "hook_mix": {
+    "(untagged)": 12,
+    "direct_offer": 44,
+    "curiosity_claim": 18
+  },
+  "offer_mix": {
+    "(untagged)": 12,
+    "saas_subscription": 9,
+    "other_product": 53
+  },
+  "coverage_warnings": [
+    "Unique count can be smaller than requested_max_ads because queries overlap.",
+    "A clean combination of bounded queries is still not a whole-library census.",
+    "Newest-first/no-cursor behavior means long-running ads can be underrepresented."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "plan_file": "ad_library_sample_plan.json",
+  "plan_name": "AirPods compatible parts bounded intelligence sample",
+  "countries": [
+    "US"
+  ],
+  "ad_active_status": "ACTIVE",
+  "ad_type": "ALL",
+  "limit_per_query": 50,
+  "selected_queries": [
+    "airpods",
+    "airpods pro",
+    "airpods case",
+    "airpods pro case",
+    "airpods replacement",
+    "airpods charger",
+    "airpods ear tips",
+    "airpods battery replacement"
+  ],
+  "selected_query_count": 8,
+  "requested_max_ads": 400,
+  "policy": "Official ads_library_search only. This is bounded category sampling, not bulk extraction or a whole-library census.",
+  "fetch_instructions": [
+    "For each selected_queries entry, call official Meta Ads MCP ads_library_search once.",
+    "Use the plan countries/ad_active_status/ad_type/limit_per_query exactly.",
+    "Save each result as a JSON array before combining.",
+    "Do not retry indefinitely or attempt to circumvent the 50-result tool limit."
+  ]
+}

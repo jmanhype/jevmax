@@ -1,0 +1,90 @@
+{
+  "schema": "jevmax-creative-v2",
+  "variant": {
+    "campaign": "earpods-summer-2026",
+    "ad_set": "ugc-selfie",
+    "variant_id": "V002",
+    "brief_id": null,
+    "note": "Wildcard demo: *_options fields are expanded by flatten.py into one prompt per combination"
+  },
+
+  "character": {
+    "character_id": "ava-01",
+    "locked": true,
+    "fictional": true,
+    "based_on_real_person": false,
+    "description": "Ava - a mid-20s Black woman with shoulder-length coily dark hair, warm brown complexion, round face with soft jawline and high cheekbones, full lips, neat dark brows, small gold hoop earrings",
+    "default_expression": "friendly, direct, easy confidence",
+    "consistency_rule": "Verbatim-frozen. Never edit this block between generations."
+  },
+
+  "identity_reference": {
+    "use_reference_image": true,
+    "reference_image": "creative/renders/ava-01_seed.png",
+    "policy": "Only renders produced from this character sheet may serve as identity reference. Never supply photos of real people."
+  },
+
+  "scene": {
+    "location": "Sandy public beach, ocean in the background",
+    "spot": "Sitting on a white terrycloth towel on the sand",
+    "time_of_day_options": ["mid-afternoon bright daylight", "golden hour, warm low sun"],
+    "atmosphere": "Breezy, summery, relaxed"
+  },
+
+  "environment": {
+    "background": [
+      "blue sky, a few wispy clouds",
+      "ocean horizon with gentle waves"
+    ],
+    "foreground": [
+      "textured white terrycloth towel",
+      "white earbud cable draping down the center of the frame"
+    ],
+    "lighting": {
+      "source": "direct sun, above and slightly in front",
+      "temperature": "warm daylight skin tones",
+      "effect": "bright highlights on cheekbones, soft natural shadows under the chin"
+    }
+  },
+
+  "product": {
+    "item": "white wired earbuds, unbranded",
+    "interaction": "right earbud worn; subject holds the inline microphone module near her mouth, mid-call",
+    "legibility": "earbuds and cable sharp, well-lit, second-most-prominent element after the face"
+  },
+
+  "wardrobe": {
+    "top_options": ["solid terracotta sporty bikini top, athletic fit", "cream ribbed tank top"],
+    "accessories": ["small gold hoop earrings"]
+  },
+
+  "pose": {
+    "body": "sitting upright on the towel, torso angled toward camera, legs crossed to one side",
+    "hands": "one hand resting on knee; the other holds the cable's mic module near her mouth",
+    "head": "slight tilt, eyes to lens",
+    "micro_action": "smiling mid-sentence, as if telling a friend something"
+  },
+
+  "camera": {
+    "pov_options": ["arm's-length selfie", "phone propped against a bag a few feet away, slightly wider shot"],
+    "angle": "eye-level, a few degrees down",
+    "framing": "medium close-up, top of head to waist",
+    "lens_character": "wide smartphone selfie look, mild near-shoulder stretch",
+    "depth_of_field": "subject sharp, background softly blurred but readable"
+  },
+
+  "grade": {
+    "look": "natural smartphone color science, vivid sky, true skin tones",
+    "retouching": "none - natural skin texture",
+    "contrast": "natural sunlight"
+  },
+
+  "constraints": {
+    "render_fictional_model_only": true,
+    "no_real_person_likeness": true,
+    "disclose_as_ai": true,
+    "product_must_be_legible": true,
+    "hands_correct": true,
+    "avoid": ["DSLR-style creamy bokeh", "studio lighting", "beauty-filter plastic skin"]
+  }
+}
