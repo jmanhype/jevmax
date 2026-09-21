@@ -4,11 +4,11 @@ title: "Creative Test Sprint package"
 status: in_progress
 priority: 3
 type: task
-labels: [studio, dogfood]
+labels: [studio, dogfood, delivered]
 parent: JEV-2fkt
 created_at: 2026-09-21T06:03:13Z
 created_by: batmanosama
-updated_at: 2026-09-21T06:36:19Z
+updated_at: 2026-09-21T06:36:20Z
 content_hash: "sha256:5179b13c994721fe6621341650bdc2ed057c09f0412859e87250ce7b05cc8af7"
 assignee: dev-JEV-aopd
 ---
