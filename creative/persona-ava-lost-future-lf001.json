@@ -1,0 +1,109 @@
+{
+  "schema": "jevmax-creative-v3",
+  "variant": {
+    "campaign": "earpods-lost-future-2026",
+    "ad_set": "minor-aesthetics",
+    "variant_id": "LF001",
+    "brief_id": "LF-SponsorBumper",
+    "note": "One-video gate winner from lost-future-ava-concepts.csv; uses the approved Ava seed and no new seed spend."
+  },
+  "meta": {
+    "style_family": "1986–1992 Local Sponsor Bumper",
+    "lost_future_source": "creative/lost-future-system-prompt.md",
+    "eyecandy_source": "creative/eyecandy-source-grammar.md",
+    "eyecandy_technique": "Central Framing",
+    "gate_score": 6.34
+  },
+  "character": {
+    "character_id": "ava-01",
+    "locked": true,
+    "fictional": true,
+    "based_on_real_person": false,
+    "description": "Ava - a mid-20s Black woman with shoulder-length coily dark hair, warm brown complexion, round face with soft jawline and high cheekbones, full lips, neat dark brows, small gold hoop earrings",
+    "default_expression": "friendly, direct, easy confidence",
+    "consistency_rule": "Verbatim-frozen. Never edit this block between generations."
+  },
+  "identity_reference": {
+    "use_reference_image": true,
+    "reference_image": "creative/renders/ava-01_seed.png",
+    "policy": "Reuse the approved Ava seed. Do not generate or substitute another identity anchor."
+  },
+  "scene": {
+    "location": "Sandy public beach transformed into a late-1980s local sponsor bumper",
+    "spot": "Sitting centered on a white terrycloth towel on the sand",
+    "time_of_day": "bright late morning",
+    "atmosphere": "sincere, locally sponsored, slightly too proud of a tiny product"
+  },
+  "environment": {
+    "background": [
+      "blue sky and ocean horizon held symmetrically behind Ava",
+      "soft analog video haze",
+      "one horizontal tape tracking streak near the bottom"
+    ],
+    "foreground": [
+      "textured white terrycloth towel",
+      "white earbud cable forming a clean central line"
+    ],
+    "lighting": {
+      "source": "bright beach sun, flat sponsor-bumper frontal exposure",
+      "temperature": "warm analog video color",
+      "effect": "slightly blown highlights, chroma bleed on the cable, gentle scanline texture"
+    }
+  },
+  "product": {
+    "item": "white wired earbuds, unbranded",
+    "interaction": "right earbud worn; Ava holds the inline microphone module near her mouth like a small sponsor trophy",
+    "legibility": "face and earbud cable remain the two sharpest central elements"
+  },
+  "outfit": {
+    "top": "solid terracotta sporty bikini top, athletic fit",
+    "bottom": "matching high-waisted bottoms",
+    "accessories": [
+      "small gold hoop earrings"
+    ]
+  },
+  "pose": {
+    "body": "sitting upright and symmetrically centered toward camera",
+    "hands": "one hand rests on her knee; the other holds the cable microphone module near her mouth",
+    "head": "chin slightly lifted, eyes directly to lens",
+    "micro_action": "confident sponsor-card smile mid-word"
+  },
+  "camera": {
+    "pov": "centered local-TV sponsor-bumper framing",
+    "angle": "eye-level",
+    "framing": "medium close-up with Ava centered from head to waist",
+    "lens_character": "period video-camera look, modest contrast, slight softness",
+    "depth_of_field": "Ava and cable sharp; beach background readable but not modern-cinematic"
+  },
+  "motion": {
+    "camera": "locked-off central framing with subtle analog tape jitter and one brief horizontal tracking streak",
+    "subject": "Ava holds the mic module steady, lifts her chin, and smiles with sincere local-sponsor confidence",
+    "world": "waves continue softly; scanline and chroma texture breathe like a discovered tape"
+  },
+  "video": {
+    "duration_s": "5",
+    "aspect": "9:16",
+    "hook_line": "One minute of quiet, courtesy of tomorrow."
+  },
+  "grade": {
+    "look": "1986–1992 local sponsor bumper on consumer analog video: warm chroma, soft scanlines, slight generation loss",
+    "retouching": "natural skin texture; no beauty-filter smoothing",
+    "contrast": "flat broadcast video contrast with slightly blown highlights"
+  },
+  "constraints": {
+    "render_fictional_model_only": true,
+    "no_real_person_likeness": true,
+    "disclose_as_ai": true,
+    "product_must_be_legible": true,
+    "hands_correct": true,
+    "no_readable_text": true,
+    "avoid": [
+      "modern cinematic color grading",
+      "extra people",
+      "invented brand logos",
+      "readable text overlays",
+      "scene cuts",
+      "style changes"
+    ]
+  }
+}

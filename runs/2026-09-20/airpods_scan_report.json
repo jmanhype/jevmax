@@ -1,0 +1,87 @@
+{
+  "sample": "runs/2026-09-20/ad_library_airpods_mcp.json",
+  "unique_ad_count": 50,
+  "tagged_ad_count": 21,
+  "top_advertisers": [
+    [
+      "VOLTA Charger",
+      5
+    ],
+    [
+      "Kure for Hypnotherapy",
+      4
+    ],
+    [
+      "J7506v-en.myshopify.com",
+      3
+    ],
+    [
+      "Heddz.co",
+      3
+    ],
+    [
+      "Jay Saint",
+      2
+    ],
+    [
+      "Thayfa Lane",
+      1
+    ],
+    [
+      "Lenovra",
+      1
+    ],
+    [
+      "Free iPhone 17 pro max legitimatic ",
+      1
+    ],
+    [
+      "La boricua que vende$",
+      1
+    ],
+    [
+      "SnapWireless",
+      1
+    ],
+    [
+      "Marc Gonzo",
+      1
+    ],
+    [
+      "Liliana Hernandez",
+      1
+    ],
+    [
+      "Luis Fernando Francisco Quezada",
+      1
+    ],
+    [
+      "MJ Aguilar",
+      1
+    ],
+    [
+      "Beijame Antonio",
+      1
+    ]
+  ],
+  "top_link_titles": [
+    [
+      "(no title)",
+      50
+    ]
+  ],
+  "delivery_start_dates": {
+    "2026-09-21": 26,
+    "2026-09-20": 24
+  },
+  "hook_mix": {
+    "direct_offer": 14,
+    "curiosity_claim": 5,
+    "(untagged)": 2
+  },
+  "offer_mix": {
+    "other_product": 19,
+    "(untagged)": 2
+  },
+  "coverage_warnings": []
+}

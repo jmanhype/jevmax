@@ -55,11 +55,20 @@ def load_tags(path):
     return tags
 
 
+def load_ads(path):
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+    # Official MCP results may be an ads array or an object containing one.
+    ads = data.get("ads", []) if isinstance(data, dict) else data
+    if not isinstance(ads, list):
+        raise ValueError(f"{path} must contain an ads array")
+    return ads
+
+
 def cmd_snapshot(inputs, snapdir):
     ids = set()
     for path in inputs:
-        with open(path, encoding="utf-8") as f:
-            ids |= {str(ad["id"]) for ad in json.load(f)}
+        ids |= {str(ad["id"]) for ad in load_ads(path)}
     os.makedirs(snapdir, exist_ok=True)
     out = os.path.join(snapdir, f"{date.today().isoformat()}.json")
     if os.path.exists(out):

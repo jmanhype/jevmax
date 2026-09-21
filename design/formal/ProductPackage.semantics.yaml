@@ -1,0 +1,16 @@
+machine: productpackage
+pattern: validation-gate
+initial: Draft
+verified: DogfoodVerified
+terminal: Retired
+verify_event: verify
+retire_event: retire
+required_checks:
+  - required_files
+  - manifest_schema
+  - artifact_paths
+  - measured_evidence
+  - qa_evidence
+  - route_chain
+  - generation_policy
+  - claim_discipline

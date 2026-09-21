@@ -1,0 +1,75 @@
+{
+  "_comment": "ComedySprint verification lifecycle. Placement: generated files under studio/comedy/runs/<sprint-id>; the pipeline is single-writer per sprint and the validator is offline/read-only. No Meta, TypeSafe, or PixVerse call occurs during validation.",
+  "_delays": {
+    "validationTimeout": "5000 ms - local filesystem validation bound"
+  },
+  "id": "comedysprint",
+  "initial": "Draft",
+  "context": {
+    "sprintId": null,
+    "premiseCount": 0,
+    "personaCount": 0,
+    "survivorCount": 0,
+    "finalistCount": 0,
+    "boardCount": 0,
+    "v6VideoCount": 0,
+    "premiumVideoCount": 0,
+    "lastError": null
+  },
+  "states": {
+    "Draft": {
+      "on": {
+        "verify": {
+          "target": "verifying",
+          "actions": "clearLastError"
+        }
+      },
+      "_ignores": {
+        "retire": "only a Verified comedy sprint can be retired"
+      }
+    },
+    "verifying": {
+      "invoke": {
+        "src": "validateComedySprint",
+        "input": {
+          "sprintId": "context.sprintId"
+        },
+        "onDone": [
+          {
+            "target": "Verified",
+            "guard": "allComedySprintChecksPass",
+            "actions": "recordVerifiedSprint"
+          },
+          {
+            "target": "Draft",
+            "actions": "recordValidationFailure"
+          }
+        ],
+        "onError": {
+          "target": "Draft",
+          "actions": "recordValidatorError"
+        }
+      },
+      "after": {
+        "validationTimeout": {
+          "target": "Draft",
+          "actions": "recordValidatorError"
+        }
+      }
+    },
+    "Verified": {
+      "on": {
+        "verify": {
+          "actions": "recordAlreadyVerified"
+        },
+        "retire": {
+          "target": "Retired",
+          "actions": "recordRetirement"
+        }
+      }
+    },
+    "Retired": {
+      "type": "final"
+    }
+  }
+}

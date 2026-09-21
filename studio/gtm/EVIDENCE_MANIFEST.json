@@ -1,0 +1,37 @@
+{
+  "schema": "jevmax-studio-gtm-evidence-v1",
+  "case_study": "CASE_STUDY.md",
+  "sales_kit": "SALES_KIT.md",
+  "outreach_playbook": "OUTREACH_PLAYBOOK.md",
+  "pilot_tracker_schema": "PILOT_TRACKER_SCHEMA.md",
+  "public_safe_rules": {
+    "no_account_id": true,
+    "no_private_email": true,
+    "no_roas_claim": true,
+    "no_whole_library_claim": true,
+    "no_production_performance_lift_claim": true
+  },
+  "measured_facts": {
+    "estimated_active_ads": 6792,
+    "returned_bounded_scan": 50,
+    "current_only_ids": 29,
+    "prior_sample_overlap": 21,
+    "longitudinal_snapshot_ids": 103,
+    "gpt_image_25_flare_credits": 0,
+    "gpt_image_25_sunburst_credits": 0,
+    "v6_720p_5s_no_audio_credits": 40,
+    "minimax_h3_768p_5s_credits": 150,
+    "seedance_25_1080p_5s_credits": 850,
+    "projected_8_video_v6_credits": 320
+  },
+  "source_artifacts": [
+    "../../runs/2026-09-20/ad_library_airpods_mcp.json",
+    "../../runs/2026-09-20/airpods_scan_report.json",
+    "../../runs/2026-09-20/airpods_scan_diff.json",
+    "../../snapshots/2026-09-20.json",
+    "../../runs/2026-09-20/audit_report.md",
+    "../../projects/jevmax-lf001-v6-h3/quality/latest-run-qa.json",
+    "../../runs/2026-09-20/cli-price-test/REPORT.md",
+    "../PORTFOLIO_REPORT.md"
+  ]
+}

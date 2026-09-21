@@ -1,0 +1,9 @@
+variant_id,character_id,brief_id,expansions,prompt_file
+V002-E01,ava-01,,"pov_options=arm's-length selfie | time_of_day_options=mid-afternoon bright daylight | top_options=solid terracotta sporty bikini top, athletic fit",runs/2026-09-20/flatten/V002-E01.txt
+V002-E02,ava-01,,pov_options=arm's-length selfie | time_of_day_options=mid-afternoon bright daylight | top_options=cream ribbed tank top,runs/2026-09-20/flatten/V002-E02.txt
+V002-E03,ava-01,,"pov_options=arm's-length selfie | time_of_day_options=golden hour, warm low sun | top_options=solid terracotta sporty bikini top, athletic fit",runs/2026-09-20/flatten/V002-E03.txt
+V002-E04,ava-01,,"pov_options=arm's-length selfie | time_of_day_options=golden hour, warm low sun | top_options=cream ribbed tank top",runs/2026-09-20/flatten/V002-E04.txt
+V002-E05,ava-01,,"pov_options=phone propped against a bag a few feet away, slightly wider shot | time_of_day_options=mid-afternoon bright daylight | top_options=solid terracotta sporty bikini top, athletic fit",runs/2026-09-20/flatten/V002-E05.txt
+V002-E06,ava-01,,"pov_options=phone propped against a bag a few feet away, slightly wider shot | time_of_day_options=mid-afternoon bright daylight | top_options=cream ribbed tank top",runs/2026-09-20/flatten/V002-E06.txt
+V002-E07,ava-01,,"pov_options=phone propped against a bag a few feet away, slightly wider shot | time_of_day_options=golden hour, warm low sun | top_options=solid terracotta sporty bikini top, athletic fit",runs/2026-09-20/flatten/V002-E07.txt
+V002-E08,ava-01,,"pov_options=phone propped against a bag a few feet away, slightly wider shot | time_of_day_options=golden hour, warm low sun | top_options=cream ribbed tank top",runs/2026-09-20/flatten/V002-E08.txt

@@ -1,0 +1,13 @@
+Image 1 is the approved identity, wardrobe, opening-frame, and product lock for fictional creator Ava. Preserve her face, hair, small gold hoop earrings, terracotta outfit, white wired earbuds, cable route, and towel setup exactly.
+
+Create one continuous 5-second vertical 1986–1992 local-TV sponsor bumper on the same sunny beach. Ava remains centered from head to waist, facing the camera. Her right earbud stays worn; her hand holds the inline microphone module near her mouth without covering her face. The white cable remains the second-sharpest element after her face.
+
+0–1s: Start on the supplied seed framing. Ava looks into the lens with friendly confidence while ocean waves move softly.
+1–3s: She lifts her chin slightly and smiles with sincere local-sponsor pride, keeping the microphone module steady.
+3–5s: A brief horizontal analog tracking streak crosses the lower frame, then resolves back to the same clean centered final frame.
+
+Camera: locked-off central framing with very subtle period-video jitter. No scene cut, no zoom, no camera roll, and no style shift.
+
+Style: late-1980s regional sponsor bumper on consumer analog video—flat broadcast contrast, warm chroma, slightly blown sunlight, soft scanlines, chroma bleed on the cable, and mild tape-generation texture. Preserve natural skin texture.
+
+Hard constraints: no readable text, no captions, no title card, no sponsor card, no logo, no UI overlay, no extra people, no product redesign, and no change to Ava’s identity. The final frame must remain entirely free of text or graphical cards.

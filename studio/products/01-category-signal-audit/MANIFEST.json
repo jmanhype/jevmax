@@ -1,0 +1,63 @@
+{
+  "schema": "jevmax-studio-product-v1",
+  "product_id": "category-signal-audit",
+  "name": "Category Signal Audit",
+  "status": "dogfood_verified",
+  "route_order": 1,
+  "client_question": "What is competing now, what is broken in our account, and what should we test first?",
+  "next_product": "brand-identity-system",
+  "reusable_template": "TEMPLATE.md",
+  "portfolio_summary": "PORTFOLIO.md",
+  "evidence": "EVIDENCE.md",
+  "artifacts": [
+    {
+      "role": "current_bounded_scan",
+      "path": "../../../runs/2026-09-20/ad_library_airpods_mcp.json"
+    },
+    {
+      "role": "current_scan_report",
+      "path": "../../../runs/2026-09-20/airpods_scan_report.json"
+    },
+    {
+      "role": "current_scan_diff",
+      "path": "../../../runs/2026-09-20/airpods_scan_diff.json"
+    },
+    {
+      "role": "live_account_audit",
+      "path": "../../../runs/2026-09-20/audit_report.md"
+    },
+    {
+      "role": "live_account_snapshot",
+      "path": "../../../runs/2026-09-20/account_snapshot_live.json"
+    },
+    {
+      "role": "survival_snapshot",
+      "path": "../../../snapshots/2026-09-20.json"
+    },
+    {
+      "role": "tagged_baseline",
+      "path": "../../../ad_library_mcp_tagged.csv"
+    },
+    {
+      "role": "sprint_packager",
+      "path": "../../build_category_signal_sprint.py"
+    },
+    {
+      "role": "dogfood_deliverable",
+      "path": "../../runs/2026-09-20-category-signal-sprint/DELIVERABLE.md"
+    }
+  ],
+  "measured_cost": {
+    "credits": 0,
+    "tokens": "Account audit measured 1005 input / 114 output tokens; market snapshot merge used 0 render credits.",
+    "basis": "Live read-only Meta MCP calls, local sample reporting, and one TypeSafe audit-ranking pass."
+  },
+  "qa": {
+    "status": "pass_with_limits",
+    "summary": "50 returned ads, 21 joined to baseline tags, 103-ID snapshot, and three account findings verified. Bounded-sample and same-day survival limitations are explicit."
+  },
+  "policy": {
+    "live_ad_changes": false,
+    "premium_generation": false
+  }
+}

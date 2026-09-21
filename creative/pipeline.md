@@ -76,3 +76,17 @@ previous one is concrete.
       ~11,675 remaining. Note: E06 "overhead" rendered as high close-up —
       video models interpret overhead loosely; tighten framing language if
       a true flat-lay is wanted.
+- [x] Native Lost Future + Eyecandy one-video test — COMPLETE 2026-09-20.
+      The supplied custom-GPT prompt and live Eyecandy grammar were captured,
+      four concepts were Jev-gated, and LF001 was rendered once from the
+      approved Ava seed. Seedance 2.5 1080p cost **850 credits**, 17× the old
+      V6 720p unit price. Technical QA passed; human QA caught a garbled
+      sponsor-card text overlay in the final ~1.5 seconds, so LF001 is evidence,
+      not an ad-ready creative. Full record:
+      `runs/2026-09-20/lost-future-test/REPORT.md`.
+- [x] CLI price recheck — 2026-09-20. GPT Image 2.5 Flare and Sunburst both
+      completed at **0 credits** under the current paid-member promotion. A
+      strengthened LF001 rerender measured **V6 720p = 40 credits** and
+      **MiniMax H3 768p = 150 credits**. V6 preserved the seed composition and
+      no-text constraint; H3 drifted Ava from seated-on-towel to standing in
+      shallow water. Full record: `runs/2026-09-20/cli-price-test/REPORT.md`.

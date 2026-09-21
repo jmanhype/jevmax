@@ -1,0 +1,23 @@
+{
+  "schema": "jevmax-comedy-brief-v1",
+  "brief_id": "airpods-wired-2026-09-21",
+  "product": "unbranded white wired earbuds",
+  "category": "AirPods-compatible everyday audio",
+  "audience": "commuters, remote workers, and people taking calls in messy real-life places",
+  "promise": "clear calls and simple audio without wireless anxiety",
+  "pain": "noise, dead wireless batteries, lost earbuds, awkward calls, and social judgment",
+  "positive_signals": [
+    "direct offer",
+    "low-friction everyday use",
+    "compatible replacement",
+    "reliable wired connection"
+  ],
+  "brand_constraints": [
+    "fictional situations only",
+    "no real-person likeness",
+    "no readable text in generated images or videos",
+    "no medical, safety, or performance guarantee",
+    "no brand logos",
+    "product must remain visually central"
+  ]
+}

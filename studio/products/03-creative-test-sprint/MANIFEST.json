@@ -1,0 +1,84 @@
+{
+  "schema": "jevmax-studio-product-v1",
+  "product_id": "creative-test-sprint",
+  "name": "Creative Test Sprint",
+  "status": "dogfood_verified",
+  "route_order": 3,
+  "client_question": "Which controlled ad concepts and motion variants deserve paid testing?",
+  "next_product": "paid-launch-kit",
+  "reusable_template": "TEMPLATE.md",
+  "portfolio_summary": "PORTFOLIO.md",
+  "evidence": "EVIDENCE.md",
+  "artifacts": [
+    {
+      "role": "creative_manifest",
+      "path": "../../../creative/pixverse/manifest.csv"
+    },
+    {
+      "role": "render_log",
+      "path": "../../../creative/pixverse/render_log.csv"
+    },
+    {
+      "role": "v6_variant_01",
+      "path": "../../../creative/pixverse/V002-E01.mp4"
+    },
+    {
+      "role": "v6_variant_02",
+      "path": "../../../creative/pixverse/V002-E02.mp4"
+    },
+    {
+      "role": "v6_variant_03",
+      "path": "../../../creative/pixverse/V002-E03.mp4"
+    },
+    {
+      "role": "v6_variant_04",
+      "path": "../../../creative/pixverse/V002-E04.mp4"
+    },
+    {
+      "role": "v6_variant_05",
+      "path": "../../../creative/pixverse/V002-E05.mp4"
+    },
+    {
+      "role": "v6_variant_06",
+      "path": "../../../creative/pixverse/V002-E06.mp4"
+    },
+    {
+      "role": "v6_variant_07",
+      "path": "../../../creative/pixverse/V002-E07.mp4"
+    },
+    {
+      "role": "v6_variant_08",
+      "path": "../../../creative/pixverse/V002-E08.mp4"
+    },
+    {
+      "role": "current_v6_reference_video",
+      "path": "../../../projects/jevmax-lf001-v6-h3/assets/videos/425667939727864/pixverse_video_425667939727864_1789968093731.mp4"
+    },
+    {
+      "role": "current_v6_qa",
+      "path": "../../../projects/jevmax-lf001-v6-h3/quality/pixverse_video_425667939727864_1789968093731-qa.json"
+    },
+    {
+      "role": "measured_price_report",
+      "path": "../../../runs/2026-09-20/cli-price-test/REPORT.md"
+    },
+    {
+      "role": "lost_future_concept_gate",
+      "path": "../../../runs/2026-09-20/lost-future-test/ranked_lost_future_concepts.csv"
+    }
+  ],
+  "measured_cost": {
+    "credits": 320,
+    "tokens": "Latest four-concept gate measured 1771 input / 200 output tokens.",
+    "basis": "Current default: 8 V6 720p no-audio videos x 40 credits. Historical audio-enabled batch and premium comparisons are documented separately."
+  },
+  "qa": {
+    "status": "pass_with_limits",
+    "summary": "Eight historical V6 expansion videos exist and the current LF001 V6 rerender passed technical/human QA. Limitations include historical audio route, subtle retro grade, and no live performance claim."
+  },
+  "policy": {
+    "live_ad_changes": false,
+    "premium_generation": false,
+    "allowed_video_model": "v6-720p-no-audio"
+  }
+}

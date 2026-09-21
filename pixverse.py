@@ -115,10 +115,13 @@ def main():
             spec = json.load(f)
         fixed, options = collect(spec)
         variants, keys = expand(fixed, options, args.max_variants)
+        approved_ref = spec.get("identity_reference", {}).get("reference_image")
         vmeta = spec.get("variant", {})
         base_id = vmeta.get("variant_id") or os.path.splitext(os.path.basename(path))[0]
         print(f"{os.path.basename(path)}: {len(variants)} PixVerse kit(s)")
         for i, (v, combo) in enumerate(variants):
+            if approved_ref:
+                v["identity_reference.reference_image"] = approved_ref
             vid = base_id if len(variants) == 1 else f"{base_id}-E{i + 1:02d}"
             fname = os.path.join(args.outdir, f"{vid}.kit.md")
             with open(fname, "w", encoding="utf-8") as f:

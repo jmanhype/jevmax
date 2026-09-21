@@ -1,0 +1,13 @@
+{"connected": true, "server": {"name": "Meta Ads MCP Server", "version": "1.0.0"}}
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "[]"
+    }
+  ],
+  "isError": false,
+  "structuredContent": {
+    "ig_accounts": "[]"
+  }
+}

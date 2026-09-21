@@ -1,0 +1,7 @@
+Reference image: use the supplied Ava seed as the exact identity, face, hair, wardrobe, product, and opening-frame lock.
+
+Create one vertical 9:16 still in a 1986–1992 local-TV sponsor-bumper register. Ava remains centered from head to waist on the beach towel, facing the camera. Her right earbud stays worn; her hand holds the inline microphone module near her mouth without covering her face. The white wired earbud cable remains the second-sharpest element after her face.
+
+Use flat broadcast-video contrast, warm analog chroma, slightly blown sunlight, soft scanlines, chroma bleed on the cable, and mild tape-generation texture. Preserve natural skin texture. Keep the ocean horizon and towel symmetric.
+
+Strictly no readable text, no captions, no title card, no logo, no UI overlay, no extra people, no product redesign, and no change to Ava’s identity.

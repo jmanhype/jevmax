@@ -1,0 +1,18 @@
+{
+  "datasets": [
+    {
+      "dataset_id": "117869962136376",
+      "name": "Jay Guthrie's Pixel",
+      "creation_time": "2017-06-09T13:01:58-0700",
+      "is_active": true,
+      "last_fired_time": "1969-12-31T16:00:00-0800",
+      "server_last_fired_time": "1969-12-31T16:00:00-0800",
+      "first_party_cookie_status": "first_party_cookie_enabled"
+    }
+  ],
+  "page_info": {
+    "has_next_page": false,
+    "total_count": 1,
+    "after_cursor": null
+  }
+}

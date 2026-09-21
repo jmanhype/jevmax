@@ -1,0 +1,75 @@
+{
+  "_comment": "ProductPackage lifecycle. Placement: Markdown/JSON files in studio.packages, single writer per package directory. The validator is an offline read-only invoke; no external API or paid generation is permitted during validation.",
+  "_delays": {
+    "validationTimeout": "5000 ms - offline local filesystem validation bound"
+  },
+  "id": "productpackage",
+  "initial": "Draft",
+  "context": {
+    "slug": null,
+    "routeOrder": null,
+    "requiredFilesComplete": false,
+    "manifestValid": false,
+    "artifactsExist": false,
+    "evidenceComplete": false,
+    "claimDisciplinePass": false,
+    "lastError": null
+  },
+  "states": {
+    "Draft": {
+      "on": {
+        "verify": {
+          "target": "validating",
+          "actions": "clearLastError"
+        }
+      },
+      "_ignores": {
+        "retire": "only a DogfoodVerified commercial package can be retired"
+      }
+    },
+    "validating": {
+      "invoke": {
+        "src": "validatePortfolioPackage",
+        "input": {
+          "slug": "context.slug",
+          "routeOrder": "context.routeOrder"
+        },
+        "onDone": [
+          {
+            "target": "DogfoodVerified",
+            "guard": "allPackageChecksPass",
+            "actions": "recordVerifiedEvidence"
+          },
+          {
+            "target": "Draft",
+            "actions": "recordValidationFailure"
+          }
+        ],
+        "onError": {
+          "target": "Draft",
+          "actions": "recordValidatorError"
+        }
+      },
+      "after": {
+        "validationTimeout": {
+          "target": "Draft",
+          "actions": "recordValidatorError"
+        }
+      }
+    },
+    "DogfoodVerified": {
+      "on": {
+        "verify": {
+          "actions": "recordAlreadyVerified"
+        },
+        "retire": {
+          "target": "Retired",
+          "actions": "recordRetirement"
+        }
+      }
+    },
+    "Retired": {
+      "type": "final"
+    }
+  }
+}

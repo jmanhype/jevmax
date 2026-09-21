@@ -1,0 +1,55 @@
+{
+  "snapshot_date": "2026-09-20",
+  "account": {
+    "id": "49852068",
+    "name": "Jay Guthrie",
+    "currency": "USD",
+    "status": "ACTIVE",
+    "has_payment_method": true
+  },
+  "campaigns": [
+    {
+      "id": "6273184009976",
+      "name": "[Airpod Pros] Marketplace listing boosted on 07/26/2022",
+      "status": "PAUSED",
+      "effective_status": "PAUSED",
+      "delivery": {
+        "status": "paused",
+        "substatuses": []
+      },
+      "daily_budget_cents": 500,
+      "amount_spent_28d": null,
+      "last_advertised": "2022-07-26"
+    },
+    {
+      "id": "6273182924776",
+      "name": "Airpods Leads Campaign",
+      "status": "PAUSED",
+      "effective_status": "PAUSED",
+      "delivery": {
+        "status": "paused",
+        "substatuses": []
+      },
+      "daily_budget_cents": null,
+      "amount_spent_28d": null,
+      "last_advertised": "2022"
+    }
+  ],
+  "pixels": [
+    {
+      "id": "117869962136376",
+      "name": "Jay Guthrie's Pixel",
+      "ever_fired": false,
+      "first_party_cookie": true
+    }
+  ],
+  "pages": [
+    {
+      "id": "103174805824722",
+      "name": "Jay Guthrie Airpods",
+      "leadgen_tos_accepted": false
+    }
+  ],
+  "ig_accounts": [],
+  "notes": "2026-09-20 live Meta Ads MCP refresh: both 2022 campaigns are PAUSED. Read-only calls only; no campaign changes were made."
+}

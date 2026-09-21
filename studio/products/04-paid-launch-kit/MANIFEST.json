@@ -1,0 +1,52 @@
+{
+  "schema": "jevmax-studio-product-v1",
+  "product_id": "paid-launch-kit",
+  "name": "Paid Launch Kit",
+  "status": "dogfood_verified",
+  "route_order": 4,
+  "client_question": "What exactly should we launch, disclose, measure, and approve?",
+  "next_product": "growth-loop",
+  "reusable_template": "TEMPLATE.md",
+  "portfolio_summary": "PORTFOLIO.md",
+  "evidence": "EVIDENCE.md",
+  "artifacts": [
+    {
+      "role": "hero_v6_video",
+      "path": "../../../projects/jevmax-lf001-v6-h3/assets/videos/425667939727864/pixverse_video_425667939727864_1789968093731.mp4"
+    },
+    {
+      "role": "hero_thumbnail_frame",
+      "path": "../../../projects/jevmax-lf001-v6-h3/quality/frames-pixverse_video_425667939727864_1789968093731/frame-001.jpg"
+    },
+    {
+      "role": "technical_qa_report",
+      "path": "../../../projects/jevmax-lf001-v6-h3/quality/latest-run-qa.json"
+    },
+    {
+      "role": "creative_source_prompt",
+      "path": "../../../projects/jevmax-lf001-v6-h3/prompts/regen.txt"
+    },
+    {
+      "role": "pricing_evidence",
+      "path": "../../../runs/2026-09-20/cli-price-test/REPORT.md"
+    },
+    {
+      "role": "sprint_deliverable",
+      "path": "../../../studio/runs/2026-09-20-category-signal-sprint/DELIVERABLE.md"
+    }
+  ],
+  "measured_cost": {
+    "credits": 0,
+    "tokens": 0,
+    "basis": "Dogfood launch kit assembled from existing V6 output and existing evidence; no new generation."
+  },
+  "qa": {
+    "status": "pass",
+    "summary": "V6 hero passed technical QA; human review confirmed no text card, stable identity, and legible product."
+  },
+  "policy": {
+    "live_ad_changes": false,
+    "premium_generation": false,
+    "client_approval_required": true
+  }
+}

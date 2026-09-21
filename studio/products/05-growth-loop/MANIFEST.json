@@ -1,0 +1,75 @@
+{
+  "schema": "jevmax-studio-product-v1",
+  "product_id": "growth-loop",
+  "name": "Growth Loop",
+  "status": "dogfood_verified",
+  "route_order": 5,
+  "client_question": "What recurring scans, audits, refreshes, and reviews keep the advertising system improving without unapproved changes or unsupported performance claims?",
+  "next_product": "creative-test-sprint",
+  "reusable_template": "TEMPLATE.md",
+  "portfolio_summary": "PORTFOLIO.md",
+  "evidence": "EVIDENCE.md",
+  "artifacts": [
+    {
+      "role": "studio product contract",
+      "path": "../../PRODUCT_CONTRACT.md"
+    },
+    {
+      "role": "reusable weekly and monthly operating template",
+      "path": "TEMPLATE.md"
+    },
+    {
+      "role": "measured dogfood evidence and limitations",
+      "path": "EVIDENCE.md"
+    },
+    {
+      "role": "client-facing portfolio summary",
+      "path": "PORTFOLIO.md"
+    },
+    {
+      "role": "103-ID longitudinal baseline snapshot",
+      "path": "../../../snapshots/2026-09-20.json"
+    },
+    {
+      "role": "survival snapshot and boundary logic",
+      "path": "../../../survival.py"
+    },
+    {
+      "role": "2026-09-20 end-to-end dogfood run report",
+      "path": "../../../runs/2026-09-20/RUN_REPORT.md"
+    },
+    {
+      "role": "bounded AirPods scan report",
+      "path": "../../../runs/2026-09-20/airpods_scan_report.json"
+    },
+    {
+      "role": "bounded baseline-versus-current difference report",
+      "path": "../../../runs/2026-09-20/airpods_scan_diff.json"
+    },
+    {
+      "role": "read-only account audit report",
+      "path": "../../../runs/2026-09-20/audit_report.md"
+    },
+    {
+      "role": "offline regression benchmark result",
+      "path": "../../../benchmark_report.md"
+    },
+    {
+      "role": "active weekly read-only scan automation evidence snapshot",
+      "path": "AUTOMATION_EVIDENCE.md"
+    }
+  ],
+  "measured_cost": {
+    "credits": 0,
+    "tokens": "0 new tokens for package assembly; source 2026-09-20 dogfood run used 2,363 input / 265 output TypeSafe tokens (2,628 total)",
+    "basis": "No generation, paid deployment, or live ad change was run for this package. The source run spent zero PixVerse credits and used the stated judgment tokens."
+  },
+  "qa": {
+    "status": "pass",
+    "summary": "2026-09-21 verification: snapshot contains 103 unique IDs and SHA-256 afec580b80129d2b5e375e710d9903f3cc29b4e915f5df5844daeb2194775e09; offline regression passed 36/36 (100%); manifest artifact paths resolve."
+  },
+  "policy": {
+    "live_ad_changes": false,
+    "premium_generation": false
+  }
+}

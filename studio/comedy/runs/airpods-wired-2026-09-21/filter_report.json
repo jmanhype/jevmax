@@ -1,0 +1,24 @@
+{
+  "stage": "deterministic_filter",
+  "input_count": 120,
+  "accepted_count": 120,
+  "rejected_count": 0,
+  "persona_counts": {
+    "absurdist": 20,
+    "cynic": 20,
+    "worrier": 20,
+    "innocent": 20,
+    "status": 20,
+    "antimarketing": 20
+  },
+  "checks": [
+    "valid persona",
+    "length between 25 and 240 characters",
+    "normalized text uniqueness",
+    "non-empty product tension",
+    "product/audio/call link",
+    "unsupported claim pattern",
+    "real-person name"
+  ],
+  "ordering": "filter precedes TypeSafe tournament"
+}

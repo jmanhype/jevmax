@@ -1,0 +1,19 @@
+{"connected": true, "server": {"name": "Meta Ads MCP Server", "version": "1.0.0"}}
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"pages\":[{\"page_id\":\"103174805824722\",\"page_name\":\"Jay Guthrie Airpods\",\"leadgen_tos_accepted\":false}]}"
+    }
+  ],
+  "isError": false,
+  "structuredContent": {
+    "pages": [
+      {
+        "page_id": "103174805824722",
+        "page_name": "Jay Guthrie Airpods",
+        "leadgen_tos_accepted": false
+      }
+    ]
+  }
+}

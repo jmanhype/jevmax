@@ -1,0 +1,28 @@
+{"connected": true, "server": {"name": "Meta Ads MCP Server", "version": "1.0.0"}}
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"ad_accounts\":[{\"ad_account_id\":\"49852068\",\"ad_account_name\":\"Jay Guthrie\",\"business_id\":\"\",\"business_name\":\"\",\"is_ads_mcp_enabled\":true,\"account_status\":\"ACTIVE\",\"is_queryable\":true,\"has_payment_method\":true,\"currency\":\"USD\",\"min_daily_budget_cents\":100,\"is_ads_mcp_disabled_reason\":null,\"not_queryable_reason\":null}]}"
+    }
+  ],
+  "isError": false,
+  "structuredContent": {
+    "ad_accounts": [
+      {
+        "ad_account_id": "49852068",
+        "ad_account_name": "Jay Guthrie",
+        "business_id": "",
+        "business_name": "",
+        "is_ads_mcp_enabled": true,
+        "account_status": "ACTIVE",
+        "is_queryable": true,
+        "has_payment_method": true,
+        "currency": "USD",
+        "min_daily_budget_cents": 100,
+        "is_ads_mcp_disabled_reason": null,
+        "not_queryable_reason": null
+      }
+    ]
+  }
+}

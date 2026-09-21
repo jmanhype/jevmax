@@ -1,0 +1,257 @@
+# yaml-language-server: $schema=https://modelith.sh/schema/domain-model/v1.json
+kind: DomainModel
+version: v1
+title: Jevmax Studio Product Portfolio
+description: >
+  The commercial product layer for Jevmax Studio. A Client is routed through
+  five reusable product packages. Each package must contain a reusable
+  template, a manifest of real artifacts, measured cost evidence, QA evidence,
+  and a portfolio summary. The comedy sprint extension models a high-volume
+  premise pipeline whose paid rendering is gated behind two recorded judgment
+  tournaments. The model exists to keep commercial routing, artifact
+  verification, claim discipline, and paid-generation policy explicit.
+
+glossary:
+  Client: "A brand founder or marketing operator receiving a Jevmax Studio product."
+  StudioDirector: "The Jevmax operator responsible for routing, production standards, and client approval gates."
+  Reviewer: "A human or deterministic process that verifies portfolio completeness and evidence."
+  ComedyPersona: "A distinct comedic perspective that generates premises independently before shared selection."
+
+enums:
+  PackageStatus:
+    values:
+      - {name: Draft, definition: "The product package is being authored and is not client-ready."}
+      - {name: DogfoodVerified, definition: "The package has been exercised on internal evidence and passed deterministic portfolio checks."}
+      - {name: Retired, definition: "The package is no longer offered."}
+  ApprovalStatus:
+    values:
+      - {name: NotRequested, definition: "No paid or live-change approval has been requested."}
+      - {name: Approved, definition: "The named client approved the exact scoped action."}
+      - {name: Rejected, definition: "The named client rejected the action."}
+  ComedySprintStatus:
+    values:
+      - {name: Draft, definition: "The comedy sprint is being generated or has not yet passed verification."}
+      - {name: Verified, definition: "All premise, tournament, artifact, cost, QA, and claim checks passed."}
+      - {name: Retired, definition: "The comedy sprint is no longer an active test."}
+
+entities:
+  Client:
+    definition: >
+      A brand or operator receiving Jevmax services. The Client supplies the
+      commercial goal, product, destination, and any approval needed for paid
+      deployment. A Client does not directly select render models or bypass
+      portfolio gates.
+    attributes:
+      - {name: clientId, type: string}
+      - {name: goal, type: string}
+      - {name: paidActionApproval, type: ApprovalStatus}
+    relationships:
+      - {entity: PortfolioRoute, cardinality: 1:1, role: "follows"}
+    actions:
+      - {name: intake, actor: StudioDirector, description: "Capture the client goal and current marketing state.", preserves: [route-starts-from-client-question]}
+      - {name: requestPaidActionApproval, actor: StudioDirector, description: "Request exact approval for paid generation or live ad change.", preserves: [approval-before-paid-action, default-paid-generation-policy]}
+    invariants:
+      - {id: approval-before-paid-action, statement: "A Client must have Approved paidActionApproval before paid generation outside the pre-approved GPT Image 2.5 or V6 route or any live ad change."}
+
+  PortfolioRoute:
+    definition: >
+      The deterministic path from a Client question to the correct product and
+      then to the next product. The route prevents random creative production
+      when intelligence, identity, launch preparation, or recurring measurement
+      is missing.
+    attributes:
+      - {name: entryQuestion, type: string}
+      - {name: order, type: integer}
+    relationships:
+      - {entity: ProductPackage, cardinality: n:1, role: "selects"}
+    actions:
+      - {name: route, actor: PortfolioRoute, description: "Select the first product whose entry condition matches the client question.", preserves: [complete-product-chain, route-starts-from-client-question]}
+    invariants:
+      - {id: complete-product-chain, statement: "The portfolio routes through Category Signal Audit, Brand Identity System, Creative Test Sprint, Paid Launch Kit, and Growth Loop in a closed chain."}
+      - {id: route-starts-from-client-question, statement: "Every PortfolioRoute begins with a concrete client question rather than a render request."}
+
+  ProductPackage:
+    definition: >
+      A reusable commercial product such as the Category Signal Audit or Paid
+      Launch Kit. A package is not complete because a document exists; it must
+      pass artifact, evidence, cost, QA, routing, and claim checks.
+    attributes:
+      - {name: slug, type: string}
+      - {name: routeOrder, type: integer}
+      - {name: status, type: PackageStatus}
+      - {name: templatePath, type: string}
+      - {name: manifestPath, type: string}
+      - {name: evidencePath, type: string}
+      - {name: portfolioSummaryPath, type: string}
+    relationships:
+      - {entity: Artifact, cardinality: 1:n, ownership: owned, role: "references"}
+      - {entity: ProductEvidence, cardinality: 1:1, ownership: owned, role: "is proven by"}
+    actions:
+      - {name: author, actor: StudioDirector, description: "Create the reusable package structure.", preserves: [package-required-files]}
+      - {name: verify, actor: Reviewer, description: "Run deterministic package, artifact, and claim checks.", preserves: [package-required-files, package-manifest-valid, artifacts-exist, no-unsupported-performance-claim]}
+      - {name: retire, actor: StudioDirector, description: "Remove a package from the active route.", preserves: [complete-product-chain]}
+    invariants:
+      - {id: package-required-files, statement: "Every active ProductPackage has a reusable TEMPLATE.md, MANIFEST.json, EVIDENCE.md, and PORTFOLIO.md."}
+      - {id: package-manifest-valid, statement: "Every ProductPackage has a valid jevmax-studio-product-v1 manifest with product identity, route, artifacts, cost, QA, and policy."}
+      - {id: artifacts-exist, statement: "Every artifact path referenced by a ProductPackage exists in the repository."}
+      - {id: package-dogfood-verified, statement: "Every active ProductPackage has status DogfoodVerified and cites internal evidence."}
+
+  Artifact:
+    definition: >
+      A concrete repository output such as a scan report, character seed, V6
+      video, QA report, prompt, or cost report. An Artifact is evidence only
+      after its path has been verified.
+    attributes:
+      - {name: role, type: string}
+      - {name: path, type: string}
+      - {name: verified, type: boolean, derived: true, derivation: "True after the portfolio validator resolves the artifact path successfully."}
+    actions:
+      - {name: verify, actor: Reviewer, description: "Resolve the artifact path and mark it Verified when present.", preserves: [artifacts-exist, artifact-has-role]}
+    invariants:
+      - {id: artifact-has-role, statement: "Every Artifact has a non-empty commercial or evidentiary role."}
+
+  ProductEvidence:
+    definition: >
+      The measured proof attached to a ProductPackage. It records credits,
+      tokens where applicable, QA result, verification date, and limitations.
+    attributes:
+      - {name: measuredCost, type: string}
+      - {name: qaStatus, type: string}
+      - {name: verifiedOn, type: string}
+      - {name: limitations, type: string}
+    actions:
+      - {name: record, actor: StudioDirector, description: "Record measured cost, QA result, date, and limitations.", preserves: [evidence-has-cost, evidence-has-qa, package-dogfood-verified]}
+    invariants:
+      - {id: evidence-has-cost, statement: "Every ProductEvidence record states its measured credit and/or token basis."}
+      - {id: evidence-has-qa, statement: "Every ProductEvidence record states a QA result and its limitations."}
+
+  ComedySprint:
+    definition: >
+      A high-volume creative test that generates many premises from independent
+      comedic personas, applies deterministic product/safety filters, records a
+      first judgment tournament, mutates survivors, records a second tournament,
+      and only then creates boards or paid video renders for finalists.
+    attributes:
+      - {name: briefId, type: string}
+      - {name: product, type: string}
+      - {name: category, type: string}
+      - {name: premiseTarget, type: integer}
+      - {name: personaTarget, type: integer}
+      - {name: survivorTarget, type: integer}
+      - {name: finalistTarget, type: integer}
+      - {name: maxV6Videos, type: integer}
+      - {name: status, type: ComedySprintStatus}
+    relationships:
+      - {entity: ProductPackage, cardinality: n:1, role: "extends"}
+      - {entity: ComedyPremise, cardinality: 1:n, ownership: owned, role: "generates"}
+      - {entity: TournamentRound, cardinality: 1:n, ownership: owned, role: "records"}
+    actions:
+      - {name: generate, actor: StudioDirector, description: "Generate the premise corpus from independent comedic personas.", preserves: [comedy-premise-quota, comedy-persona-coverage, comedy-premise-unique, comedy-premise-product-link, comedy-premise-text-bounded]}
+      - {name: filter, actor: Reviewer, description: "Apply deterministic product, safety, duplication, and length filters before judgment.", preserves: [deterministic-filter-first]}
+      - {name: runFirstTournament, actor: Reviewer, description: "Record the first Jev selection tournament and select survivors.", preserves: [tournament-evidence-recorded, tournament-usage-recorded, tournament-rationale-recorded]}
+      - {name: mutate, actor: StudioDirector, description: "Escalate or sharpen each surviving premise before the second tournament.", preserves: [mutation-before-final]}
+      - {name: runSecondTournament, actor: Reviewer, description: "Record the second Jev tournament and select finalists.", preserves: [tournament-evidence-recorded, tournament-usage-recorded, tournament-rationale-recorded, comedy-finalist-quota]}
+      - {name: createBoards, actor: StudioDirector, description: "Create free GPT Image 2.5 boards for finalists.", preserves: [free-image-board-only]}
+      - {name: renderVideos, actor: StudioDirector, description: "Render at most two V6 720p no-audio videos from approved finalist boards.", preserves: [v6-two-video-cap, no-premium-comedy-video]}
+      - {name: verify, actor: Reviewer, description: "Verify premise counts, persona coverage, filters, tournaments, artifacts, costs, QA, routes, policy, and claims.", preserves: [comedy-premise-quota, comedy-persona-coverage, deterministic-filter-first, tournament-evidence-recorded, comedy-finalist-quota, free-image-board-only, v6-two-video-cap, no-premium-comedy-video]}
+      - {name: retire, actor: StudioDirector, description: "Retire a verified comedy sprint from active testing.", preserves: [complete-product-chain]}
+    invariants:
+      - {id: comedy-premise-quota, statement: "A ComedySprint generates exactly 120 ComedyPremise records before filtering."}
+      - {id: comedy-persona-coverage, statement: "A ComedySprint uses six ComedyPersona values with 20 ComedyPremise records each."}
+      - {id: comedy-premise-unique, statement: "Every ComedyPremise has a unique premise id and unique normalized premise text."}
+      - {id: comedy-premise-product-link, statement: "Every ComedyPremise names a concrete product tension or use context rather than a generic joke."}
+      - {id: deterministic-filter-first, statement: "Deterministic product/safety filters run before the first Jev tournament."}
+      - {id: mutation-before-final, statement: "First-round survivors are mutated before the second tournament."}
+      - {id: comedy-finalist-quota, statement: "The second ComedySprint tournament selects exactly eight finalists."}
+      - {id: free-image-board-only, statement: "Comedy finalist boards use the currently free GPT Image 2.5 route only."}
+      - {id: v6-two-video-cap, statement: "A ComedySprint renders no more than two V6 videos."}
+      - {id: no-premium-comedy-video, statement: "A ComedySprint uses no MiniMax, Seedance, or other premium video route."}
+
+  ComedyPremise:
+    definition: >
+      One independently generated comedic premise, tagged by persona and linked
+      to a concrete product tension. A premise may be filtered deterministically
+      and later mutated, but its original text remains part of the recorded corpus.
+    attributes:
+      - {name: premiseId, type: string}
+      - {name: persona, type: string}
+      - {name: text, type: string}
+      - {name: productTension, type: string}
+      - {name: passedDeterministicFilter, type: boolean}
+      - {name: mutatedFrom, type: string}
+    actions:
+      - {name: filter, actor: Reviewer, description: "Mark deterministic filter disposition without invoking Jev.", preserves: [comedy-premise-unique, comedy-premise-product-link, deterministic-filter-first]}
+      - {name: mutate, actor: StudioDirector, description: "Create an escalated or sharpened revision while retaining persona and product tension.", preserves: [comedy-premise-product-link, mutation-before-final]}
+    invariants:
+      - {id: comedy-premise-text-bounded, statement: "Every ComedyPremise remains short enough for a five-second vertical video."}
+
+  TournamentRound:
+    definition: >
+      An immutable record of one Jev judgment round, including input and output
+      counts, model, token usage, scores, selection rationales, and artifact paths.
+      It proves that selection happened before paid rendering.
+    attributes:
+      - {name: roundNumber, type: integer}
+      - {name: inputCount, type: integer}
+      - {name: outputCount, type: integer}
+      - {name: model, type: string}
+      - {name: inputTokens, type: integer}
+      - {name: outputTokens, type: integer}
+      - {name: scoresPath, type: string}
+      - {name: rationalePath, type: string}
+    actions:
+      - {name: record, actor: Reviewer, description: "Persist scores, rationales, usage, and survivor selection for one round.", preserves: [tournament-evidence-recorded, tournament-usage-recorded, tournament-rationale-recorded]}
+    invariants:
+      - {id: tournament-evidence-recorded, statement: "Every TournamentRound records its candidates, scores, output IDs, and artifact paths."}
+      - {id: tournament-usage-recorded, statement: "Every TournamentRound records input and output token usage."}
+      - {id: tournament-rationale-recorded, statement: "Every selectable TournamentRound candidate has a recorded judgment rationale category."}
+
+invariants:
+  - {id: no-unsupported-performance-claim, statement: "The portfolio shall not claim guaranteed ROAS, production lift, whole-library coverage, or percentage improvement without measured evidence."}
+  - {id: default-paid-generation-policy, statement: "Free GPT Image 2.5 boards and 40-credit V6 720p no-audio videos are the only pre-approved paid-media generation routes."}
+
+scenarios:
+  - name: Complete five-product route
+    actors: [Client, StudioDirector]
+    steps:
+      - "A Client asks what competitors are running; the `PortfolioRoute` selects Category Signal Audit."
+      - "The StudioDirector routes through `ProductPackage` instances for Brand Identity System and Creative Test Sprint."
+      - "A selected creative candidate reaches Paid Launch Kit."
+      - "After client approval, Growth Loop schedules recurring scans and refreshes."
+    invariants_touched: [complete-product-chain, route-starts-from-client-question]
+  - name: Package verification catches a missing artifact
+    actors: [Reviewer]
+    steps:
+      - "A `ProductPackage` references an `Artifact` path that does not exist."
+      - "The Reviewer runs `ProductPackage` verify."
+      - "The package remains non-client-ready until the missing path is repaired."
+    invariants_touched: [package-required-files, package-manifest-valid, artifacts-exist]
+  - name: Premium generation requires explicit approval
+    actors: [Client, StudioDirector]
+    steps:
+      - "A Client requests a premium video route outside V6."
+      - "The StudioDirector requests exact paidActionApproval."
+      - "No premium task is submitted while approval is NotRequested."
+    invariants_touched: [approval-before-paid-action, default-paid-generation-policy]
+  - name: Claim discipline blocks unsupported performance language
+    actors: [Reviewer]
+    steps:
+      - "A `ProductPackage` portfolio summary proposes guaranteed ROAS."
+      - "The Reviewer rejects the unsupported claim."
+      - "The `ProductPackage` is not marked DogfoodVerified until claim language and `ProductEvidence` are corrected."
+    invariants_touched: [no-unsupported-performance-claim, package-dogfood-verified]
+  - name: Comedy sprint narrows many premises before paid rendering
+    actors: [StudioDirector, Reviewer]
+    steps:
+      - "A `ComedySprint` generates 120 `ComedyPremise` records across six `ComedyPersona` values."
+      - "The Reviewer applies deterministic filters and records the first `TournamentRound` to 24 survivors."
+      - "The StudioDirector mutates survivors and the Reviewer records a second `TournamentRound` to eight finalists."
+      - "Only finalists receive free image boards and at most two V6 videos."
+    invariants_touched: [comedy-premise-quota, comedy-persona-coverage, deterministic-filter-first, tournament-evidence-recorded, comedy-finalist-quota, free-image-board-only, v6-two-video-cap, no-premium-comedy-video]
+  - name: Comedy sprint rejects a weak or unsafe premise before Jev
+    actors: [Reviewer]
+    steps:
+      - "A `ComedyPremise` lacks a concrete product tension or violates claim safety."
+      - "The Reviewer filters it deterministically before any `TournamentRound` scoring."
+      - "The filtered premise remains recorded but cannot enter the first tournament."
+    invariants_touched: [comedy-premise-product-link, deterministic-filter-first, comedy-premise-unique]

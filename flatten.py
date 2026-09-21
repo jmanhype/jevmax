@@ -73,6 +73,9 @@ def expand(fixed, options, max_variants):
 def flatten(v):
     s = []
 
+    # Technical video controls are execution metadata, not painter-prompt content.
+    v = {k: value for k, value in v.items() if not k.startswith("video.")}
+
     def add(*parts):
         txt = ", ".join(dict.fromkeys(p for p in parts if p))
         if txt:

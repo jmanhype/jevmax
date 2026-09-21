@@ -1,0 +1,16 @@
+{
+  "project": "jevmax-gpt25-price-test",
+  "basic_fallback_accepted": false,
+  "tasks": [
+    {
+      "id": "flare-safe",
+      "label": "GPT Image 2.5 Flare safe price test",
+      "cmd": "pixverse create image --model gpt-image-2.5-flare --quality 1080p --detail-level high --aspect-ratio 9:16 --prompt projects/jevmax-gpt25-price-test/prompts/gpt25-price-test-safe.txt"
+    },
+    {
+      "id": "sunburst-safe",
+      "label": "GPT Image 2.5 Sunburst safe price test",
+      "cmd": "pixverse create image --model gpt-image-2.5-sunburst --quality 1080p --detail-level high --aspect-ratio 9:16 --prompt projects/jevmax-gpt25-price-test/prompts/gpt25-price-test-safe.txt"
+    }
+  ]
+}

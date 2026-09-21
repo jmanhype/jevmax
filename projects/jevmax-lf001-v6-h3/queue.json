@@ -1,0 +1,16 @@
+{
+  "project": "jevmax-lf001-v6-h3",
+  "basic_fallback_accepted": false,
+  "tasks": [
+    {
+      "id": "v6",
+      "label": "LF001 V6 720p rerender",
+      "cmd": "pixverse create video --model v6 --quality 720p --duration 5 --aspect-ratio 9:16 --seed 0 --no-audio --image creative/renders/ava-01_seed.png --prompt projects/jevmax-lf001-v6-h3/prompts/regen.txt"
+    },
+    {
+      "id": "h3",
+      "label": "LF001 MiniMax H3 768p rerender",
+      "cmd": "pixverse create reference --model minimax-h3 --quality 768p --duration 5 --aspect-ratio 9:16 --seed 0 --images creative/renders/ava-01_seed.png --prompt projects/jevmax-lf001-v6-h3/prompts/regen.txt"
+    }
+  ]
+}

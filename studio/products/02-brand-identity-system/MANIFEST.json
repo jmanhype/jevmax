@@ -1,0 +1,83 @@
+{
+  "schema": "jevmax-studio-product-v1",
+  "product_id": "brand-identity-system",
+  "name": "Brand Identity System",
+  "status": "dogfood_verified",
+  "route_order": 2,
+  "client_question": "Who is the reusable fictional brand character and what visual grammar controls them?",
+  "next_product": "creative-test-sprint",
+  "reusable_template": "TEMPLATE.md",
+  "portfolio_summary": "PORTFOLIO.md",
+  "evidence": "EVIDENCE.md",
+  "artifacts": [
+    {
+      "role": "reusable_template",
+      "path": "TEMPLATE.md"
+    },
+    {
+      "role": "measured_evidence",
+      "path": "EVIDENCE.md"
+    },
+    {
+      "role": "portfolio_summary",
+      "path": "PORTFOLIO.md"
+    },
+    {
+      "role": "identity_contract",
+      "path": "../../../creative/persona-ava.json"
+    },
+    {
+      "role": "downstream_identity_variant",
+      "path": "../../../creative/persona-ava-lost-future-lf001.json"
+    },
+    {
+      "role": "approved_identity_seed",
+      "path": "../../../creative/renders/ava-01_seed.png"
+    },
+    {
+      "role": "style_system_prompt",
+      "path": "../../../creative/lost-future-system-prompt.md"
+    },
+    {
+      "role": "visual_technique_grammar",
+      "path": "../../../creative/eyecandy-source-grammar.md"
+    },
+    {
+      "role": "free_product_board_flare",
+      "path": "../../../projects/jevmax-gpt25-price-test/assets/images/425666878904818/pixverse_image_425666878904818_1789967534644.png"
+    },
+    {
+      "role": "free_product_board_sunburst",
+      "path": "../../../projects/jevmax-gpt25-price-test/assets/images/425666880188252/pixverse_image_425666880188252_1789967559082.png"
+    },
+    {
+      "role": "existing_v6_identity_hold_reference",
+      "path": "../../../projects/jevmax-lf001-v6-h3/assets/videos/425667939727864/pixverse_video_425667939727864_1789968093731.mp4"
+    },
+    {
+      "role": "machine_qa_report",
+      "path": "../../../projects/jevmax-lf001-v6-h3/quality/pixverse_video_425667939727864_1789968093731-qa.json"
+    },
+    {
+      "role": "measured_cost_and_manual_qa_report",
+      "path": "../../../runs/2026-09-20/cli-price-test/REPORT.md"
+    },
+    {
+      "role": "historical_seed_and_identity_evidence",
+      "path": "../../../docs/BUILD_LOG.md"
+    }
+  ],
+  "measured_cost": {
+    "credits": 0,
+    "tokens": "0 external-generation tokens for package assembly; no live generation API called",
+    "basis": "Existing artifacts only. Current GPT Image 2.5 Flare and Sunburst product-only tests each measured 0 credits with a 0 account delta in ../../../runs/2026-09-20/cli-price-test/REPORT.md; the reused V6 identity-hold asset was a pre-existing 40-credit render."
+  },
+  "qa": {
+    "status": "pass",
+    "summary": "Ava seed SHA-256 verified; fictional/no-real-likeness/AI-disclosure constraints present in both persona contracts; current product boards contain no readable text; existing V6 identity-hold report has 0 machine issues."
+  },
+  "policy": {
+    "live_ad_changes": false,
+    "premium_generation": false
+  }
+}

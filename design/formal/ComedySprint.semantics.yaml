@@ -1,0 +1,23 @@
+machine: comedysprint
+pattern: validation-gate
+initial: Draft
+verified: Verified
+terminal: Retired
+verify_event: verify
+retire_event: retire
+required_checks:
+  - premise_quota
+  - persona_coverage
+  - premise_uniqueness
+  - product_link
+  - premise_length
+  - deterministic_filter_first
+  - first_tournament_24
+  - mutation_all_survivors
+  - second_tournament_8
+  - free_boards_only
+  - v6_videos_at_most_2
+  - premium_videos_zero
+  - qa_at_least_one_pass
+  - token_and_credit_usage
+  - claim_discipline
