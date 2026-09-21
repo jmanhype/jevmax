@@ -24,6 +24,10 @@ Acceptance criteria:
 
 ## Acceptance Criteria
 
+- [x] TEMPLATE.md is client-ready and reusable.
+- [x] MANIFEST.json validates and links only existing artifacts.
+- [x] EVIDENCE.md records the current snapshot and automation evidence.
+- [x] PORTFOLIO.md states outcome, inclusions, exclusions, timeline, and next route.
 
 ## Design
 
@@ -35,7 +39,7 @@ Summary: Created the scoped four-file Growth Loop package only; no paid generati
 
 Commit SHA: 35758c3c0276b1068aafe41ab04ed3b8972fac64 (report base; owned files remain uncommitted per instruction).
 
-## CI/Test Results
+### CI/Test Results
 
 - Offline regression: PASS, 36/36 cases, 100%.
 - Survival selftest: PASS.
@@ -55,12 +59,12 @@ Commands run:
 - pvg story claim JEV-s1pc
 - pvg story deliver JEV-s1pc
 
-## AC verification
+### AC Verification
 
-- [x] TEMPLATE.md is client-ready and reusable.
-- [x] MANIFEST.json validates and links only existing artifacts.
-- [x] EVIDENCE.md records the current snapshot and automation evidence.
-- [x] PORTFOLIO.md states outcome, inclusions, exclusions, timeline, and next route.
+- [x] AC #1: TEMPLATE.md is client-ready and reusable.
+- [x] AC #2: MANIFEST.json validates and links only existing artifacts.
+- [x] AC #3: EVIDENCE.md records the current snapshot and automation evidence.
+- [x] AC #4: PORTFOLIO.md states outcome, inclusions, exclusions, timeline, and next route.
 
 ## nd_contract
 status: delivered
@@ -104,39 +108,3 @@ status: delivered
 
 ### 2026-09-21T06:03:46Z batmanosama
 loop: reset orphaned in_progress to open (no developer worktree found; prior session presumed dead)
-
-### 2026-09-21T06:13:30Z batmanosama
-## Implementation Evidence
-
-Summary: Created the four-file Growth Loop package only; no paid generation, live API call, commit, or push was performed.
-
-Commit SHA: 35758c3c0276b1068aafe41ab04ed3b8972fac64 (report base; files remain uncommitted in the shared worktree per no-commit instruction).
-
-### AC verification
-
-| Acceptance criterion | Result | Evidence |
-|---|---|---|
-| TEMPLATE.md is client-ready and reusable | PASS | studio/products/05-growth-loop/TEMPLATE.md contains client placeholders, scope, inputs, weekly/monthly states, outputs, QA gates, cost gates, and delivery checklist |
-| MANIFEST.json validates and links only existing artifacts | PASS | Exact jevmax-studio-product-v1 shape parsed with jq; 12/12 artifact paths resolved from the product directory |
-| EVIDENCE.md records current snapshot and automation evidence | PASS | Records 103-ID snapshot, SHA-256, active weekly cadence, bounded diff, first valid 60-day read 2026-11-19, costs, QA, and limitations |
-| PORTFOLIO.md states outcome, inclusions, exclusions, timeline, and next route | PASS | studio/products/05-growth-loop/PORTFOLIO.md routes normally to Creative Test Sprint |
-
-### CI/Test Results
-
-Offline regression: PASS, 36/36 cases, 100% aggregate pass rate.
-Survival selftest: PASS.
-Manifest JSON/shape: PASS.
-Manifest artifact resolution: PASS, 12 resolved / 0 failed.
-git diff --check on owned package: PASS.
-
-Commands run:
-
-- jq exact-key and value validation on studio/products/05-growth-loop/MANIFEST.json
-- artifact existence loop resolving every MANIFEST.json path from studio/products/05-growth-loop
-- python3 benchmark.py --min-pass-rate 0.99
-- python3 survival.py selftest
-- git diff --check -- studio/products/05-growth-loop
-- openssl dgst -sha256 snapshots/2026-09-20.json
-- jq length snapshots/2026-09-20.json
-- pvg story claim JEV-s1pc
-- pvg story deliver JEV-s1pc
