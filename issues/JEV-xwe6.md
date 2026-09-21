@@ -1,15 +1,15 @@
 ---
 id: JEV-xwe6
 title: "Brand Identity System package"
-status: open
+status: in_progress
 priority: 2
 type: task
 labels: [studio, dogfood]
 parent: JEV-2fkt
 created_at: 2026-09-21T06:03:13Z
 created_by: batmanosama
-updated_at: 2026-09-21T06:03:46Z
-content_hash: "sha256:d57e9dc671ec97ff986f0e3f6de7b9da629f0eb60fa6d33bec6755675fd4dd71"
+updated_at: 2026-09-21T06:11:07Z
+content_hash: "sha256:182a95269414da0e6be906a551d2174ea617ce7f294fff04a34fc10bfa202505"
 assignee: dev-JEV-xwe6
 ---
 
@@ -35,6 +35,8 @@ Acceptance criteria:
 - 2026-09-21T06:03:45Z status: open -> in_progress
 - 2026-09-21T06:03:45Z claimed by dev-JEV-xwe6
 - 2026-09-21T06:03:46Z status: in_progress -> open
+- 2026-09-21T06:11:07Z status: open -> in_progress
+- 2026-09-21T06:11:07Z claimed by dev-JEV-xwe6
 
 ## Links
 - Parent: [[JEV-2fkt]]
