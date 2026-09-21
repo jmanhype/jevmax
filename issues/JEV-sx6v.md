@@ -9,7 +9,7 @@ parent: JEV-2fkt
 created_at: 2026-09-21T06:03:13Z
 created_by: batmanosama
 updated_at: 2026-09-21T06:45:22Z
-content_hash: "sha256:6f4aed6c1d9d3b6e4295bd7aa4ffbc24d6d3d83f352ef2b5a05caa248b77e757"
+content_hash: "sha256:282e8e9ddd91b5655318929e2bc06212d2b36e0242125e839f4ab8b2cb047503"
 assignee: dev-JEV-sx6v
 closed_at: 2026-09-21T06:45:22Z
 close_reason: "Accepted: Independently verified INDEX.md routes all five situations with correct next products, validate_portfolio.py checks five packages/required files/schema/route chain/artifact existence/cost/QA/policy/claim discipline with typed functions and no stubs, premium and live-write policies are encoded, portfolio validator PASSes, and offline regression passes 36/36."
@@ -32,6 +32,18 @@ Acceptance criteria:
 
 
 ## Notes
+
+
+## nd_contract
+status: accepted
+
+### evidence
+- PM closeout applied via pvg story accept on 2026-09-21.
+
+### proof
+- [x] Story closed after accepted label was applied.
+
+
 ## Implementation Evidence
 
 ### Files
