@@ -4,11 +4,11 @@ title: "Studio portfolio validator and routing index"
 status: in_progress
 priority: 3
 type: task
-labels: [studio, dogfood]
+labels: [studio, dogfood, delivered]
 parent: JEV-2fkt
 created_at: 2026-09-21T06:03:13Z
 created_by: batmanosama
-updated_at: 2026-09-21T06:38:02Z
+updated_at: 2026-09-21T06:38:03Z
 content_hash: "sha256:d6f385b4658668648b46a004946022f5f8a40df9ae0ced13bba3fa089ce4bc5d"
 assignee: dev-JEV-sx6v
 ---
