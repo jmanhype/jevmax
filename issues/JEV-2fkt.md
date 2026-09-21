@@ -1,14 +1,16 @@
 ---
 id: JEV-2fkt
 title: "Jevmax Studio internal dogfood portfolio"
-status: open
+status: closed
 priority: 0
 type: epic
 labels: [studio, dogfood, productization]
 created_at: 2026-09-21T06:02:20Z
 created_by: batmanosama
-updated_at: 2026-09-21T06:02:20Z
-content_hash: "sha256:57bdb5f223421624bbec2fc9f0381234231b4b3c98ff26b04df3db86eccc3b9c"
+updated_at: 2026-09-21T06:45:29Z
+content_hash: "sha256:1cc7e22b5ac8db3d8d4b12982d8ab849e3347db880d210cd0a78d0c13fd19fba"
+closed_at: 2026-09-21T06:45:29Z
+close_reason: "All stories accepted"
 ---
 
 ## Description
@@ -26,7 +28,7 @@ Policy: free GPT Image 2.5 and 40-credit V6 720p videos are pre-approved; other 
 
 
 ## History
-
+- 2026-09-21T06:45:29Z status: open -> closed
 
 ## Links
 
