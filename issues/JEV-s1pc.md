@@ -8,8 +8,8 @@ labels: [studio, dogfood, accepted]
 parent: JEV-2fkt
 created_at: 2026-09-21T06:03:13Z
 created_by: batmanosama
-updated_at: 2026-09-21T06:45:14Z
-content_hash: "sha256:1b47e4f0648bb3bced8f6117b61ce0c451fcf5f92d2deb645edb8997b702874c"
+updated_at: 2026-09-21T06:45:15Z
+content_hash: "sha256:d05ff1dbc2d7d7094268c7ac796a39faf9de6aaa450668237ee4e9c2986f6d05"
 assignee: dev-JEV-s1pc
 closed_at: 2026-09-21T06:45:14Z
 close_reason: "Accepted: Independently verified the reusable cadence template, 12/12 manifest paths, 103 unique IDs and exact snapshot SHA-256 afec580b80129d2b5e375e710d9903f3cc29b4e915f5df5844daeb2194775e09, ACTIVE read-only Monday automation, measured 2363/265 source tokens, zero package credits/API/ad changes, 36/36 regression, disclosed automation baseline limitation, and Creative Test Sprint route."
@@ -35,6 +35,18 @@ Acceptance criteria:
 
 
 ## Notes
+
+
+## nd_contract
+status: accepted
+
+### evidence
+- PM closeout applied via pvg story accept on 2026-09-21.
+
+### proof
+- [x] Story closed after accepted label was applied.
+
+
 ## Implementation Evidence
 
 Summary: Created the scoped four-file Growth Loop package only; no paid generation, live API call, live ad change, commit, or push was performed.
