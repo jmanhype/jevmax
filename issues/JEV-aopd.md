@@ -9,7 +9,7 @@ parent: JEV-2fkt
 created_at: 2026-09-21T06:03:13Z
 created_by: batmanosama
 updated_at: 2026-09-21T06:44:54Z
-content_hash: "sha256:f69962ef91ecf69b4fe3738e89d8f68d75381fdccd1e6be171bbee878b0d707a"
+content_hash: "sha256:24016afc9bd46f8a06f26b2856eba087fe4290ef237a873cce4b7b52a804e917"
 assignee: dev-JEV-aopd
 closed_at: 2026-09-21T06:44:52Z
 close_reason: "Accepted: Independently verified the reusable template, 14/14 manifest paths, eight existing V6 MP4s plus render log, historical 50-credit route, current 40-credit no-audio route and 320-credit projection, concept-gate score 6.34 with 1771/200 tokens, zero-issue current V6 QA, explicit no-live-performance limitation, and Paid Launch Kit route."
@@ -31,6 +31,18 @@ Acceptance criteria:
 
 
 ## Notes
+
+
+## nd_contract
+status: accepted
+
+### evidence
+- PM closeout applied via pvg story accept on 2026-09-21.
+
+### proof
+- [x] Story closed after accepted label was applied.
+
+
 ## Implementation Evidence
 
 ### Files
