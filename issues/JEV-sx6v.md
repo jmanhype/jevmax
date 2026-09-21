@@ -1,16 +1,18 @@
 ---
 id: JEV-sx6v
 title: "Studio portfolio validator and routing index"
-status: in_progress
+status: closed
 priority: 3
 type: task
 labels: [studio, dogfood, delivered]
 parent: JEV-2fkt
 created_at: 2026-09-21T06:03:13Z
 created_by: batmanosama
-updated_at: 2026-09-21T06:38:28Z
-content_hash: "sha256:164684082a9e90fbc853d5665c6eb5d0485d349b2d153c5124b95a8341abf14d"
+updated_at: 2026-09-21T06:45:22Z
+content_hash: "sha256:6f4aed6c1d9d3b6e4295bd7aa4ffbc24d6d3d83f352ef2b5a05caa248b77e757"
 assignee: dev-JEV-sx6v
+closed_at: 2026-09-21T06:45:22Z
+close_reason: "Accepted: Independently verified INDEX.md routes all five situations with correct next products, validate_portfolio.py checks five packages/required files/schema/route chain/artifact existence/cost/QA/policy/claim discipline with typed functions and no stubs, premium and live-write policies are encoded, portfolio validator PASSes, and offline regression passes 36/36."
 ---
 
 ## Description
@@ -76,6 +78,7 @@ status: delivered
 - 2026-09-21T06:05:22Z status: open -> in_progress
 - 2026-09-21T06:05:22Z claimed by dev-JEV-sx6v
 - 2026-09-21T06:38:02Z status: in_progress -> in_progress
+- 2026-09-21T06:45:22Z status: in_progress -> closed
 
 ## Links
 - Parent: [[JEV-2fkt]]
