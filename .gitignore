@@ -25,3 +25,4 @@ build/
 .vault/.vlt.lock
 .vault/.guard/
 .zcode/
+!.env.example

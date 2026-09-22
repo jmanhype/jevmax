@@ -1,0 +1,23 @@
+{
+  "state": {
+    "platform": "Instagram franchise, short-form episodes 15-45s plus reels, scrolling strangers with zero context",
+    "owned_lanes_already": "school horror (The Substitute), blacklight minigolf world (Glow Golf Chronicles), cursed found-footage reach posts",
+    "assets_available": "AI image/video pipeline at 0-credit stills, character-bible workflow proven, Buffer scheduling live",
+    "facts": "operator is a solo creator-director; strongest engagement grammar so far is analog evidence formats"
+  },
+  "criteria": {
+    "magnitude": "MAGNITUDE — every episode: one ordinary person, one glass barrier, one impossible body passing too close on the other side. Civilian phone footage grammar, one reflection clue, never explain.",
+    "nightshift_league": "NIGHTSHIFT LEAGUE — after the mall closes, the vending machines, arcade cabinets and mini-mart knights clock in and fight for turf. Security-cam grammar, deadpan sports-commentary tone.",
+    "archive_of_rain": "ARCHIVE OF RAIN — a coastal city where rain carries memories; a two-person team retrieves pasts from the water and catalogs them, and sometimes the wrong past gets delivered to the wrong person.",
+    "puppet_crime_desk": "PUPPET CRIME DESK — 1988 regional public-access crime drama performed entirely by handmade tabletop puppets; noir cases, felt witnesses, evidence boards.",
+    "lost_toy_universe": "THE LOST TOY UNIVERSE — a 1987 action-figure line killed three months before launch; the feed is its blister cards, catalogs and toy commercials from a universe that got cancelled."
+  },
+  "dimensions": {
+    "comprehension": "Which franchise is easiest for a stranger to understand in 2 seconds, no explanation?",
+    "want_next": "Which franchise most makes a viewer want the next episode after one clip?",
+    "episode_breadth": "Which franchise generates the most distinct episode ideas before running dry?",
+    "poster_sell": "Which franchise is easiest to sell in one poster image?",
+    "distinctness": "Which franchise is most distinct from anything already big on Instagram?"
+  },
+  "weights": { "comprehension": 0.30, "want_next": 0.30, "episode_breadth": 0.15, "poster_sell": 0.15, "distinctness": 0.10 }
+}
