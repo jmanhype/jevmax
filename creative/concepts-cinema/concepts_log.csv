@@ -1,0 +1,26 @@
+slug,aspect,status,image_id,local_file,error
+c2-05-fake-trailers,16:9,error,,,"{
+  ""error"": ""Request failed with status code 400 Bad Request: POST https://app-api.pixverse.ai/creative_platform/image/t2i""
+}
+"
+c2-06-spec-commercials,16:9,completed,425768800494148,C:\Users\ged\.zcode\workspace\default\jevmax\creative\concepts-cinema\c2-06-spec-commercials.png,"{
+  ""error"": ""Unexpected image status: 6 (image_id: 425767449988510)"",
+  ""code"": 0,
+  ""trace_id"": null
+}
+"
+c2-07-music-videos,16:9,completed,425768831443548,C:\Users\ged\.zcode\workspace\default\jevmax\creative\concepts-cinema\c2-07-music-videos.png,
+c2-08-title-sequences,16:9,completed,425768870799654,C:\Users\ged\.zcode\workspace\default\jevmax\creative\concepts-cinema\c2-08-title-sequences.png,
+e3-09-pov-scenarios,9:16,completed,425768905839897,C:\Users\ged\.zcode\workspace\default\jevmax\creative\concepts-cinema\e3-09-pov-scenarios.png,
+e3-10-asmr-loops,9:16,completed,425768949407494,C:\Users\ged\.zcode\workspace\default\jevmax\creative\concepts-cinema\e3-10-asmr-loops.png,
+e3-11-fake-documentary,16:9,completed,425769021630233,C:\Users\ged\.zcode\workspace\default\jevmax\creative\concepts-cinema\e3-11-fake-documentary.png,"{
+  ""error"": ""Image generation failed (status: 7, image_id: 425768984225591)"",
+  ""code"": 0,
+  ""trace_id"": null
+}
+"
+e3-12-unhinged-characters,9:16,completed,425769056511840,C:\Users\ged\.zcode\workspace\default\jevmax\creative\concepts-cinema\e3-12-unhinged-characters.png,
+w4-13-universe-bible,16:9,completed,425769103949607,C:\Users\ged\.zcode\workspace\default\jevmax\creative\concepts-cinema\w4-13-universe-bible.png,
+w4-14-book-trailers,16:9,completed,425769138702625,C:\Users\ged\.zcode\workspace\default\jevmax\creative\concepts-cinema\w4-14-book-trailers.png,
+w4-15-graphic-novels,9:16,completed,425769173538225,C:\Users\ged\.zcode\workspace\default\jevmax\creative\concepts-cinema\w4-15-graphic-novels.png,
+w4-16-ambient-cinema,16:9,completed,425769217152285,C:\Users\ged\.zcode\workspace\default\jevmax\creative\concepts-cinema\w4-16-ambient-cinema.png,

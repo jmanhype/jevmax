@@ -1,6 +1,6 @@
 {
   "baseline": "ad_library_mcp_raw.json",
-  "current": "samples/local_regression_combined.json",
+  "current": "samples\\local_regression_combined.json",
   "baseline_count": 49,
   "current_count": 74,
   "retained_count": 49,

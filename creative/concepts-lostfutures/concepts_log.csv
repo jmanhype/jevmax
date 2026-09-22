@@ -1,0 +1,17 @@
+slug,aspect,status,image_id,local_file,error
+01-magnitude,16:9,completed,425769483259715,C:\Users\ged\.zcode\workspace\default\jevmax\creative\concepts-lostfutures\01-magnitude.png,
+02-proximity,9:16,completed,425769517910618,C:\Users\ged\.zcode\workspace\default\jevmax\creative\concepts-lostfutures\02-proximity.png,
+03-karthell-95,16:9,completed,425769552252623,C:\Users\ged\.zcode\workspace\default\jevmax\creative\concepts-lostfutures\03-karthell-95.png,
+04-megacorp-office,16:9,completed,425769618361616,C:\Users\ged\.zcode\workspace\default\jevmax\creative\concepts-lostfutures\04-megacorp-office.png,
+05-creature-response-dashcam,16:9,completed,425769652824684,C:\Users\ged\.zcode\workspace\default\jevmax\creative\concepts-lostfutures\05-creature-response-dashcam.png,
+06-pizza-palace-cctv,16:9,completed,425769686773555,C:\Users\ged\.zcode\workspace\default\jevmax\creative\concepts-lostfutures\06-pizza-palace-cctv.png,
+07-aisle-13,16:9,completed,425769725629120,C:\Users\ged\.zcode\workspace\default\jevmax\creative\concepts-lostfutures\07-aisle-13.png,
+08-block-mission,16:9,error,,,"{
+  ""error"": ""Polling timed out after 300s (image_id: 425771036802823)""
+}
+"
+09-curriculum-breach,9:16,error,,,"{
+  ""error"": ""Polling timed out after 300s (image_id: 425772310914885)""
+}
+"
+10-inner-voltage,9:16,error,,,

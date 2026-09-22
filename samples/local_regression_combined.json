@@ -26,7 +26,7 @@
     "Save each result as a JSON array before combining.",
     "Do not retry indefinitely or attempt to circumvent the 50-result tool limit."
   ],
-  "generated_at": "2026-09-21T15:24:45+00:00",
+  "generated_at": "2026-09-21T16:21:13+00:00",
   "input_files": [
     "ad_library_mcp_raw.json",
     "ad_library_mcp_raw_deep.json",

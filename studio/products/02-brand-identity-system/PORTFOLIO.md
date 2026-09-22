@@ -2,16 +2,19 @@
 
 ## Client outcome
 
-Jevmax Studio defines and locks one reusable fictional advertising identity,
-then packages the approved seed and visual rules needed to reproduce it across
-campaign creative. The client gets a stable character system rather than a
-one-off image: one controlled face, one product relationship, one style
-register, and explicit safety/QA rules.
+Jevmax Studio defines and locks one reusable advertising identity, then
+packages the approved seed and visual rules needed to reproduce it across
+campaign creative. The identity is fictional by default; real-person talent
+likeness is offered only under a signed likeness release. The client gets a
+stable character system rather than a one-off image: one controlled face, one
+product relationship, one style register, and explicit safety/QA rules.
 
 ## What is included
 
 1. Identity discovery and character job summary.
-2. One fictional character contract with frozen appearance wording.
+2. One character contract with frozen appearance wording: fictional by
+   default, or consented talent with a signed likeness release (identity,
+   scope, term, compensation) attached before generation.
 3. One approved identity seed with SHA-256 integrity evidence.
 4. Visual grammar for framing, scene, wardrobe, product interaction, grade,
    motion, and prohibitions.
@@ -34,8 +37,10 @@ register, and explicit safety/QA rules.
 
 ## Not included
 
-- Real-person, celebrity, or living-artist likeness work.
-- Trademark, copyright, talent, or legal clearance.
+- Unlicensed real-person, celebrity, or living-artist likeness work; consented
+  talent likeness requires a signed likeness release on file first.
+- Trademark, copyright, talent, or legal clearance (the likeness release is
+  supplied by the client or their talent; this studio does not negotiate it).
 - Paid media launch or account changes.
 - Unlimited revisions.
 - New seed or premium generation without explicit operator approval.
@@ -59,6 +64,6 @@ approved. That product uses the locked identity to compare controlled concepts
 and motion variants before any paid launch.
 
 Choose **Category Signal Audit** first if the client still needs market/account
-diagnosis. Do not proceed if the client requests a real-person likeness or
-cannot accept AI-generated disclosure.
+diagnosis. Do not proceed if the client requests a real-person likeness
+without a signed likeness release, or cannot accept AI-generated disclosure.
 

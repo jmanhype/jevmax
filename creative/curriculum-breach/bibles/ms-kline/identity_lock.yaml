@@ -1,0 +1,27 @@
+# Ms. Kline — CHARACTER_IDENTITY_LOCK (Curriculum Breach, bible built 2026-09-22)
+# Skill source: sgflix-create-character-bible (gist 4f852148), adapted to
+# pixverse GPT-2.5 route (illustrated concept-art style lock = moderation-safe
+# person rendering; photoreal conversions later use page_01 as --image anchor).
+
+CHARACTER_IDENTITY_LOCK:
+  name: Ms. Kline
+  character_class: humanoid (rendered as 1991 animation production concept art)
+  age_cohort: mid-40s, veteran educator
+  species: Human
+  role: protagonist — compliance teacher, Unified Lesson District, 1991
+
+  morphology_lock: average height, upright institutional posture, composed stance, restrained precise gestures
+  cranial_lock: dark blonde hair in a stiff practical updo with side part, reading glasses on a beaded chain, calm guarded expression
+  surface_lock: 1991 public-school teacher wardrobe — wool cardigan over cotton blouse, midi skirt, flat shoes, district lanyard ID badge
+  appendage_lock: standard humanoid; hands usually hold the lesson binder or chalk
+  accessory_prop_lock: THE LESSON BINDER (accordion-thick, rubber-banded), chalk, seating-chart clipboard, wet-erase transparency marker
+  chromatic_lock: institutional teal / bone white / amber accents (district palette); NO neon, NO purple, NO warm orange
+  material_lock: wool cardigan texture, cotton blouse, laminated badge, worn vinyl binder, graphite and marker on toned paper
+  style_lock: 1991 animation production concept art — graphite and marker on toned paper, production design sheet
+
+  signature_visual_hooks:
+    - the rubber-banded lesson binder she is never without
+    - reading glasses on a beaded chain
+    - posture that reads "following the rules" even while standing still
+  DO_NOT_CHANGE: binder, glasses chain, updo with side part, district palette, 1991 wardrobe
+  BOUNDED_VARIATION: expression (composed → unsettled → alarmed), lighting (fluorescent → acetate-blue glow), pose (teaching → noticing → listening at the PA speaker)

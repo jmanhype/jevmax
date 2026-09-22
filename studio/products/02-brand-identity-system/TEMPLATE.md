@@ -34,7 +34,8 @@ re-deriving it for every ad.
 
 ### Excluded
 
-1. Living-person or celebrity likeness work.
+1. Unlicensed living-person or celebrity likeness work; consented talent
+   requires a signed likeness release attached to the project record.
 2. Trademark, copyright, talent, or legal clearance.
 3. Paid media deployment.
 4. Voice cloning or synthetic reproduction of a real person.
@@ -52,7 +53,7 @@ re-deriving it for every ad.
 | Brand palette and tone | Existing brand guide or proposed attributes | Must resolve conflicts before seed approval |
 | Format plan | Primary aspect ratios and channels | Seed must cover the first paid format |
 | Disclosure rule | Platform/client policy | Written into every deliverable |
-| Rights posture | Client confirmation that no real-person likeness is requested | Must pass before generation |
+| Rights posture | Fictional identity, or consented talent with a signed likeness release on file | Must pass before generation |
 
 ## 5. Identity production workflow
 
@@ -72,8 +73,10 @@ re-deriving it for every ad.
 2. Keep scene, wardrobe, pose, camera, product interaction, motion, and grade in
    separate variable sections.
 3. Add these mandatory constraints:
-   - `render_fictional_model_only: true`
-   - `no_real_person_likeness: true`
+   - `render_fictional_model_only: true` (for consented-talent projects,
+     replace with `likeness_release: <release file and SHA-256>`)
+   - `no_real_person_likeness: true` (omitted only when a likeness release is
+     attached)
    - `disclose_as_ai: true`
    - `product_must_be_legible: true`
 4. Store the contract as JSON so downstream render kits consume the same fields.
@@ -115,14 +118,14 @@ Define one dominant visual technique per execution, not a crowded style mixture:
 
 | Gate | Evidence required | Pass condition |
 |---|---|---|
-| G-ID01 Fictional identity | Identity JSON | Character is fictional and not based on a real person |
+| G-ID01 Identity basis | Identity JSON | Character is fictional, or is consented talent with a signed likeness release attached |
 | G-ID02 Frozen contract | Character block and change log | Approved wording is byte-stable across render variants |
 | G-ID03 Seed integrity | Local seed plus SHA-256 | File exists and hash matches the approved record |
 | G-ID04 Product legibility | Human review frames | Product is identifiable and not obscured |
 | G-ID05 Identity hold | Human review against seed | Face, hair, skin, wardrobe family, and expression remain recognizable |
 | G-ID06 Text and logo safety | Human review | No invented readable text, fake UI, or brand logo |
 | G-ID07 Disclosure | Identity JSON and delivery notes | AI-generated status is disclosed |
-| G-ID08 Rights posture | Client confirmation | No real-person likeness requested or used |
+| G-ID08 Rights posture | Release document where talent is real | No unlicensed real-person likeness requested or used |
 | G-ID09 Cost control | Render ledger | Cost and approval policy are recorded before scaling |
 | G-ID10 Reusability | Downstream variant JSON | One seed and one grammar drive multiple executions |
 
@@ -154,7 +157,7 @@ available.
 ## 9. Final checklist
 
 - [ ] Client question and category tension are stated.
-- [ ] No real-person likeness is requested.
+- [ ] Any real-person likeness is covered by a signed likeness release on file.
 - [ ] Character block is frozen verbatim.
 - [ ] Mandatory AI, fiction, product, and safety constraints are true.
 - [ ] Seed is approved, local, and hash-recorded.

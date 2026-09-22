@@ -1,5 +1,5 @@
 {
-  "sample": "samples/local_regression_combined.json",
+  "sample": "samples\\local_regression_combined.json",
   "unique_ad_count": 74,
   "tagged_ad_count": 74,
   "top_advertisers": [

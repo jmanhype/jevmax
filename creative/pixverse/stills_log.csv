@@ -1,0 +1,19 @@
+variant_id,model,status,credits,image_id,local_file,error
+V002-E01,gpt-image-2.5-flare,completed,0,425754117328652,,
+V002-E02,gpt-image-2.5-flare,completed,0,425754195902697,,
+V002-E03,gpt-image-2.5-flare,completed,0,425754235919647,,
+V002-E04,gpt-image-2.5-flare,completed,0,425754353847599,,
+V002-E05,gpt-image-2.5-flare,completed,0,425754392519140,,
+V002-E06,gpt-image-2.5-flare,error,0,,,"{
+  ""error"": ""Image generation failed (status: 7, image_id: 425754526807484)"",
+  ""code"": 0,
+  ""trace_id"": null
+}
+"
+V002-E07,gpt-image-2.5-flare,completed,0,425754605380012,,
+V002-E08,gpt-image-2.5-flare,error,0,,,"{
+  ""error"": ""Image generation failed (status: 7, image_id: 425754726186763)"",
+  ""code"": 0,
+  ""trace_id"": null
+}
+"

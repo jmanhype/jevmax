@@ -39,7 +39,8 @@ Current measured media cost:
 - Guaranteed ROAS
 - Silent campaign launch
 - Premium model use without explicit approval
-- Real-person likeness
+- Unlicensed real-person likeness (consented talent allowed only with a
+  signed likeness release, per the Brand Identity System rights gate)
 - Unsupported claims
 
 ## Timeline

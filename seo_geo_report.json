@@ -1,6 +1,6 @@
 {
-  "source": "benchmarks/search_console_sample.csv",
-  "generated_at": "2026-09-21T10:24:45",
+  "source": "benchmarks\\search_console_sample.csv",
+  "generated_at": "2026-09-21T11:21:14",
   "own_domain": "example.com",
   "min_impressions": 100,
   "rows": [
