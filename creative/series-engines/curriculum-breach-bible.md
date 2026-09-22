@@ -95,3 +95,21 @@ DOUBLE toward IG's 150-unit bio limit).
   the ⬇️ CTA points at nothing — the profile currently has NO external link.
 - **Coherence note:** the Beacons page already carries "AI Factory" branding
   across products, so the Protocol/factory naming lands on established ground.
+
+## Production status (2026-09-22, end of day one)
+
+- **Stills (0 credits, visual-gate passed):** evidence tape (E02), film poster
+  (blank banner — title composited in post), hall-pass model sheet (E04).
+  Hosted for queueing at jmanhype.github.io/lostfutures-board/curriculum-breach/.
+- **Poster Cannon test (sgflix-poster-first-validate): GREENLIT, 41/50**
+  (glance 9 / thumbnail 8 / buy 8 / era 9 / uniqueness 7).
+- **Ms. Kline character bible COMPLETE (sgflix-create-character-bible
+  workflow, 0 credits):** 8 pages, QC PASS 9/10 fidelity, md5 8/8 unique.
+  `creative/curriculum-breach/bibles/ms-kline/` (identity_lock.yaml +
+  all_8_prompts.md + images). Pages 02–08 anchored on page 01 via --image.
+  Style lock = 1991 animation production concept art (graphite/marker on toned
+  paper) — illustrated framing passes person-moderation cleanly.
+- **SGFLIX skills installed** from gist 4f852148 at ~/.zcode/skills with a
+  Windows adaptation note (pixverse GPT-2.5 route).
+- Remaining before first CB reel: video-engine credits (decision pending),
+  prank-test archive call, title composite on the poster.
