@@ -1,0 +1,7 @@
+date,slug,image_id,aspect,credits,qa,notes
+2026-09-22,cu-01-safety-award,425967167763919,4:5,0,PENDING,first cursed seed render
+2026-09-22,cu-01b-safety-award-backrow,425967330929009,4:5,0,PASS,refinement pass; back-row placement
+2026-09-22,cu-02-trail-cam,425967924173279,4:5,0,PASS,IR trail cam; house-scale flank
+2026-09-22,cu-03-dinner-aisle-7,425967952916038,4:5,0,PASS,disposable camera; cart dinner
+2026-09-22,cu-04-birthday-tape,425967981569263,4:5,0,PASS,paused VHS frame; still guest
+2026-09-22,cu-05-floor-plan-ends,425968009532890,4:5,0,PASS,listing photo; too-tall door

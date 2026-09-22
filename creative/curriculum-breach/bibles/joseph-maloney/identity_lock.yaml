@@ -1,0 +1,28 @@
+# Joseph Maloney — CHARACTER_IDENTITY_LOCK (Curriculum Breach, bible built 2026-09-22)
+# Skill source: sgflix-create-character-bible (gist 4f852148), pixverse GPT-2.5
+# route, illustrated concept-art style lock (moderation-safe child character —
+# same rule as Ms. Kline: never photoreal until separately cleared).
+
+CHARACTER_IDENTITY_LOCK:
+  name: Joseph Maloney
+  character_class: humanoid (rendered as 1991 animation production concept art)
+  age_cohort: 10, fourth grade, Lincoln Elementary
+  species: Human
+  role: protagonist — the student who keeps noticing extra slides
+
+  morphology_lock: small slight bookish build, front-row posture, careful movements
+  cranial_lock: brown hair in a slightly overgrown home haircut, oversized hand-me-down eyeglasses with one taped corner, attentive watchful expression
+  surface_lock: 1991 kid wardrobe — amber nylon windbreaker over striped rugby shirt, corduroy pants, high-top sneakers
+  appendage_lock: standard humanoid; hands usually hold a pencil or the Trapper Keeper
+  accessory_prop_lock: THE HALL PASS (laminated card on a lanyard), wooden #2 pencil, Trapper Keeper style folder
+  chromatic_lock: amber-led accent over district palette (institutional teal / bone white / corduroy tan); NO neon, NO purple
+  material_lock: nylon windbreaker sheen, cotton rugby stripes, wale corduroy, laminated card, graphite and marker on toned paper
+  style_lock: 1991 animation production concept art — graphite and marker on toned paper, production design sheet
+
+  signature_visual_hooks:
+    - the amber windbreaker (his one bright thing in a teal school)
+    - oversized glasses with one taped corner
+    - the hall pass on its lanyard — E04's prop
+    - pencil behind the ear
+  DO_NOT_CHANGE: windbreaker, taped glasses, overgrown haircut, hall pass lanyard, 1991 kid wardrobe, district palette
+  BOUNDED_VARIATION: expression (attentive → puzzled → quietly unnerved), lighting (fluorescent → acetate-blue glow), pose (hand raised → walking corridor → looking back down a hallway)

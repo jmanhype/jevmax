@@ -18,6 +18,10 @@ previous one is concrete.
                ships the STILL SEED prompt (create image), the VIDEO DIRECTION
                (create video --image <seed>, image-to-video) and a hook-line
                TTS command. Web agent (app.pixverse.ai/agent) is the fallback.
+8. SCHEDULE    Buffer MCP (remote, https://mcp.buffer.com/mcp) -> queue Reels
+               and carousels to the two connected IG channels. Token lives in
+               ~/.zcode config + ~/.claude.json + ~/.cursor/mcp.json — never
+               in this repo.
 ```
 
 ## How the tools connect
@@ -90,3 +94,28 @@ previous one is concrete.
       **MiniMax H3 768p = 150 credits**. V6 preserved the seed composition and
       no-text constraint; H3 drifted Ava from seated-on-towel to standing in
       shallow water. Full record: `runs/2026-09-20/cli-price-test/REPORT.md`.
+- [ ] Upstream board expansion — 2026-09-21. The related Lost Futures board adds
+      six planned business clusters, six planned cinema/story clusters, and
+      cross-cutting intake tags. Jevmax routing is recorded in
+      [board-expansion-clusters.md](board-expansion-clusters.md). No image or
+      video generation has been submitted for those planned clusters.
+- [x] CLI re-auth + upgrade 2026-09-22: token had expired (code 10002);
+      device-flow re-login OK (Pro), CLI 1.4.1 -> 1.4.5. Current balance:
+      **10,595 credits** (60 daily + 4,445 membership + 6,090 bonus,
+      3 high-quality renders left). ~1,080 credits spent since the 09-20
+      figure — reconcile against render_log.csv before budgeting the next batch.
+- [x] Jev judgment gate integrated 2026-09-22 (pijev, permutation-invariant).
+      House method is the skill-correct pattern from docs.typesafe.ai: NARROW
+      one-judgment questions over a factual state, weights combined in code
+      (30/30/15/15/10), a none_of_these option, speculative premises marked.
+      No composite "pick the best overall" questions. API key lives in the
+      operator's shell env, never in this repo. Decisions logged with their
+      probability distributions in the franchise logs.
+- [x] Layer 8 machinery: Buffer MCP installed + verified 2026-09-22.
+      20 tools incl. create_post, list_posts, ideas, templates, post metrics,
+      plus generic GraphQL (execute_query / execute_mutation /
+      introspect_schema). Token verified end-to-end via get_account +
+      list_channels. Connected channels: glowgolfchronicles + batmanosama
+      (both IG business). Free-tier limits: 3 channels / 10 scheduled posts /
+      100 ideas. Reels/video upload via create_post is untested — verify with
+      a throwaway draft before planning the cadence around it.

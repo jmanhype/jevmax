@@ -2,3 +2,6 @@ date,slug,image_id,aspect,credits,qa,notes
 2026-09-22,e02-evidence-tape-a1,425954080402893,1:1,0,PASS,evidence tape still; first-try
 2026-09-22,poster-a1,URL-41c8d57c,3:4,0,PASS,film poster art; blank banner; first-try
 2026-09-22,e04-model-sheet-a1,URL-3934ee6e,1:1,0,PASS,hall pass model sheet; first-try
+2026-09-22,poster-s1-joseph,425970266394641,27:40,0,OPERATOR-PREMISE-REJECT,craft 42/50 accurate; premise failed — title is jargon, tagline dumb, no stakes sold; reframe premise
+2026-09-22,poster-s1-titled,425970678915431,27:40,0,OPERATOR-PREMISE-REJECT,title text clean; inherits premise reject
+2026-09-22,poster-substitute,425971351207531,27:40,0,PENDING-OPERATOR,jev reframe: premise=teacher-replacement 0.40 title=THE SUBSTITUTE 0.79; awaiting operator verdict

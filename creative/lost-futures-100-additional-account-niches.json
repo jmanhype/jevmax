@@ -1,0 +1,2393 @@
+{
+  "schema": "lostfutures-additional-account-niches-v1",
+  "description": "Operator-supplied 100-niche expansion and TypeSafe Jev ranking addendum.",
+  "id_namespace": "additional-niches",
+  "id_range": [
+    1,
+    100
+  ],
+  "counts": {
+    "niches": 100,
+    "categories": 10,
+    "rankings": 100
+  },
+  "judgment": {
+    "model": "jev-1.13.0",
+    "provenance": "operator-supplied TypeSafe Jev output",
+    "dimensions": [
+      "distinctiveness",
+      "repeatability",
+      "commercial_potential"
+    ],
+    "scale": [
+      0,
+      3
+    ],
+    "weights": {
+      "distinctiveness": 0.4,
+      "repeatability": 0.35,
+      "commercial_potential": 0.25
+    },
+    "verdict_rules": {
+      "Launch": "composite >= 2.45 and all dimensions >= 2.0",
+      "Develop": "promising but needs sharper constraints",
+      "Park": "needs a different core"
+    }
+  },
+  "categories": [
+    {
+      "category": "Graphic worlds",
+      "entry_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "category": "Consumer worlds",
+      "entry_ids": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "category": "Fictional media ecosystems",
+      "entry_ids": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ]
+    },
+    {
+      "category": "Manuals, diagrams, and institutions",
+      "entry_ids": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "category": "Places with a production rule",
+      "entry_ids": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ]
+    },
+    {
+      "category": "Characters and object ensembles",
+      "entry_ids": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ]
+    },
+    {
+      "category": "Image and physical-media formats",
+      "entry_ids": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ]
+    },
+    {
+      "category": "Play, sport, and tabletop worlds",
+      "entry_ids": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ]
+    },
+    {
+      "category": "Science, nature, and speculative education",
+      "entry_ids": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ]
+    },
+    {
+      "category": "Social systems and restrained surreal comedy",
+      "entry_ids": [
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ]
+    }
+  ],
+  "niches": [
+    {
+      "id": 1,
+      "account": "Atomic Gardening Bureau",
+      "aesthetic": "1967–75 civic-science posters that treat home gardening as national atomic preparedness",
+      "feed": [
+        "seed packets",
+        "crop diagrams",
+        "propaganda posters",
+        "tool ads"
+      ],
+      "category": "Graphic worlds"
+    },
+    {
+      "id": 2,
+      "account": "Planetarium After Dark",
+      "aesthetic": "1970s regional planetarium graphics for impossible constellations and extinct skies",
+      "feed": [
+        "star charts",
+        "lobby murals",
+        "show tickets",
+        "projector stills"
+      ],
+      "category": "Graphic worlds"
+    },
+    {
+      "id": 3,
+      "account": "Neon Apocrypha",
+      "aesthetic": "1970s occult-bookshop window posters for invented religions of light, glass, and weather",
+      "feed": [
+        "cover art",
+        "ritual diagrams",
+        "shop displays",
+        "bookmark sets"
+      ],
+      "category": "Graphic worlds"
+    },
+    {
+      "id": 4,
+      "account": "Airport Mural Futures",
+      "aesthetic": "1973–82 terminal wall murals imagining glamorous, impossible destinations",
+      "feed": [
+        "mural panels",
+        "gate brochures",
+        "luggage tags",
+        "lounge decor"
+      ],
+      "category": "Graphic worlds"
+    },
+    {
+      "id": 5,
+      "account": "Mirrorball Public Health",
+      "aesthetic": "1978–84 disco-era public-health graphics about surreal social problems",
+      "feed": [
+        "posters",
+        "pamphlets",
+        "hotline cards",
+        "dance-floor diagrams"
+      ],
+      "category": "Graphic worlds"
+    },
+    {
+      "id": 6,
+      "account": "Rainforest Xerox Society",
+      "aesthetic": "1980s environmental-activist photocopy graphics documenting fictional ecosystems",
+      "feed": [
+        "field flyers",
+        "animal profiles",
+        "protest patches",
+        "donor mailers"
+      ],
+      "category": "Graphic worlds"
+    },
+    {
+      "id": 7,
+      "account": "Mail-Order Magic Depot",
+      "aesthetic": "1977–88 catalog art for household sorcery, stage tricks, and impossible appliances",
+      "feed": [
+        "catalog pages",
+        "order forms",
+        "product demos",
+        "guarantee cards"
+      ],
+      "category": "Graphic worlds"
+    },
+    {
+      "id": 8,
+      "account": "Soft Metal Almanac",
+      "aesthetic": "early-80s brushed-chrome editorial design for forecasts from alternate planets",
+      "feed": [
+        "calendar spreads",
+        "weather icons",
+        "magazine covers",
+        "desk objects"
+      ],
+      "category": "Graphic worlds"
+    },
+    {
+      "id": 9,
+      "account": "Skatepark Mythology",
+      "aesthetic": "1991–96 photocopied skate-zine graphics that turn suburban spots into fantasy realms",
+      "feed": [
+        "spot maps",
+        "deck art",
+        "stickers",
+        "fake competition posters"
+      ],
+      "category": "Graphic worlds"
+    },
+    {
+      "id": 10,
+      "account": "Chromed Astrology",
+      "aesthetic": "1980s mall-poster astrology using machines, satellites, and highways instead of zodiac animals",
+      "feed": [
+        "monthly charts",
+        "foil posters",
+        "compatibility cards",
+        "kiosk displays"
+      ],
+      "category": "Graphic worlds"
+    },
+    {
+      "id": 11,
+      "account": "Aquarium Luxury Quarterly",
+      "aesthetic": "1970s aspirational advertising for wildly overengineered home aquariums",
+      "feed": [
+        "fish-tank interiors",
+        "equipment spreads",
+        "owner portraits",
+        "price cards"
+      ],
+      "category": "Consumer worlds"
+    },
+    {
+      "id": 12,
+      "account": "Bedroom Satellite Club",
+      "aesthetic": "1984–91 teen catalogs for bedroom astronomy gear and private radio receivers",
+      "feed": [
+        "kits",
+        "room layouts",
+        "club newsletters",
+        "product comparisons"
+      ],
+      "category": "Consumer worlds"
+    },
+    {
+      "id": 13,
+      "account": "Kitchen Oracle Systems",
+      "aesthetic": "late-70s countertop devices marketed as domestic prediction machines",
+      "feed": [
+        "appliance ads",
+        "recipe forecasts",
+        "manuals",
+        "test kitchens"
+      ],
+      "category": "Consumer worlds"
+    },
+    {
+      "id": 14,
+      "account": "Hotel Amenity Mythos",
+      "aesthetic": "1980s branded hotel toiletries and room-service objects from imaginary chains",
+      "feed": [
+        "soap wrappers",
+        "keycards",
+        "minibars",
+        "in-room channel guides"
+      ],
+      "category": "Consumer worlds"
+    },
+    {
+      "id": 15,
+      "account": "Pool Supply Fantasia",
+      "aesthetic": "1978–86 pool-store display art where backyard equipment promises oceanic transcendence",
+      "feed": [
+        "inflatable catalogs",
+        "water-test cards",
+        "poolside vignettes",
+        "signage"
+      ],
+      "category": "Consumer worlds"
+    },
+    {
+      "id": 16,
+      "account": "Carpet Kingdoms",
+      "aesthetic": "1980s flooring-showroom fantasy worlds built around impossible carpet patterns",
+      "feed": [
+        "room sets",
+        "swatch books",
+        "dealer ads",
+        "installation diagrams"
+      ],
+      "category": "Consumer worlds"
+    },
+    {
+      "id": 17,
+      "account": "Sunroom Electronics",
+      "aesthetic": "early-90s consumer catalogs for light-sensitive home electronics and therapeutic screens",
+      "feed": [
+        "product shots",
+        "comparison grids",
+        "instruction cards",
+        "interiors"
+      ],
+      "category": "Consumer worlds"
+    },
+    {
+      "id": 18,
+      "account": "Nightshift Vending League",
+      "aesthetic": "1980s vending machines with rival brand personalities after the mall closes",
+      "feed": [
+        "machine portraits",
+        "snack packaging",
+        "route maps",
+        "maintenance logs"
+      ],
+      "category": "Consumer worlds"
+    },
+    {
+      "id": 19,
+      "account": "Unfinished Appliance Museum",
+      "aesthetic": "1970–89 prototypes of household devices that solve problems no one had",
+      "feed": [
+        "turnarounds",
+        "patent drawings",
+        "showroom cards",
+        "failure reports"
+      ],
+      "category": "Consumer worlds"
+    },
+    {
+      "id": 20,
+      "account": "Perfume from Tomorrow",
+      "aesthetic": "1980s fragrance campaigns for atmospheres, memories, and weather systems",
+      "feed": [
+        "bottle art",
+        "magazine ads",
+        "scent notes",
+        "department-counter displays"
+      ],
+      "category": "Consumer worlds"
+    },
+    {
+      "id": 21,
+      "account": "Video Rental Cosmology",
+      "aesthetic": "1986–94 box art for movies that only existed on one damaged rental shelf",
+      "feed": [
+        "clamshell covers",
+        "staff picks",
+        "late-fee slips",
+        "shelf photography"
+      ],
+      "category": "Fictional media ecosystems"
+    },
+    {
+      "id": 22,
+      "account": "Midnight Matinee Lobby",
+      "aesthetic": "1970s theater-lobby art for unmade cosmic melodramas",
+      "feed": [
+        "one-sheets",
+        "standees",
+        "ticket stubs",
+        "concession promos"
+      ],
+      "category": "Fictional media ecosystems"
+    },
+    {
+      "id": 23,
+      "account": "Practical Creature Workshop",
+      "aesthetic": "1990s behind-the-scenes effects-shop documentation for original monsters",
+      "feed": [
+        "foam tests",
+        "costume turnarounds",
+        "makeup chairs",
+        "call sheets"
+      ],
+      "category": "Fictional media ecosystems"
+    },
+    {
+      "id": 24,
+      "account": "Roller Rink Melodrama",
+      "aesthetic": "1982–89 rink flyers and photo stories for fictional regional dance legends",
+      "feed": [
+        "event posters",
+        "rental-skate ads",
+        "portraits",
+        "song lists"
+      ],
+      "category": "Fictional media ecosystems"
+    },
+    {
+      "id": 25,
+      "account": "Fantasy Wrestling Annual",
+      "aesthetic": "1980s regional wrestling programs where every wrestler belongs to an unreal mythic territory",
+      "feed": [
+        "match cards",
+        "belt designs",
+        "promos",
+        "arena posters"
+      ],
+      "category": "Fictional media ecosystems"
+    },
+    {
+      "id": 26,
+      "account": "Photo Studio Quest",
+      "aesthetic": "1990s mall-portrait packages that place families in elaborate fantasy worlds",
+      "feed": [
+        "backdrop sets",
+        "package sheets",
+        "sample portraits",
+        "coupon mailers"
+      ],
+      "category": "Fictional media ecosystems"
+    },
+    {
+      "id": 27,
+      "account": "Basement Band Federation",
+      "aesthetic": "1987–94 flyers, cassettes, and stage shots from an invented all-ages music circuit",
+      "feed": [
+        "show bills",
+        "tape J-cards",
+        "venue maps",
+        "band logos"
+      ],
+      "category": "Fictional media ecosystems"
+    },
+    {
+      "id": 28,
+      "account": "Commercial Break Kingdom",
+      "aesthetic": "1980s fictional ad campaigns for an original shared fantasy setting",
+      "feed": [
+        "cereal spots",
+        "toy ads",
+        "sponsor bumpers",
+        "product tie-ins"
+      ],
+      "category": "Fictional media ecosystems"
+    },
+    {
+      "id": 29,
+      "account": "Fanzine Space Bureau",
+      "aesthetic": "1970s fan-club newsletters for a nonexistent space serial",
+      "feed": [
+        "letter columns",
+        "fan art",
+        "convention passes",
+        "episode guides"
+      ],
+      "category": "Fictional media ecosystems"
+    },
+    {
+      "id": 30,
+      "account": "Puppet Crime Desk",
+      "aesthetic": "1988–95 crime-scene melodrama performed by handmade tabletop puppets",
+      "feed": [
+        "noir stills",
+        "suspect cards",
+        "evidence boards",
+        "episode covers"
+      ],
+      "category": "Fictional media ecosystems"
+    },
+    {
+      "id": 31,
+      "account": "Weather Modification Office",
+      "aesthetic": "1970s government diagrams for modest, poorly understood local climate control",
+      "feed": [
+        "cloud plans",
+        "warning maps",
+        "training binders",
+        "public notices"
+      ],
+      "category": "Manuals, diagrams, and institutions"
+    },
+    {
+      "id": 32,
+      "account": "Elevator to Nowhere Maintenance",
+      "aesthetic": "1980s technician manuals for elevators that serve unlisted floors",
+      "feed": [
+        "schematics",
+        "inspection cards",
+        "cab interiors",
+        "service badges"
+      ],
+      "category": "Manuals, diagrams, and institutions"
+    },
+    {
+      "id": 33,
+      "account": "Civic Aquarium Authority",
+      "aesthetic": "1970s municipal reports treating public fish tanks as infrastructure",
+      "feed": [
+        "blueprints",
+        "maintenance schedules",
+        "ribbon cuttings",
+        "issue notices"
+      ],
+      "category": "Manuals, diagrams, and institutions"
+    },
+    {
+      "id": 34,
+      "account": "Dream Machine Support",
+      "aesthetic": "1980s technical-support artifacts for sleep-recording hardware",
+      "feed": [
+        "troubleshooting cards",
+        "error screens",
+        "headset diagrams",
+        "support logs"
+      ],
+      "category": "Manuals, diagrams, and institutions"
+    },
+    {
+      "id": 35,
+      "account": "Satellite Installer School",
+      "aesthetic": "1980s vocational graphics for technicians wiring impossible orbital services",
+      "feed": [
+        "tool kits",
+        "rooftop diagrams",
+        "course books",
+        "van decals"
+      ],
+      "category": "Manuals, diagrams, and institutions"
+    },
+    {
+      "id": 36,
+      "account": "Salon Futures Training",
+      "aesthetic": "1980s beauty-school materials for hairstyles designed around speculative technology",
+      "feed": [
+        "mannequin studies",
+        "lesson cards",
+        "product charts",
+        "salon interiors"
+      ],
+      "category": "Manuals, diagrams, and institutions"
+    },
+    {
+      "id": 37,
+      "account": "Industrial Safety Mascots",
+      "aesthetic": "1970s factory-safety characters who slowly reveal the danger they were made to hide",
+      "feed": [
+        "posters",
+        "badges",
+        "training comics",
+        "incident diagrams"
+      ],
+      "category": "Manuals, diagrams, and institutions"
+    },
+    {
+      "id": 38,
+      "account": "Ride Engineer’s Notebook",
+      "aesthetic": "1980s amusement-ride sketches, restraint tests, and concept revisions",
+      "feed": [
+        "blueprints",
+        "model photos",
+        "rider notices",
+        "park maps"
+      ],
+      "category": "Manuals, diagrams, and institutions"
+    },
+    {
+      "id": 39,
+      "account": "Ocean Research Annex",
+      "aesthetic": "1970s field notebooks from a coastal lab studying an impossible undersea habitat",
+      "feed": [
+        "specimen plates",
+        "dive logs",
+        "sonar charts",
+        "equipment photos"
+      ],
+      "category": "Manuals, diagrams, and institutions"
+    },
+    {
+      "id": 40,
+      "account": "Realty for Other Planets",
+      "aesthetic": "1980s sales brochures for second homes on mildly unsuitable worlds",
+      "feed": [
+        "floor plans",
+        "amenity lists",
+        "realtor portraits",
+        "financing ads"
+      ],
+      "category": "Manuals, diagrams, and institutions"
+    },
+    {
+      "id": 41,
+      "account": "Underwater Mall Studies",
+      "aesthetic": "1980s mall architecture reimagined as submerged consumer environments",
+      "feed": [
+        "food courts",
+        "shop fronts",
+        "directory maps",
+        "diving mannequins"
+      ],
+      "category": "Places with a production rule"
+    },
+    {
+      "id": 42,
+      "account": "Desert Observatory Motel",
+      "aesthetic": "1970s roadside lodging built for amateur astronomers and strange sky events",
+      "feed": [
+        "room cards",
+        "telescope pads",
+        "postcards",
+        "night photos"
+      ],
+      "category": "Places with a production rule"
+    },
+    {
+      "id": 43,
+      "account": "Cloudline Diner",
+      "aesthetic": "1980s high-altitude roadside diners above the weather",
+      "feed": [
+        "menus",
+        "neon exteriors",
+        "waitress uniforms",
+        "mountain-window scenes"
+      ],
+      "category": "Places with a production rule"
+    },
+    {
+      "id": 44,
+      "account": "Cruise Ship Solarium",
+      "aesthetic": "late-70s interiors for ocean liners that promise artificial daylight and eternal afternoon",
+      "feed": [
+        "deck plans",
+        "lounge photos",
+        "cocktail menus",
+        "uniforms"
+      ],
+      "category": "Places with a production rule"
+    },
+    {
+      "id": 45,
+      "account": "Mechanical Garden District",
+      "aesthetic": "1970s public gardens maintained by theatrical machines and seasonal automata",
+      "feed": [
+        "visitor maps",
+        "machine portraits",
+        "flower charts",
+        "tickets"
+      ],
+      "category": "Places with a production rule"
+    },
+    {
+      "id": 46,
+      "account": "Rain Camp Television",
+      "aesthetic": "1980s tropical research-station media recorded during a permanent storm season",
+      "feed": [
+        "camp interiors",
+        "antenna rigs",
+        "field reports",
+        "weather boards"
+      ],
+      "category": "Places with a production rule"
+    },
+    {
+      "id": 47,
+      "account": "Gas Station Wonderlands",
+      "aesthetic": "1980s highway fuel stops built around one giant, inexplicable attraction",
+      "feed": [
+        "postcards",
+        "roadside signs",
+        "maps",
+        "souvenir counters"
+      ],
+      "category": "Places with a production rule"
+    },
+    {
+      "id": 48,
+      "account": "Arcade Funeral Homes",
+      "aesthetic": "1990s small-town memorial parlors with coin-operated remembrance rooms",
+      "feed": [
+        "brochures",
+        "cabinet art",
+        "candle cards",
+        "waiting-room stills"
+      ],
+      "category": "Places with a production rule"
+    },
+    {
+      "id": 49,
+      "account": "Lunar Subdivision Office",
+      "aesthetic": "1970s real-estate material for prefabricated neighborhoods on the moon",
+      "feed": [
+        "lot maps",
+        "model homes",
+        "financing pages",
+        "site photos"
+      ],
+      "category": "Places with a production rule"
+    },
+    {
+      "id": 50,
+      "account": "Night Greenhouse District",
+      "aesthetic": "1980s commercial greenhouses glowing beside otherwise dead highways",
+      "feed": [
+        "plant catalogs",
+        "worker portraits",
+        "sodium-lit exteriors",
+        "delivery labels"
+      ],
+      "category": "Places with a production rule"
+    },
+    {
+      "id": 51,
+      "account": "Pollution Patrol Mascots",
+      "aesthetic": "1970s civic creature mascots whose ecology lessons become increasingly bizarre",
+      "feed": [
+        "costume cards",
+        "school posters",
+        "collector patches",
+        "parade stills"
+      ],
+      "category": "Characters and object ensembles"
+    },
+    {
+      "id": 52,
+      "account": "Regional Sports Creatures",
+      "aesthetic": "1980s minor-league mascots without teams, cities, or understandable sports",
+      "feed": [
+        "mascot portraits",
+        "programs",
+        "foam hands",
+        "stadium signage"
+      ],
+      "category": "Characters and object ensembles"
+    },
+    {
+      "id": 53,
+      "account": "Ceremonial Motorcycle Helmets",
+      "aesthetic": "1980s biker helmets designed for invented road religions",
+      "feed": [
+        "product turnarounds",
+        "rider portraits",
+        "patch systems",
+        "ritual route maps"
+      ],
+      "category": "Characters and object ensembles"
+    },
+    {
+      "id": 54,
+      "account": "Sleepover Monster Products",
+      "aesthetic": "1990s ads for bedding, pajamas, and night-lights designed around original friendly monsters",
+      "feed": [
+        "packages",
+        "bedrooms",
+        "catalog pages",
+        "TV-commercial frames"
+      ],
+      "category": "Characters and object ensembles"
+    },
+    {
+      "id": 55,
+      "account": "Restaurant Space Mascots",
+      "aesthetic": "1980s chain-restaurant characters from an interplanetary food court",
+      "feed": [
+        "kids’ menus",
+        "cups",
+        "uniforms",
+        "birthday-room stills"
+      ],
+      "category": "Characters and object ensembles"
+    },
+    {
+      "id": 56,
+      "account": "Field Gear for Rural Giants",
+      "aesthetic": "1970s catalogs for hunting, measuring, and documenting massive unknown animals",
+      "feed": [
+        "equipment diagrams",
+        "terrain cards",
+        "case files",
+        "apparel"
+      ],
+      "category": "Characters and object ensembles"
+    },
+    {
+      "id": 57,
+      "account": "Ceramic Robot Families",
+      "aesthetic": "1980s figurines of domestic robots with a strict collectible genealogy",
+      "feed": [
+        "family trees",
+        "shelf displays",
+        "catalog pages",
+        "authenticity seals"
+      ],
+      "category": "Characters and object ensembles"
+    },
+    {
+      "id": 58,
+      "account": "Overhead Projector Saints",
+      "aesthetic": "1970s classroom transparencies depicting saints of bureaucracy, maintenance, and office life",
+      "feed": [
+        "acetate layers",
+        "lesson plans",
+        "projector stills",
+        "prayer cards"
+      ],
+      "category": "Characters and object ensembles"
+    },
+    {
+      "id": 59,
+      "account": "Inflatable Mythology",
+      "aesthetic": "1980s backyard inflatables based on an original pantheon of weather gods",
+      "feed": [
+        "box art",
+        "pool scenes",
+        "repair kits",
+        "collector editions"
+      ],
+      "category": "Characters and object ensembles"
+    },
+    {
+      "id": 60,
+      "account": "Convenience Store Knights",
+      "aesthetic": "1990s late-night clerk uniforms and promotional armor from rival mini-mart chains",
+      "feed": [
+        "uniforms",
+        "loyalty cards",
+        "aisle scenes",
+        "store maps"
+      ],
+      "category": "Characters and object ensembles"
+    },
+    {
+      "id": 61,
+      "account": "Xerox Oracle Files",
+      "aesthetic": "1980s black-and-white dossiers that use office copying as an occult medium",
+      "feed": [
+        "dossiers",
+        "degraded symbols",
+        "binder tabs",
+        "copier-room stills"
+      ],
+      "category": "Image and physical-media formats"
+    },
+    {
+      "id": 62,
+      "account": "Microfiche Moonshots",
+      "aesthetic": "1970s library microfiche of forgotten civilian space programs",
+      "feed": [
+        "viewer screens",
+        "catalog cards",
+        "film frames",
+        "annotation slips"
+      ],
+      "category": "Image and physical-media formats"
+    },
+    {
+      "id": 63,
+      "account": "Thermal Fax Forecasts",
+      "aesthetic": "1990s fax transmissions that predict highly specific, impossible events",
+      "feed": [
+        "thermal pages",
+        "office receipts",
+        "timestamped updates",
+        "machine closeups"
+      ],
+      "category": "Image and physical-media formats"
+    },
+    {
+      "id": 64,
+      "account": "Slide Carousel Tourism",
+      "aesthetic": "1970s vacation slides from locations that change whenever the projector advances",
+      "feed": [
+        "slide frames",
+        "travel notes",
+        "projector trays",
+        "map fragments"
+      ],
+      "category": "Image and physical-media formats"
+    },
+    {
+      "id": 65,
+      "account": "Photobooth Doppelgänger Club",
+      "aesthetic": "1980s mall strips in which a second person appears one frame too late",
+      "feed": [
+        "photo strips",
+        "booth signage",
+        "member cards",
+        "mall context"
+      ],
+      "category": "Image and physical-media formats"
+    },
+    {
+      "id": 66,
+      "account": "Super-8 Recipe Cinema",
+      "aesthetic": "1970s home movies teaching ceremonial recipes for unrecognizable holidays",
+      "feed": [
+        "recipe cards",
+        "film frames",
+        "kitchen props",
+        "title inserts"
+      ],
+      "category": "Image and physical-media formats"
+    },
+    {
+      "id": 67,
+      "account": "Refrigerator Magnet Archives",
+      "aesthetic": "1980s family-kitchen ephemera that documents a quietly impossible household history",
+      "feed": [
+        "magnets",
+        "notes",
+        "school photos",
+        "appliance details"
+      ],
+      "category": "Image and physical-media formats"
+    },
+    {
+      "id": 68,
+      "account": "Discontinued Wallpaper Samples",
+      "aesthetic": "1970s pattern books that reveal a different domestic event in every swatch",
+      "feed": [
+        "swatches",
+        "showroom rooms",
+        "sample labels",
+        "installer notes"
+      ],
+      "category": "Image and physical-media formats"
+    },
+    {
+      "id": 69,
+      "account": "Receipt Printer Mythology",
+      "aesthetic": "1990s retail receipts functioning as tiny prophecies and serialized lore",
+      "feed": [
+        "receipts",
+        "counter scenes",
+        "loyalty cards",
+        "product pairings"
+      ],
+      "category": "Image and physical-media formats"
+    },
+    {
+      "id": 70,
+      "account": "Answering Machine Theater",
+      "aesthetic": "1980s voice-message transcripts paired with domestic still-life evidence",
+      "feed": [
+        "tape labels",
+        "message cards",
+        "phone closeups",
+        "aftermath scenes"
+      ],
+      "category": "Image and physical-media formats"
+    },
+    {
+      "id": 71,
+      "account": "Boardgame Continents",
+      "aesthetic": "1970s strategy-game maps for civilizations with strange domestic priorities",
+      "feed": [
+        "boards",
+        "tokens",
+        "rulebook spreads",
+        "boxed-set art"
+      ],
+      "category": "Play, sport, and tabletop worlds"
+    },
+    {
+      "id": 72,
+      "account": "Tabletop Weather Wars",
+      "aesthetic": "1980s miniature games where storms are armies and forecasts are combat rules",
+      "feed": [
+        "terrain boards",
+        "figurines",
+        "rule cards",
+        "battle reports"
+      ],
+      "category": "Play, sport, and tabletop worlds"
+    },
+    {
+      "id": 73,
+      "account": "Fantasy Pinball Institute",
+      "aesthetic": "1980s pinball tables designed around original cosmologies",
+      "feed": [
+        "backglass art",
+        "playfields",
+        "score displays",
+        "arcade flyers"
+      ],
+      "category": "Play, sport, and tabletop worlds"
+    },
+    {
+      "id": 74,
+      "account": "Pocket Game Bureau",
+      "aesthetic": "1990s handheld electronic games for weirdly narrow jobs and civic duties",
+      "feed": [
+        "packaging",
+        "LCD screenshots",
+        "manuals",
+        "retail displays"
+      ],
+      "category": "Play, sport, and tabletop worlds"
+    },
+    {
+      "id": 75,
+      "account": "Laser-Tag Nation",
+      "aesthetic": "1990s arena branding, team patches, armor concepts, and score-screen mythology",
+      "feed": [
+        "arena maps",
+        "vest art",
+        "team cards",
+        "birthday packages"
+      ],
+      "category": "Play, sport, and tabletop worlds"
+    },
+    {
+      "id": 76,
+      "account": "Glow Golf Chronicles",
+      "aesthetic": "1990s blacklight miniature-golf worlds with serialized course lore",
+      "feed": [
+        "hole maps",
+        "scorecards",
+        "mascot signs",
+        "prize counter art"
+      ],
+      "category": "Play, sport, and tabletop worlds"
+    },
+    {
+      "id": 77,
+      "account": "Wind-Up Olympiad",
+      "aesthetic": "1980s competitive leagues for elaborate mechanical toys",
+      "feed": [
+        "athlete toys",
+        "event posters",
+        "ranking boards",
+        "repair benches"
+      ],
+      "category": "Play, sport, and tabletop worlds"
+    },
+    {
+      "id": 78,
+      "account": "Puzzle Box Embassy",
+      "aesthetic": "1970s diplomatic artifacts from nations that communicate only through physical puzzles",
+      "feed": [
+        "boxes",
+        "instruction diagrams",
+        "seals",
+        "dispatches"
+      ],
+      "category": "Play, sport, and tabletop worlds"
+    },
+    {
+      "id": 79,
+      "account": "Carnival Science League",
+      "aesthetic": "1980s midway games that double as dubious public experiments",
+      "feed": [
+        "booth art",
+        "prize designs",
+        "data cards",
+        "operator uniforms"
+      ],
+      "category": "Play, sport, and tabletop worlds"
+    },
+    {
+      "id": 80,
+      "account": "Family RPG Appliance Guide",
+      "aesthetic": "1980s household products sold as gear for an original kitchen-fantasy role-playing game",
+      "feed": [
+        "manuals",
+        "item cards",
+        "boxed products",
+        "quest ads"
+      ],
+      "category": "Play, sport, and tabletop worlds"
+    },
+    {
+      "id": 81,
+      "account": "Alternate Paleontology Club",
+      "aesthetic": "1970s museum materials for prehistoric animals that evolved around human architecture",
+      "feed": [
+        "skeleton plates",
+        "dioramas",
+        "member newsletters",
+        "souvenir cards"
+      ],
+      "category": "Science, nature, and speculative education"
+    },
+    {
+      "id": 82,
+      "account": "Future Farming School",
+      "aesthetic": "1980s educational graphics for crops grown in unusual gravity, weather, and soil",
+      "feed": [
+        "classroom posters",
+        "seed charts",
+        "farm photos",
+        "lesson pages"
+      ],
+      "category": "Science, nature, and speculative education"
+    },
+    {
+      "id": 83,
+      "account": "Animal Habitat Leasing",
+      "aesthetic": "1980s brochures offering people short-term stays inside carefully engineered animal environments",
+      "feed": [
+        "brochures",
+        "gear lists",
+        "habitat cross-sections",
+        "guest photos"
+      ],
+      "category": "Science, nature, and speculative education"
+    },
+    {
+      "id": 84,
+      "account": "Planetarium Biology",
+      "aesthetic": "1970s science-center programming about life native to other atmospheric layers",
+      "feed": [
+        "exhibit panels",
+        "specimen models",
+        "show slides",
+        "docent cards"
+      ],
+      "category": "Science, nature, and speculative education"
+    },
+    {
+      "id": 85,
+      "account": "Radio Astronomy for Families",
+      "aesthetic": "1980s home-learning kits that accidentally detect something conversational",
+      "feed": [
+        "receiver diagrams",
+        "worksheets",
+        "rooftop photos",
+        "signal strips"
+      ],
+      "category": "Science, nature, and speculative education"
+    },
+    {
+      "id": 86,
+      "account": "Deep-Sea Mining Tomorrow",
+      "aesthetic": "1990s trade art for ocean-floor extraction conducted by strange civilian machinery",
+      "feed": [
+        "equipment brochures",
+        "worker cards",
+        "seabed maps",
+        "corporate displays"
+      ],
+      "category": "Science, nature, and speculative education"
+    },
+    {
+      "id": 87,
+      "account": "Domestic Volcano Preparedness",
+      "aesthetic": "1970s print materials for families living with small household volcanoes",
+      "feed": [
+        "checklists",
+        "product ads",
+        "kitchen scenes",
+        "safety cartoons"
+      ],
+      "category": "Science, nature, and speculative education"
+    },
+    {
+      "id": 88,
+      "account": "Mushroom Transit Authority",
+      "aesthetic": "1980s ecology materials for public transportation grown from fungal networks",
+      "feed": [
+        "route maps",
+        "fare cards",
+        "station sections",
+        "commuter posters"
+      ],
+      "category": "Science, nature, and speculative education"
+    },
+    {
+      "id": 89,
+      "account": "Solar Cult Engineering",
+      "aesthetic": "1970s manuals where devotional architecture and solar technology are inseparable",
+      "feed": [
+        "plans",
+        "apparatus",
+        "ceremonies",
+        "catalog pages"
+      ],
+      "category": "Science, nature, and speculative education"
+    },
+    {
+      "id": 90,
+      "account": "Memory Aquarium Studies",
+      "aesthetic": "early-90s science education about fish that store and replay human memories",
+      "feed": [
+        "classroom diagrams",
+        "tank labels",
+        "experiment sheets",
+        "visitor photos"
+      ],
+      "category": "Science, nature, and speculative education"
+    },
+    {
+      "id": 91,
+      "account": "Office Weather Department",
+      "aesthetic": "1980s corporate materials assigning each worker an indoor climate and emotional forecast",
+      "feed": [
+        "desk cards",
+        "manager charts",
+        "cubicle scenes",
+        "payroll inserts"
+      ],
+      "category": "Social systems and restrained surreal comedy"
+    },
+    {
+      "id": 92,
+      "account": "Regret Hotline Archive",
+      "aesthetic": "1970s telephone-service ads for correcting minor life decisions through operators",
+      "feed": [
+        "print ads",
+        "call scripts",
+        "switchboard stills",
+        "subscriber cards"
+      ],
+      "category": "Social systems and restrained surreal comedy"
+    },
+    {
+      "id": 93,
+      "account": "Mall Employee Pageant",
+      "aesthetic": "1980s employee-recognition rituals staged as glossy fantasy ceremonies",
+      "feed": [
+        "trophies",
+        "portraits",
+        "programs",
+        "store-window displays"
+      ],
+      "category": "Social systems and restrained surreal comedy"
+    },
+    {
+      "id": 94,
+      "account": "Dream Vacation Claims Office",
+      "aesthetic": "1990s insurance artifacts for trips taken only while asleep",
+      "feed": [
+        "claim forms",
+        "suitcase photos",
+        "adjuster notes",
+        "policy brochures"
+      ],
+      "category": "Social systems and restrained surreal comedy"
+    },
+    {
+      "id": 95,
+      "account": "Neighborhood Time-Share",
+      "aesthetic": "1980s sales materials letting families reserve alternate versions of their own suburb",
+      "feed": [
+        "floor plans",
+        "resident cards",
+        "amenity sheets",
+        "model homes"
+      ],
+      "category": "Social systems and restrained surreal comedy"
+    },
+    {
+      "id": 96,
+      "account": "Human Resources for Ghosts",
+      "aesthetic": "1990s office-training materials onboarding the dead into administrative work",
+      "feed": [
+        "forms",
+        "orientation cards",
+        "cubicle photos",
+        "benefit packages"
+      ],
+      "category": "Social systems and restrained surreal comedy"
+    },
+    {
+      "id": 97,
+      "account": "Late Fee Tribunal",
+      "aesthetic": "1980s rental-store bureaucracy where overdue tapes become a minor judicial system",
+      "feed": [
+        "notices",
+        "verdict cards",
+        "evidence sleeves",
+        "clerk uniforms"
+      ],
+      "category": "Social systems and restrained surreal comedy"
+    },
+    {
+      "id": 98,
+      "account": "Personal Moon Service",
+      "aesthetic": "1970s subscription catalogs allowing households to rent a small private moon",
+      "feed": [
+        "plans",
+        "delivery ads",
+        "moon-care manuals",
+        "customer photos"
+      ],
+      "category": "Social systems and restrained surreal comedy"
+    },
+    {
+      "id": 99,
+      "account": "Transit Dream Etiquette",
+      "aesthetic": "1980s passenger-guidance graphics for shared dreams during commuter travel",
+      "feed": [
+        "etiquette cards",
+        "carriage interiors",
+        "announcements",
+        "ticket art"
+      ],
+      "category": "Social systems and restrained surreal comedy"
+    },
+    {
+      "id": 100,
+      "account": "Appliance Memorial Society",
+      "aesthetic": "1990s memorial products and ceremonies for beloved broken household machines",
+      "feed": [
+        "obituary cards",
+        "service photos",
+        "plaques",
+        "family portraits"
+      ],
+      "category": "Social systems and restrained surreal comedy"
+    }
+  ],
+  "rankings": [
+    {
+      "rank": 1,
+      "id": 68,
+      "account": "Discontinued Wallpaper Samples",
+      "distinctiveness": 2.7,
+      "repeatability": 2.5,
+      "commercial_potential": 2.52,
+      "composite": 2.58,
+      "verdict": "Launch"
+    },
+    {
+      "rank": 2,
+      "id": 69,
+      "account": "Receipt Printer Mythology",
+      "distinctiveness": 2.69,
+      "repeatability": 2.52,
+      "commercial_potential": 2.38,
+      "composite": 2.55,
+      "verdict": "Launch"
+    },
+    {
+      "rank": 3,
+      "id": 80,
+      "account": "Family RPG Appliance Guide",
+      "distinctiveness": 2.57,
+      "repeatability": 2.5,
+      "commercial_potential": 2.52,
+      "composite": 2.53,
+      "verdict": "Launch"
+    },
+    {
+      "rank": 4,
+      "id": 76,
+      "account": "Glow Golf Chronicles",
+      "distinctiveness": 2.63,
+      "repeatability": 2.43,
+      "commercial_potential": 2.48,
+      "composite": 2.52,
+      "verdict": "Launch"
+    },
+    {
+      "rank": 5,
+      "id": 88,
+      "account": "Mushroom Transit Authority",
+      "distinctiveness": 2.64,
+      "repeatability": 2.4,
+      "commercial_potential": 2.38,
+      "composite": 2.49,
+      "verdict": "Launch"
+    },
+    {
+      "rank": 6,
+      "id": 89,
+      "account": "Solar Cult Engineering",
+      "distinctiveness": 2.62,
+      "repeatability": 2.37,
+      "commercial_potential": 2.45,
+      "composite": 2.49,
+      "verdict": "Launch"
+    },
+    {
+      "rank": 7,
+      "id": 95,
+      "account": "Neighborhood Time-Share",
+      "distinctiveness": 2.63,
+      "repeatability": 2.41,
+      "commercial_potential": 2.36,
+      "composite": 2.49,
+      "verdict": "Launch"
+    },
+    {
+      "rank": 8,
+      "id": 96,
+      "account": "Human Resources for Ghosts",
+      "distinctiveness": 2.64,
+      "repeatability": 2.41,
+      "commercial_potential": 2.33,
+      "composite": 2.48,
+      "verdict": "Launch"
+    },
+    {
+      "rank": 9,
+      "id": 67,
+      "account": "Refrigerator Magnet Archives",
+      "distinctiveness": 2.55,
+      "repeatability": 2.41,
+      "commercial_potential": 2.47,
+      "composite": 2.48,
+      "verdict": "Launch"
+    },
+    {
+      "rank": 10,
+      "id": 73,
+      "account": "Fantasy Pinball Institute",
+      "distinctiveness": 2.6,
+      "repeatability": 2.33,
+      "commercial_potential": 2.49,
+      "composite": 2.48,
+      "verdict": "Launch"
+    },
+    {
+      "rank": 11,
+      "id": 81,
+      "account": "Alternate Paleontology Club",
+      "distinctiveness": 2.54,
+      "repeatability": 2.45,
+      "commercial_potential": 2.41,
+      "composite": 2.48,
+      "verdict": "Launch"
+    },
+    {
+      "rank": 12,
+      "id": 30,
+      "account": "Puppet Crime Desk",
+      "distinctiveness": 2.72,
+      "repeatability": 2.34,
+      "commercial_potential": 2.26,
+      "composite": 2.47,
+      "verdict": "Launch"
+    },
+    {
+      "rank": 13,
+      "id": 78,
+      "account": "Puzzle Box Embassy",
+      "distinctiveness": 2.72,
+      "repeatability": 2.24,
+      "commercial_potential": 2.38,
+      "composite": 2.47,
+      "verdict": "Launch"
+    },
+    {
+      "rank": 14,
+      "id": 72,
+      "account": "Tabletop Weather Wars",
+      "distinctiveness": 2.55,
+      "repeatability": 2.41,
+      "commercial_potential": 2.4,
+      "composite": 2.46,
+      "verdict": "Launch"
+    },
+    {
+      "rank": 15,
+      "id": 7,
+      "account": "Mail-Order Magic Depot",
+      "distinctiveness": 2.38,
+      "repeatability": 2.47,
+      "commercial_potential": 2.57,
+      "composite": 2.46,
+      "verdict": "Launch"
+    },
+    {
+      "rank": 16,
+      "id": 25,
+      "account": "Fantasy Wrestling Annual",
+      "distinctiveness": 2.55,
+      "repeatability": 2.42,
+      "commercial_potential": 2.34,
+      "composite": 2.45,
+      "verdict": "Launch"
+    },
+    {
+      "rank": 17,
+      "id": 59,
+      "account": "Inflatable Mythology",
+      "distinctiveness": 2.59,
+      "repeatability": 2.2,
+      "commercial_potential": 2.57,
+      "composite": 2.45,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 18,
+      "id": 98,
+      "account": "Personal Moon Service",
+      "distinctiveness": 2.67,
+      "repeatability": 2.25,
+      "commercial_potential": 2.36,
+      "composite": 2.45,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 19,
+      "id": 50,
+      "account": "Night Greenhouse District",
+      "distinctiveness": 2.49,
+      "repeatability": 2.4,
+      "commercial_potential": 2.42,
+      "composite": 2.44,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 20,
+      "id": 83,
+      "account": "Animal Habitat Leasing",
+      "distinctiveness": 2.62,
+      "repeatability": 2.28,
+      "commercial_potential": 2.38,
+      "composite": 2.44,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 21,
+      "id": 71,
+      "account": "Boardgame Continents",
+      "distinctiveness": 2.56,
+      "repeatability": 2.34,
+      "commercial_potential": 2.39,
+      "composite": 2.44,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 22,
+      "id": 94,
+      "account": "Dream Vacation Claims Office",
+      "distinctiveness": 2.67,
+      "repeatability": 2.29,
+      "commercial_potential": 2.27,
+      "composite": 2.44,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 23,
+      "id": 87,
+      "account": "Domestic Volcano Preparedness",
+      "distinctiveness": 2.63,
+      "repeatability": 2.19,
+      "commercial_potential": 2.47,
+      "composite": 2.44,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 24,
+      "id": 100,
+      "account": "Appliance Memorial Society",
+      "distinctiveness": 2.69,
+      "repeatability": 2.16,
+      "commercial_potential": 2.4,
+      "composite": 2.43,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 25,
+      "id": 58,
+      "account": "Overhead Projector Saints",
+      "distinctiveness": 2.68,
+      "repeatability": 2.31,
+      "commercial_potential": 2.2,
+      "composite": 2.43,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 26,
+      "id": 91,
+      "account": "Office Weather Department",
+      "distinctiveness": 2.54,
+      "repeatability": 2.37,
+      "commercial_potential": 2.34,
+      "composite": 2.43,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 27,
+      "id": 57,
+      "account": "Ceramic Robot Families",
+      "distinctiveness": 2.29,
+      "repeatability": 2.52,
+      "commercial_potential": 2.51,
+      "composite": 2.43,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 28,
+      "id": 56,
+      "account": "Field Gear for Rural Giants",
+      "distinctiveness": 2.61,
+      "repeatability": 2.3,
+      "commercial_potential": 2.3,
+      "composite": 2.42,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 29,
+      "id": 82,
+      "account": "Future Farming School",
+      "distinctiveness": 2.49,
+      "repeatability": 2.35,
+      "commercial_potential": 2.38,
+      "composite": 2.41,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 30,
+      "id": 74,
+      "account": "Pocket Game Bureau",
+      "distinctiveness": 2.51,
+      "repeatability": 2.35,
+      "commercial_potential": 2.34,
+      "composite": 2.41,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 31,
+      "id": 79,
+      "account": "Carnival Science League",
+      "distinctiveness": 2.51,
+      "repeatability": 2.31,
+      "commercial_potential": 2.39,
+      "composite": 2.41,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 32,
+      "id": 45,
+      "account": "Mechanical Garden District",
+      "distinctiveness": 2.47,
+      "repeatability": 2.3,
+      "commercial_potential": 2.45,
+      "composite": 2.41,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 33,
+      "id": 53,
+      "account": "Ceremonial Motorcycle Helmets",
+      "distinctiveness": 2.56,
+      "repeatability": 2.29,
+      "commercial_potential": 2.32,
+      "composite": 2.41,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 34,
+      "id": 3,
+      "account": "Neon Apocrypha",
+      "distinctiveness": 2.58,
+      "repeatability": 2.22,
+      "commercial_potential": 2.38,
+      "composite": 2.4,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 35,
+      "id": 61,
+      "account": "Xerox Oracle Files",
+      "distinctiveness": 2.55,
+      "repeatability": 2.41,
+      "commercial_potential": 2.15,
+      "composite": 2.4,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 36,
+      "id": 75,
+      "account": "Laser-Tag Nation",
+      "distinctiveness": 2.43,
+      "repeatability": 2.36,
+      "commercial_potential": 2.4,
+      "composite": 2.4,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 37,
+      "id": 48,
+      "account": "Arcade Funeral Homes",
+      "distinctiveness": 2.64,
+      "repeatability": 2.18,
+      "commercial_potential": 2.3,
+      "composite": 2.39,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 38,
+      "id": 9,
+      "account": "Skatepark Mythology",
+      "distinctiveness": 2.54,
+      "repeatability": 2.25,
+      "commercial_potential": 2.36,
+      "composite": 2.39,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 39,
+      "id": 70,
+      "account": "Answering Machine Theater",
+      "distinctiveness": 2.65,
+      "repeatability": 2.24,
+      "commercial_potential": 2.17,
+      "composite": 2.39,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 40,
+      "id": 63,
+      "account": "Thermal Fax Forecasts",
+      "distinctiveness": 2.65,
+      "repeatability": 2.28,
+      "commercial_potential": 2.11,
+      "composite": 2.39,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 41,
+      "id": 90,
+      "account": "Memory Aquarium Studies",
+      "distinctiveness": 2.58,
+      "repeatability": 2.23,
+      "commercial_potential": 2.29,
+      "composite": 2.38,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 42,
+      "id": 60,
+      "account": "Convenience Store Knights",
+      "distinctiveness": 2.47,
+      "repeatability": 2.35,
+      "commercial_potential": 2.29,
+      "composite": 2.38,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 43,
+      "id": 99,
+      "account": "Transit Dream Etiquette",
+      "distinctiveness": 2.65,
+      "repeatability": 2.23,
+      "commercial_potential": 2.17,
+      "composite": 2.38,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 44,
+      "id": 85,
+      "account": "Radio Astronomy for Families",
+      "distinctiveness": 2.56,
+      "repeatability": 2.22,
+      "commercial_potential": 2.32,
+      "composite": 2.38,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 45,
+      "id": 39,
+      "account": "Ocean Research Annex",
+      "distinctiveness": 2.56,
+      "repeatability": 2.33,
+      "commercial_potential": 2.16,
+      "composite": 2.38,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 46,
+      "id": 27,
+      "account": "Basement Band Federation",
+      "distinctiveness": 2.38,
+      "repeatability": 2.42,
+      "commercial_potential": 2.32,
+      "composite": 2.38,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 47,
+      "id": 40,
+      "account": "Realty for Other Planets",
+      "distinctiveness": 2.42,
+      "repeatability": 2.3,
+      "commercial_potential": 2.41,
+      "composite": 2.38,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 48,
+      "id": 6,
+      "account": "Rainforest Xerox Society",
+      "distinctiveness": 2.51,
+      "repeatability": 2.33,
+      "commercial_potential": 2.22,
+      "composite": 2.37,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 49,
+      "id": 97,
+      "account": "Late Fee Tribunal",
+      "distinctiveness": 2.56,
+      "repeatability": 2.32,
+      "commercial_potential": 2.15,
+      "composite": 2.37,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 50,
+      "id": 36,
+      "account": "Salon Futures Training",
+      "distinctiveness": 2.5,
+      "repeatability": 2.25,
+      "commercial_potential": 2.33,
+      "composite": 2.37,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 51,
+      "id": 37,
+      "account": "Industrial Safety Mascots",
+      "distinctiveness": 2.43,
+      "repeatability": 2.29,
+      "commercial_potential": 2.38,
+      "composite": 2.37,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 52,
+      "id": 20,
+      "account": "Perfume from Tomorrow",
+      "distinctiveness": 2.41,
+      "repeatability": 2.17,
+      "commercial_potential": 2.57,
+      "composite": 2.37,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 53,
+      "id": 23,
+      "account": "Practical Creature Workshop",
+      "distinctiveness": 2.5,
+      "repeatability": 2.27,
+      "commercial_potential": 2.27,
+      "composite": 2.36,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 54,
+      "id": 84,
+      "account": "Planetarium Biology",
+      "distinctiveness": 2.45,
+      "repeatability": 2.27,
+      "commercial_potential": 2.33,
+      "composite": 2.36,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 55,
+      "id": 18,
+      "account": "Nightshift Vending League",
+      "distinctiveness": 2.43,
+      "repeatability": 2.28,
+      "commercial_potential": 2.33,
+      "composite": 2.35,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 56,
+      "id": 8,
+      "account": "Soft Metal Almanac",
+      "distinctiveness": 2.38,
+      "repeatability": 2.25,
+      "commercial_potential": 2.45,
+      "composite": 2.35,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 57,
+      "id": 77,
+      "account": "Wind-Up Olympiad",
+      "distinctiveness": 2.41,
+      "repeatability": 2.29,
+      "commercial_potential": 2.34,
+      "composite": 2.35,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 58,
+      "id": 64,
+      "account": "Slide Carousel Tourism",
+      "distinctiveness": 2.63,
+      "repeatability": 2.2,
+      "commercial_potential": 2.11,
+      "composite": 2.35,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 59,
+      "id": 49,
+      "account": "Lunar Subdivision Office",
+      "distinctiveness": 2.39,
+      "repeatability": 2.28,
+      "commercial_potential": 2.36,
+      "composite": 2.34,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 60,
+      "id": 28,
+      "account": "Commercial Break Kingdom",
+      "distinctiveness": 2.29,
+      "repeatability": 2.5,
+      "commercial_potential": 2.2,
+      "composite": 2.34,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 61,
+      "id": 66,
+      "account": "Super-8 Recipe Cinema",
+      "distinctiveness": 2.58,
+      "repeatability": 2.19,
+      "commercial_potential": 2.14,
+      "composite": 2.33,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 62,
+      "id": 47,
+      "account": "Gas Station Wonderlands",
+      "distinctiveness": 2.43,
+      "repeatability": 2.17,
+      "commercial_potential": 2.4,
+      "composite": 2.33,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 63,
+      "id": 38,
+      "account": "Ride Engineer’s Notebook",
+      "distinctiveness": 2.42,
+      "repeatability": 2.29,
+      "commercial_potential": 2.24,
+      "composite": 2.33,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 64,
+      "id": 10,
+      "account": "Chromed Astrology",
+      "distinctiveness": 2.26,
+      "repeatability": 2.3,
+      "commercial_potential": 2.46,
+      "composite": 2.32,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 65,
+      "id": 26,
+      "account": "Photo Studio Quest",
+      "distinctiveness": 2.29,
+      "repeatability": 2.26,
+      "commercial_potential": 2.46,
+      "composite": 2.32,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 66,
+      "id": 54,
+      "account": "Sleepover Monster Products",
+      "distinctiveness": 2.31,
+      "repeatability": 2.25,
+      "commercial_potential": 2.42,
+      "composite": 2.32,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 67,
+      "id": 14,
+      "account": "Hotel Amenity Mythos",
+      "distinctiveness": 2.33,
+      "repeatability": 2.24,
+      "commercial_potential": 2.39,
+      "composite": 2.31,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 68,
+      "id": 44,
+      "account": "Cruise Ship Solarium",
+      "distinctiveness": 2.35,
+      "repeatability": 2.25,
+      "commercial_potential": 2.34,
+      "composite": 2.31,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 69,
+      "id": 46,
+      "account": "Rain Camp Television",
+      "distinctiveness": 2.51,
+      "repeatability": 2.26,
+      "commercial_potential": 2.07,
+      "composite": 2.31,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 70,
+      "id": 92,
+      "account": "Regret Hotline Archive",
+      "distinctiveness": 2.51,
+      "repeatability": 2.16,
+      "commercial_potential": 2.21,
+      "composite": 2.31,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 71,
+      "id": 24,
+      "account": "Roller Rink Melodrama",
+      "distinctiveness": 2.45,
+      "repeatability": 2.18,
+      "commercial_potential": 2.24,
+      "composite": 2.3,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 72,
+      "id": 42,
+      "account": "Desert Observatory Motel",
+      "distinctiveness": 2.43,
+      "repeatability": 2.09,
+      "commercial_potential": 2.39,
+      "composite": 2.3,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 73,
+      "id": 55,
+      "account": "Restaurant Space Mascots",
+      "distinctiveness": 2.31,
+      "repeatability": 2.24,
+      "commercial_potential": 2.36,
+      "composite": 2.3,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 74,
+      "id": 1,
+      "account": "Atomic Gardening Bureau",
+      "distinctiveness": 2.35,
+      "repeatability": 2.22,
+      "commercial_potential": 2.31,
+      "composite": 2.29,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 75,
+      "id": 43,
+      "account": "Cloudline Diner",
+      "distinctiveness": 2.35,
+      "repeatability": 2.15,
+      "commercial_potential": 2.4,
+      "composite": 2.29,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 76,
+      "id": 2,
+      "account": "Planetarium After Dark",
+      "distinctiveness": 2.46,
+      "repeatability": 2.11,
+      "commercial_potential": 2.27,
+      "composite": 2.29,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 77,
+      "id": 86,
+      "account": "Deep-Sea Mining Tomorrow",
+      "distinctiveness": 2.33,
+      "repeatability": 2.2,
+      "commercial_potential": 2.35,
+      "composite": 2.29,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 78,
+      "id": 16,
+      "account": "Carpet Kingdoms",
+      "distinctiveness": 2.29,
+      "repeatability": 2.24,
+      "commercial_potential": 2.34,
+      "composite": 2.29,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 79,
+      "id": 21,
+      "account": "Video Rental Cosmology",
+      "distinctiveness": 2.41,
+      "repeatability": 2.22,
+      "commercial_potential": 2.17,
+      "composite": 2.28,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 80,
+      "id": 15,
+      "account": "Pool Supply Fantasia",
+      "distinctiveness": 2.32,
+      "repeatability": 2.16,
+      "commercial_potential": 2.39,
+      "composite": 2.28,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 81,
+      "id": 29,
+      "account": "Fanzine Space Bureau",
+      "distinctiveness": 2.33,
+      "repeatability": 2.43,
+      "commercial_potential": 1.99,
+      "composite": 2.28,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 82,
+      "id": 11,
+      "account": "Aquarium Luxury Quarterly",
+      "distinctiveness": 2.24,
+      "repeatability": 2.21,
+      "commercial_potential": 2.44,
+      "composite": 2.28,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 83,
+      "id": 41,
+      "account": "Underwater Mall Studies",
+      "distinctiveness": 2.32,
+      "repeatability": 2.27,
+      "commercial_potential": 2.22,
+      "composite": 2.28,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 84,
+      "id": 62,
+      "account": "Microfiche Moonshots",
+      "distinctiveness": 2.39,
+      "repeatability": 2.28,
+      "commercial_potential": 2.06,
+      "composite": 2.27,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 85,
+      "id": 5,
+      "account": "Mirrorball Public Health",
+      "distinctiveness": 2.34,
+      "repeatability": 2.21,
+      "commercial_potential": 2.23,
+      "composite": 2.27,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 86,
+      "id": 34,
+      "account": "Dream Machine Support",
+      "distinctiveness": 2.36,
+      "repeatability": 2.24,
+      "commercial_potential": 2.09,
+      "composite": 2.25,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 87,
+      "id": 35,
+      "account": "Satellite Installer School",
+      "distinctiveness": 2.28,
+      "repeatability": 2.29,
+      "commercial_potential": 2.11,
+      "composite": 2.24,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 88,
+      "id": 65,
+      "account": "Photobooth Doppelgänger Club",
+      "distinctiveness": 2.46,
+      "repeatability": 2.11,
+      "commercial_potential": 2.07,
+      "composite": 2.24,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 89,
+      "id": 12,
+      "account": "Bedroom Satellite Club",
+      "distinctiveness": 2.11,
+      "repeatability": 2.3,
+      "commercial_potential": 2.3,
+      "composite": 2.22,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 90,
+      "id": 19,
+      "account": "Unfinished Appliance Museum",
+      "distinctiveness": 2.13,
+      "repeatability": 2.25,
+      "commercial_potential": 2.31,
+      "composite": 2.22,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 91,
+      "id": 51,
+      "account": "Pollution Patrol Mascots",
+      "distinctiveness": 2.23,
+      "repeatability": 2.11,
+      "commercial_potential": 2.27,
+      "composite": 2.2,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 92,
+      "id": 22,
+      "account": "Midnight Matinee Lobby",
+      "distinctiveness": 2.24,
+      "repeatability": 2.09,
+      "commercial_potential": 2.19,
+      "composite": 2.17,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 93,
+      "id": 52,
+      "account": "Regional Sports Creatures",
+      "distinctiveness": 2.26,
+      "repeatability": 2.09,
+      "commercial_potential": 2.13,
+      "composite": 2.17,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 94,
+      "id": 93,
+      "account": "Mall Employee Pageant",
+      "distinctiveness": 2.25,
+      "repeatability": 2.02,
+      "commercial_potential": 2.1,
+      "composite": 2.13,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 95,
+      "id": 31,
+      "account": "Weather Modification Office",
+      "distinctiveness": 2.12,
+      "repeatability": 2.25,
+      "commercial_potential": 1.98,
+      "composite": 2.13,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 96,
+      "id": 32,
+      "account": "Elevator to Nowhere Maintenance",
+      "distinctiveness": 2.17,
+      "repeatability": 2.25,
+      "commercial_potential": 1.83,
+      "composite": 2.11,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 97,
+      "id": 13,
+      "account": "Kitchen Oracle Systems",
+      "distinctiveness": 1.97,
+      "repeatability": 2.13,
+      "commercial_potential": 2.28,
+      "composite": 2.1,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 98,
+      "id": 33,
+      "account": "Civic Aquarium Authority",
+      "distinctiveness": 2.09,
+      "repeatability": 2.2,
+      "commercial_potential": 1.84,
+      "composite": 2.07,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 99,
+      "id": 17,
+      "account": "Sunroom Electronics",
+      "distinctiveness": 1.64,
+      "repeatability": 2.24,
+      "commercial_potential": 2.1,
+      "composite": 1.96,
+      "verdict": "Develop"
+    },
+    {
+      "rank": 100,
+      "id": 4,
+      "account": "Airport Mural Futures",
+      "distinctiveness": 0.99,
+      "repeatability": 2.05,
+      "commercial_potential": 2.0,
+      "composite": 1.61,
+      "verdict": "Park"
+    }
+  ]
+}

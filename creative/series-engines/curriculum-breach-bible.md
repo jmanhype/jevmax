@@ -59,6 +59,28 @@ futurist lanes.
 - Viral iMessage prank tests: archive (keep 2-3 best only if wanted for
   Protocol social proof) — operator's call, reversible in-app
 
+## Content mix of record (2026-09-22, same thread, later session)
+
+One job per post — never all four at once.
+
+| Role | Job | Examples |
+|---|---|---|
+| Reach | Strangers stop, share, follow | High-concept AI scenarios, iMessage-style setups, visual hooks |
+| Director work | Prove taste / cinematic ability | Music-video moments, trailers, original scenes |
+| Franchise | Build things people return to | Glow Golf Chronicles, Archive of Rain, Curriculum Breach, Tess/Rho |
+| Proof | Support THE PROTOCOL | "How I made this" — only after the finished piece earns attention |
+
+Next-10 split: **4 reach / 3 director / 2 franchise (Glow Golf preferred —
+queue already live) / 1 breakdown** of the strongest performer, tied to
+THE PROTOCOL.
+
+Connective rule: one creative signature across all four — impossible scenes
+that feel like real media, not trend-format uploads. Franchise posts need a
+watchable event, never bare lore. Glow Golf examples: Hole 7 closes at
+midnight but the mascot still plays; a scorecard dated three years from now;
+the prize counter gives a child a key instead of tickets; the volcano starts
+asking for players by name.
+
 ## batmanosama bio of record (applied live 2026-09-22)
 
 Structure: roles → output → reason to follow → one CTA. Lost Futures demoted
@@ -111,5 +133,24 @@ DOUBLE toward IG's 150-unit bio limit).
   paper) — illustrated framing passes person-moderation cleanly.
 - **SGFLIX skills installed** from gist 4f852148 at ~/.zcode/skills with a
   Windows adaptation note (pixverse GPT-2.5 route).
+- **Poster text ruling (operator-corrected 2026-09-22):** GPT-Image 2.5
+  renders title + tagline cleanly in-image — `05-poster-s1-titled.png`
+  ("CURRICULUM BREACH / DO NOT TEACH SLIDE 13") verified with correct
+  spelling and era-appropriate type. The old "blank banner, composite in
+  post" step is retired for IMAGE renders. The no-lettering clause remains
+  only for VIDEO models (LF001's garbled sponsor card was the video engine,
+  not the image engine).
+- **Joseph Maloney character bible COMPLETE (sgflix-create-character-bible
+  workflow, 2026-09-22, 0 credits):** 8 pages, QC anchor 9.5/10, expression
+  sheet identity 9/10, md5 8/8 unique.
+  `creative/curriculum-breach/bibles/joseph-maloney/` (identity_lock.yaml +
+  prompts + images). The student lead — E01 attendance anomaly, E04 hall-pass
+  traveler. Locks: amber windbreaker, oversized taped glasses, overgrown home
+  haircut, hall pass lanyard; same 1991 concept-art style lock as Ms. Kline.
+  Both season leads now have identity anchors for reel seeding.
 - Remaining before first CB reel: video-engine credits (decision pending),
-  prank-test archive call, title composite on the poster.
+  prank-test archive call.
+- **Next-10 slate written 2026-09-22** → [batmanosama-next-10.md](batmanosama-next-10.md).
+  4 reach / 3 director / 2 franchise / 1 proof, all mapped to existing assets;
+  9 of 10 posts ship at 0 credits. CB enters the grid at F2 (Tue 9/30) with
+  the E02 case-file carousel; D3 reel follows engine approval.
