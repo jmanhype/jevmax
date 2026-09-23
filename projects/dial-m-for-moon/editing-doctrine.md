@@ -167,3 +167,20 @@ never the Jev calls.
 - Jay owns directorial calls. Jev is the second opinion and the tiebreaker on
   ambiguous transitions — never the auteur.
 - Typed output guarantees the interface, not the truth. Spot-check, then trust.
+
+## 9. Tail-frame conditioning (validated 2026-09-23, EP002 test)
+
+For continuity cuts, extract shot A's last frame and pass it into shot B's
+generation:
+- **Match on action / eyeline match / graphic match:** pass A's tail frame
+  as B's reference. For eyeline matches, state explicitly that the new shot
+  is the *object of the gaze* — and if the person must not appear, say so
+  outright ("she does not appear"), or the generator will continue them
+  instead of cutting away (observed EP002 S02 v2).
+- **J-cut / L-cut / smash / collision:** do NOT condition the picture on
+  A's tail frame. The rupture is the point. For J/L-cuts, carry the bridge
+  in the sound description instead.
+- Measured effect (EP002): T1 eyeline composite 0.945 → 0.953 and the
+  line_discipline escalation cleared; T2 J-cut composite 0.893 → 0.864,
+  flow escalation unchanged — conditioning helped the continuity cut and
+  did nothing for the rupture, as predicted.

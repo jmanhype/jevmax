@@ -29,6 +29,18 @@ picture (room hum is continuous bed, no offset needed).
 - jay_decision: pending — note the audio disagreement: Jev wants the room hum
   to bridge (0.73), plan said hard cut. Recommend accepting Jev's bridge.
 
+### v2 — tail-frame conditioning (2026-09-23)
+- S02 regenerated as v3 conditioned on S01's tail frame as eyeline reference
+  (v2 attempt continued Valya instead of cutting to the stove — rejected;
+  v3 with explicit "she does not appear" instruction opens on the stove as
+  the object of her gaze). QC flag: "КОДАК ЕКТАСHRОМЕ" prompt-leak text on
+  the stove — same defect class as EP001 S02 take2; needs a clean take for
+  real production.
+- Verdict: cut_type eyeline_match, flow 2.65, audio_bridge 0.76,
+  tension 2.15, **composite 0.953 (up from 0.945), NO escalations** —
+  line_discipline confidence cleared the floor. Conditioning helped.
+- jay_decision: pending
+
 ### Generation handoff
 - Shot B prompt must: open on the stove as the object of Valya's eyeline out
   of S01 — the thing she is looking at, framed as a looked-at object.
@@ -58,9 +70,16 @@ bay; no shared 180° line to cross).
 - composite: 0.893
 
 ### Routing
-- escalated: YES — flow confidence 0.55 < 0.6 floor (the shock reveal reads as
-  choppy-to-seamless depending on the viewer; Jay's call on whether the hard
-  entrance lands)
+### v2 — rupture-from conditioning (2026-09-23)
+- S03 regenerated as v2 with S02's tail frame as rupture-from reference
+  ("do not continue this image"); obeyed — opens fresh on the desk, and the
+  board now reads КАНАЛ 14 clearly. Better than v1.
+- Verdict: cut_type j_cut, flow 2.0 @ 0.54, audio_bridge 0.92,
+  tension 3.0, **composite 0.864 (down from 0.893)**; flow escalation
+  persists (0.54 < 0.6). Conditioning did NOT help the rupture cut —
+  as the doctrine predicts: frame continuity serves continuity cuts,
+  not J-cut picture breaks. The audio_bridge rose (0.90 → 0.92) on the
+  explicit J-cut sound instruction.
 - jay_decision: pending
 
 ### Generation handoff
