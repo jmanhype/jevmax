@@ -31,6 +31,17 @@
   composite 0.968. Clean pass, no escalation. (S03 was conditioned on S02
   take1's tail; take2's tail ends equivalently — patch done, hand released —
   so the handoff holds.)
+- S03 take1 had SET DRIFT (Jay spotted it): the camera rotated with her turn
+  and the wall behind her morphed across three arrangements (clock row →
+  МОСКВА/ЛОНДОН clocks + meter panel → ДЕЖУРНЫЙ ЖУРНАЛ pinboard); bun changed
+  shape and the headset vanished mid-shot. S03 take2 fixed it with a
+  LOCKED-OFF camera ("camera does not move, pan, tilt, or rotate at any
+  point; background stays exactly the same") — background, headset, bun, and
+  red pencil all hold across the shot. Re-judged T2 with take2:
+  match_on_action, composite 0.973, zero escalations. Winner: take2.
+  Doctrine lesson: when the camera moves inside a generated shot, the model
+  invents new background per angle — lock the camera for set continuity.
 
 Assembly: assembly/EP003_test_3shot.mp4 (30s, 720x1280) =
 S01 take1 + S02 take2 + S03 take1.
+v2 assembly: assembly/EP003_test_3shot_v2.mp4 = S01 take1 + S02 take2 + S03 take2.

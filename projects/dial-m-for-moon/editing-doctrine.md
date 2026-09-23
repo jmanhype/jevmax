@@ -188,3 +188,9 @@ generation:
   ("do NOT pull back, do NOT change angle"), not just ask for continuation —
   otherwise the generator widens the shot and the gesture breaks
   (EP003 S02 take1: 0.722 with 3 escalations → take2: 0.991, zero).
+- Intra-shot set continuity: when the camera moves inside a generated shot,
+  the model invents new background per angle — the room morphs (EP003 S03
+  take1: three different walls in 10 seconds). Fix: lock the camera
+  ("does not move, pan, tilt, or rotate at any point") and state the
+  background stays identical; the performer moves within the fixed frame
+  (S03 take2: background, headset, bun, red pencil all hold).
