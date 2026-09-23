@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EP001 — The Voice on 14 Megacycles · Screening Room</title>
+<style>
+  :root { --bg:#141210; --card:#1e1b17; --ink:#e8ddc9; --dim:#a89c82;
+          --amber:#e8a33d; --red:#c0392b; --line:#33291d; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font-family: Georgia, 'Times New Roman', serif; }
+  header { padding:28px 20px 18px; text-align:center; border-bottom:1px solid var(--line); }
+  header h1 { margin:0 0 6px; font-size:1.5rem; letter-spacing:.04em; }
+  header p { margin:4px 0; color:var(--dim); font-size:.95rem; }
+  .flags { max-width:960px; margin:18px auto 0; padding:0 20px; }
+  .flag { border:1px solid var(--amber); border-radius:8px; padding:10px 14px;
+          margin:8px 0; font-size:.9rem; background:#221a10; }
+  .flag b { color:var(--amber); }
+  .assembly { max-width:960px; margin:22px auto 0; padding:0 20px; text-align:center; }
+  .assembly video { width:100%; max-width:420px; max-height:70vh; background:#000; border-radius:12px; }
+  .assembly p { color:var(--dim); font-size:.9rem; }
+  main { max-width:960px; margin:0 auto; padding:18px 20px 60px; }
+  .shot { background:var(--card); border:1px solid var(--line); border-radius:12px;
+          margin:22px 0; overflow:hidden; }
+  .shot-head { padding:14px 18px 10px; display:flex; flex-wrap:wrap; gap:8px;
+               align-items:baseline; border-bottom:1px solid var(--line); }
+  .shot-head h2 { margin:0; font-size:1.15rem; }
+  .shot-head .dur { color:var(--dim); font-size:.85rem; }
+  .badge { margin-left:auto; font-size:.8rem; padding:3px 10px; border-radius:20px;
+           border:1px solid var(--amber); color:var(--amber); white-space:nowrap; }
+  .badge.review { border-color:var(--red); color:var(--red); }
+  .shot-body { display:flex; flex-wrap:wrap; gap:0; }
+  .vid { flex:1 1 300px; background:#000; display:flex; justify-content:center; }
+  .vid video { max-height:520px; width:100%; object-fit:contain; background:#000; }
+  .meta { flex:1 1 280px; padding:16px 18px; font-size:.92rem; line-height:1.55; }
+  .meta .k { color:var(--dim); font-size:.78rem; text-transform:uppercase;
+             letter-spacing:.08em; }
+  .meta p { margin:6px 0 12px; }
+  footer { text-align:center; color:var(--dim); font-size:.8rem; padding:24px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>EP001 · THE VOICE ON 14 MEGACYCLES</h1>
+  <p>Screening room — full assembly + per-shot winners · native pipeline · 1959 16mm Ektachrome look</p>
+  <p>Gated by Jev (beat 0.6 / period look 0.4) · 2026-09-23</p>
+</header>
+
+<div class="flags">
+  <div class="flag"><b>⚠ S09</b> — coin-flip REVIEW (0.514 vs 0.419). Either take is defensible; take2 won marginally.</div>
+  <div class="flag"><b>⚠ S07</b> — soft win (0.61). Take1 clearly wins the beat; Jev was lukewarm on both takes' period look.</div>
+  <div class="flag"><b>⚠ S05</b> — crop compromise: the 9:16 window is right-shifted to keep «не опознано»; her face at frame edge is sacrificed.</div>
+</div>
+
+<div class="assembly">
+  <h2 style="font-size:1.1rem;">Full episode assembly (80s, no sound yet)</h2>
+  <video controls preload="metadata" src="assembly/EP001_assembly_v1.mp4"></video>
+  <p>S01 → S10 winners in order, normalized to 720×1280. Sound pass still to come.</p>
+</div>
+
+<main>
+
+<section class="shot">
+  <div class="shot-head"><h2>S01 — World breaks</h2><span class="dur">8s</span><span class="badge">take2 · 0.80</span></div>
+  <div class="shot-body">
+    <div class="vid"><video controls preload="metadata" src="shots/S01/winner.mp4"></video></div>
+    <div class="meta"><div class="k">Beat</div><p>Traffic on a dead frequency — calm breaks into alarm.</p>
+    <div class="k">Why this take</div><p>Stronger calm→alarm arc: frontal close-up alarm plus window/dish world detail.</p></div>
+  </div>
+</section>
+
+<section class="shot">
+  <div class="shot-head"><h2>S02 — The impossible fact</h2><span class="dur">5s</span><span class="badge">take1 · 0.86</span></div>
+  <div class="shot-body">
+    <div class="vid"><video controls preload="metadata" src="shots/S02/winner.mp4"></video></div>
+    <div class="meta"><div class="k">Beat</div><p>Frequency 14 — the needle settles, the lamp blooms.</p>
+    <div class="k">Why this take</div><p>Needle at red 14 and КАНАЛ 14 lamp legible; take2 had "KODAK 1959" prompt-leak text on the prop.</p></div>
+  </div>
+</section>
+
+<section class="shot">
+  <div class="shot-head"><h2>S03 — Cross the language line</h2><span class="dur">8s</span><span class="badge">take1 · 0.74</span></div>
+  <div class="shot-body">
+    <div class="vid"><video controls preload="metadata" src="shots/S03/winner.mp4"></video></div>
+    <div class="meta"><div class="k">Beat</div><p>Her hand hovers over the red cut-key; rack focus to her eyes as she hears the Russian line.</p>
+    <div class="k">Why this take</div><p>The hovering hand holds the focal-shift beat; take2 played alarm instead of listening.</p></div>
+  </div>
+</section>
+
+<section class="shot">
+  <div class="shot-head"><h2>S04 — The choice visualized</h2><span class="dur">5s</span><span class="badge">take1 · 0.78</span></div>
+  <div class="shot-body">
+    <div class="vid"><video controls preload="metadata" src="shots/S04/winner.mp4"></video></div>
+    <div class="meta"><div class="k">Beat</div><p>The Section 7 placard — unlogged intercepts are treason.</p>
+    <div class="k">Why this take</div><p>Placard reads «СЕКЦИЯ 7 — НЕЗАРЕГИСТРИРОВАННЫЙ ПЕРЕХВАТ = ИЗМЕНА» correctly; take2 printed the opposite word.</p></div>
+  </div>
+</section>
+
+<section class="shot">
+  <div class="shot-head"><h2>S05 — First defiance</h2><span class="dur">8s</span><span class="badge">take1 · 0.97</span></div>
+  <div class="shot-body">
+    <div class="vid"><video controls preload="metadata" src="shots/S05/winner.mp4"></video></div>
+    <div class="meta"><div class="k">Beat</div><p>She logs it anyway — «14.09.59 / 14 / не опознано».</p>
+    <div class="k">Why this take</div><p>The entry is legible in period Cyrillic hand; take2's writing was generic scribble.</p></div>
+  </div>
+</section>
+
+<section class="shot">
+  <div class="shot-head"><h2>S06 — Pressure arrives</h2><span class="dur">8s</span><span class="badge">take1 · 0.98</span></div>
+  <div class="shot-body">
+    <div class="vid"><video controls preload="metadata" src="shots/S06/winner.mp4"></video></div>
+    <div class="meta"><div class="k">Beat</div><p>Korabelnikov fills the doorway — backlit, never entering.</p>
+    <div class="k">Why this take</div><p>He stands perfectly still, listening; take2 had him inside offering cigarettes — wrong beat entirely.</p></div>
+  </div>
+</section>
+
+<section class="shot">
+  <div class="shot-head"><h2>S07 — The exchange</h2><span class="dur">10s</span><span class="badge">take1 · 0.61</span></div>
+  <div class="shot-body">
+    <div class="vid"><video controls preload="metadata" src="shots/S07/winner.mp4"></video></div>
+    <div class="meta"><div class="k">Beat</div><p>Demand and cover — her forearm over the logbook, his eyes over her shoulder.</p>
+    <div class="k">Why this take</div><p>His face sharp over her shoulder, hand extended to the book; take2 repeated the cigarette-offer beat.</p></div>
+  </div>
+</section>
+
+<section class="shot">
+  <div class="shot-head"><h2>S08 — He leafs — and stops</h2><span class="dur">8s</span><span class="badge">take1 · 0.99</span></div>
+  <div class="shot-body">
+    <div class="vid"><video controls preload="metadata" src="shots/S08/winner.mp4"></video></div>
+    <div class="meta"><div class="k">Beat</div><p>The page is blank where she wrote — one beat of true silence.</p>
+    <div class="k">Why this take</div><p>The ink smudge reads erased-not-torn; wedding band on the right hand per the lock. Near-unanimous gate.</p></div>
+  </div>
+</section>
+
+<section class="shot">
+  <div class="shot-head"><h2>S09 — The threat is inside</h2><span class="dur">10s</span><span class="badge review">take2 · 0.51 ⚠ review</span></div>
+  <div class="shot-body">
+    <div class="vid"><video controls preload="metadata" src="shots/S09/winner.mp4"></video></div>
+    <div class="meta"><div class="k">Beat</div><p>Reversal — her eyes go perfectly still; parade rest, jaw set, blink rate zero.</p>
+    <div class="k">Why this take</div><p>Coin-flip gate (0.514 vs 0.419). Marginally stronger zero-play stillness. Losing take kept at shots/S09/take1.mp4 if you want to swap.</p></div>
+  </div>
+</section>
+
+<section class="shot">
+  <div class="shot-head"><h2>S10 — The frequency answers</h2><span class="dur">10s</span><span class="badge">take3 · 0.77</span></div>
+  <div class="shot-body">
+    <div class="vid"><video controls preload="metadata" src="shots/S10/winner.mp4"></video></div>
+    <div class="meta"><div class="k">Beat</div><p>Lamp 14 flickers twice — like a knock. Her hand rises with the red pencil. Cut to black.</p>
+    <div class="k">Why this take</div><p>Centered Valya, lamps ringing her, red pencil raised as the only proof, clean cut to black on the second flicker.</p></div>
+  </div>
+</section>
+
+</main>
+<footer>DIAL M FOR MOON · EP001 screening room · all footage native pipeline, 0 Kling/PixVerse</footer>
+</body>
+</html>
