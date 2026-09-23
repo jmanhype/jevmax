@@ -69,6 +69,17 @@
 - Rule: for shots blocked in Shot Composer, prefer exact depth exported from the 3D scene; use estimated depth only for real reference material (photos, plates, prior takes).
 - Verified 2026-09-23 on S06 winner keyframe: clean silhouette/geometry separation (Valya, lamp, switchboard).
 
+## 2026-09-23 — Editing doctrine: inter-shot cut grammar (Jev-judged)
+
+- **Gap found:** the repo had a grammar for shots (Eyecandy per-shot layer) but none for how shots *connect*. EP001 v1 was assembled from 10 independent hero takes — "postcard cutting": no match on action, no eyeline handoffs, no J/L-cuts.
+- **`editing-doctrine.md` adopted by Jay:** two cut families (continuity/invisible vs hard/felt), spatial law (180° rule), audio law (audio cut independently from picture), Murch's law (emotion supersedes all).
+- **Jev's role per TypeSafe skill + live docs:** Jev is a System One model — typed judgments (Choice/Score/Noul) and probabilities, not generated text; not a coding-agent replacement. Contract: Cosmo drafts the transition plan, Jev judges, code owns the workflow (routing, weights, escalation).
+- **Judgment design in `tools/cut_grammar.py`:** one request per transition, five questions in parallel — `cut_type` (Choice, 9 options incl. mandatory `none_of_above`), `line_discipline` (Choice), `flow` (Score 0–3), `audio_bridge` (Noul), `tension` (Score 0–3, descriptive). State = named JSON fields (shot A/B endings/openings, beat intent, style policy).
+- **Confidence-gated routing:** 0.6 floor → escalate to Jay (existing project rule, now doc-backed); audio_bridge in [0.4, 0.6] → ambiguous → Jay; `crossed_accidental` and `none_of_above` always escalate; smash_cut / deliberate line-cross need > 0.85. Composite = weighted atomic scores (weights code-owned, retunable without re-inference).
+- **`transition-record-template.md`:** per-cut record — beat intent, A-ends/B-opens, Jev verdict, routing, Jay's decision, generation handoff (shot B prompt + audio edit note).
+- **Placement:** pre-generation gate for EP002+ (transition records before shot budgets); EP001 retro = run judge over the 9 existing transitions, spot-check vs Jay's judgment before trusting the gate.
+- Verified 2026-09-23: schema builds, routing fires (ambiguous noul + accidental crossing escalate; clean pass does not). Dry-run tested; no live Jev calls made.
+
 ## 2026-09-23 — EP001 RENDERED: pure-PixVerse, 20 takes, 920 credits
 
 - Strategy call (user): **pure PixVerse**. Phase A: 9 free 9:16 seed stills (gpt-image-2.5-flare, multi-ref from bible pages; full model name matters — "gpt-image-2.5" 400s). S01 seeded direct from Valya page 1. Phase B: v6 I2V, 5s, 720p, 9:16, --count 2, --seed 1959, idempotency keys; dialogue shots (S03/S06/S07/S09) --no-audio for later TTS, others native ambience.
