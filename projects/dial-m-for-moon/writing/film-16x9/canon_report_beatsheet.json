@@ -1,0 +1,58 @@
+{
+  "bible": "projects/dial-m-for-moon/bibles/valentina-orlova/identity_lock.yaml",
+  "script": "projects/dial-m-for-moon/writing/film-16x9/beat-sheet.md",
+  "entities": [
+    {
+      "entity": "Valentina Orlova",
+      "judgment": "consistent",
+      "probability": "1.00",
+      "verdict": "PASS"
+    },
+    {
+      "entity": "Valya",
+      "judgment": "consistent",
+      "probability": "1.00",
+      "verdict": "PASS"
+    },
+    {
+      "entity": "headset",
+      "judgment": "consistent",
+      "probability": "1.00",
+      "verdict": "PASS"
+    },
+    {
+      "entity": "red pencil",
+      "judgment": "consistent",
+      "probability": "0.77",
+      "verdict": "REVIEW"
+    },
+    {
+      "entity": "olive ribbon",
+      "judgment": "consistent",
+      "probability": "1.00",
+      "verdict": "PASS"
+    },
+    {
+      "entity": "switchboard",
+      "judgment": "consistent",
+      "probability": "0.98",
+      "verdict": "PASS"
+    },
+    {
+      "entity": "Object 10-D",
+      "judgment": "consistent",
+      "probability": "1.00",
+      "verdict": "PASS"
+    },
+    {
+      "entity": "lunar listening post",
+      "judgment": "consistent",
+      "probability": "0.99",
+      "verdict": "PASS"
+    }
+  ],
+  "usage": {
+    "input_tokens": 2819,
+    "output_tokens": 354
+  }
+}

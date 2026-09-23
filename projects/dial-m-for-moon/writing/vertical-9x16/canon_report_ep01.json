@@ -1,0 +1,58 @@
+{
+  "bible": "projects/dial-m-for-moon/bibles/valentina-orlova/identity_lock.yaml",
+  "script": "projects/dial-m-for-moon/writing/vertical-9x16/episode-01-cold-open.md",
+  "entities": [
+    {
+      "entity": "Valentina Orlova",
+      "judgment": "consistent",
+      "probability": "1.00",
+      "verdict": "PASS"
+    },
+    {
+      "entity": "Valya",
+      "judgment": "consistent",
+      "probability": "0.99",
+      "verdict": "PASS"
+    },
+    {
+      "entity": "headset",
+      "judgment": "consistent",
+      "probability": "1.00",
+      "verdict": "PASS"
+    },
+    {
+      "entity": "red pencil",
+      "judgment": "consistent",
+      "probability": "1.00",
+      "verdict": "PASS"
+    },
+    {
+      "entity": "sky-blue piping",
+      "judgment": "consistent",
+      "probability": "1.00",
+      "verdict": "PASS"
+    },
+    {
+      "entity": "switchboard",
+      "judgment": "consistent",
+      "probability": "0.99",
+      "verdict": "PASS"
+    },
+    {
+      "entity": "Object 10-D",
+      "judgment": "consistent",
+      "probability": "1.00",
+      "verdict": "PASS"
+    },
+    {
+      "entity": "lunar listening post",
+      "judgment": "consistent",
+      "probability": "0.99",
+      "verdict": "PASS"
+    }
+  ],
+  "usage": {
+    "input_tokens": 2718,
+    "output_tokens": 355
+  }
+}
