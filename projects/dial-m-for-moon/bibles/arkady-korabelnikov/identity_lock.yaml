@@ -1,0 +1,38 @@
+CHARACTER_IDENTITY_LOCK:
+  name: Major Arkady Korabelnikov
+  character_class: humanoid
+  age_cohort: early fifties (52)
+  species: human
+  role: supporting — major, Soviet signals counterintelligence, Object 10-D lunar listening post, 1959; Valya's reluctant shield
+
+  morphology_lock: solid heavy build of a career officer gone slightly to seed, broad shoulders, height 178 cm, deliberate unhurried movements, stands perfectly still when listening with his head tilted a fraction to the left
+  cranial_lock: weathered Slavic face, deep-set grey eyes under heavy straight brows, broad nose with a slight crooked set from an old break, close-cropped steel-grey hair with a receding hairline, clean-shaven, deep nasolabial lines, thin pale shrapnel scar along the left jawline
+  surface_lock: 1959 Soviet officer's service uniform — olive drab service tunic with gilt buttons, shoulder boards bearing ONE small gilt star (major's rank), sky-blue signals piping on collar and boards, brown leather officer's belt with brass buckle, polished brown leather boots; grey-green greatcoat with shoulder boards for outdoors; olive drab service cap with black visor and red star cockade
+  appendage_lock: standard human, two arms, two legs; thick-knuckled hands, nicotine stain on right index and middle fingertips
+  accessory_prop_lock: olive drab officer's service cap (rounded crown — NOT a peaked field cap — short black patent visor, red enamel star cockade centered on the band); grey-green greatcoat; brown leather map case on a shoulder strap; black Bakelite field-telephone handset (TA-57 pattern); brushed-silver cigarette case with engraved Cyrillic initials "A.K."
+  chromatic_lock: olive drab wool, brown leather, steel-grey hair, weathered ruddy skin; the only accent color permitted is the signal-orange glow of equipment lamps, never on his clothing
+  material_lock: wool serge tunic, heavy greatcoat wool, polished brown leather, Bakelite field telephone, brushed silver cigarette case
+  style_lock: photorealistic period documentary — the entire bible reads as frames from a 1959 16mm Kodak Ektachrome reversal-film reel, fresh print kept in cold archival storage
+
+  signature_visual_hooks:
+    - service cap worn square on the head or carried tucked under the left arm
+    - silver cigarette case opened and offered toward others, rarely smoked himself
+    - stands perfectly still when listening, head tilted slightly left
+    - map case slung over the right shoulder
+
+  # QC note 2026-09-23: the thin shrapnel scar on the left jawline is subtle at
+  # reference distance and may not render; describe it in prose, do not QC-fail
+  # pages where it is invisible. Same doctrine as Orlova bible (scar = script-only).
+
+  DO_NOT_CHANGE:
+    - age 52, weathered face, steel-grey close-cropped hair with receding hairline
+    - major's ONE small gilt star on the shoulder boards
+    - service cap construction (rounded crown, short black visor, red star cockade)
+    - the year 1959 and the 16mm Ektachrome reversal look
+    - chromatic lock (no modern colors, no signal-orange clothing)
+
+  BOUNDED_VARIATION:
+    - lighting: tungsten amber duty-room glow vs cold moonlight vs overcast daylight
+    - expression and gaze direction
+    - service tunic vs greatcoat vs shirtsleeves-and-braces for indoor duty
+    - minor period grime: dust on boots, worn greatcoat cuffs

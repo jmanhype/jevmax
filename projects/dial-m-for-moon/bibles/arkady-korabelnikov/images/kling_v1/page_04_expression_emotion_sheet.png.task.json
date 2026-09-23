@@ -1,0 +1,19 @@
+{
+ "generationId": "AepPszJ1OBpDO6NzwWGkSwnZbiOuOsLLSo8d3BWtBHdja3vFRNlrEB8GD8p9RO8TqiebXca_",
+ "status": "COMPLETED",
+ "createTime": 1790181251514,
+ "finishTime": 1790181287669,
+ "works": [
+  {
+   "status": "COMPLETED",
+   "contentType": "image",
+   "url": "https://s15-kling.klingai.com/kimg/EMXN1y8qZwoGdXBsb2FkEg55bGFiLXN0dW50LXNncBpNc2UvYWlfcG9ydGFsX3NncF9rbGluZ19jb21tb25fbG9nby9kMDY1MmFmNy05MTA4LTQ1ZGQtODllNi05NzQyNjkxOTcyNWYvMC5wbmc.origin?x-kcdn-pid=112372",
+   "urlWithoutWatermark": "https://s15-kling.klingai.com/kimg/EMXN1y8qTwoGdXBsb2FkEg55bGFiLXN0dW50LXNncBo1c3RhcmdhdGUvMTEyL2UxNzFlNmY2LTg2YzktNGM2ZS1iYWYyLTVlMmMxYzI0NmFmNS5wbmc.origin?x-kcdn-pid=112372",
+   "content_type": "image",
+   "url_without_watermark": "https://s15-kling.klingai.com/kimg/EMXN1y8qTwoGdXBsb2FkEg55bGFiLXN0dW50LXNncBo1c3RhcmdhdGUvMTEyL2UxNzFlNmY2LTg2YzktNGM2ZS1iYWYyLTVlMmMxYzI0NmFmNS5wbmc.origin?x-kcdn-pid=112372"
+  }
+ ],
+ "generation_id": "AepPszJ1OBpDO6NzwWGkSwnZbiOuOsLLSo8d3BWtBHdja3vFRNlrEB8GD8p9RO8TqiebXca_",
+ "create_time": 1790181251514,
+ "finish_time": 1790181287669
+}

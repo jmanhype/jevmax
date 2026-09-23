@@ -1,0 +1,7 @@
+A frame from a 1959 16mm Kodak Ektachrome reversal-film documentary reel, fresh print, cold archival storage. Slight organic grain, even flat lighting, period-true color.
+
+SUBJECT: Major Arkady Korabelnikov, 52, Soviet signals counterintelligence — solid heavy build, broad shoulders; weathered Slavic face, deep-set grey eyes under heavy straight brows, broad nose with a slight crooked set from an old break, close-cropped steel-grey hair with receding hairline, clean-shaven, deep nasolabial lines; olive drab officer service tunic with gilt buttons, shoulder boards bearing ONE small gilt star (major's rank), sky-blue signals piping on collar and boards, brown leather officer's belt with brass buckle. The SAME man in every view — identical face, hair, uniform.
+
+PAGE 02 — ORTHOGRAPHIC TURNAROUND (16:9): Technical-documentary turnaround: strict front, left-side profile, and back views of the same man standing at parade rest against a plain grey plaster wall in a technical-photography studio, even flat daylight. Bare head in all three views (close-cropped steel-grey hair and receding hairline visible, including the back view); his olive drab service cap with black visor and red star cockade tucked under his left arm in the front view. Shoulder boards with the single gilt star and back belt detail legible. No duty room, no other props.
+
+DO NOT CHANGE: 52-year-old weathered face, steel-grey close-cropped hair, major's single star, 1959 period, Ektachrome look. BOUNDED VARIATION: none on identity — only lighting flatness.
