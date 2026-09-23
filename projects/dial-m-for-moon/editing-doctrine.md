@@ -184,3 +184,7 @@ generation:
   line_discipline escalation cleared; T2 J-cut composite 0.893 → 0.864,
   flow escalation unchanged — conditioning helped the continuity cut and
   did nothing for the rupture, as predicted.
+- For match on action, the prompt must explicitly FORBID reframing
+  ("do NOT pull back, do NOT change angle"), not just ask for continuation —
+  otherwise the generator widens the shot and the gesture breaks
+  (EP003 S02 take1: 0.722 with 3 escalations → take2: 0.991, zero).
