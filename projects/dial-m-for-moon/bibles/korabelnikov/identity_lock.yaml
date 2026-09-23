@@ -1,0 +1,35 @@
+CHARACTER_IDENTITY_LOCK:
+  name: Arkady Semyonovich Korabelnikov
+  character_class: humanoid
+  age_cohort: early fifties (52)
+  species: human
+  role: antagonist-ally — Major, counterintelligence (Signals), the man sent to close frequency 14; WW2 veteran caught between the order of the day and a 1945 oath
+
+  morphology_lock: heavy-set, broad through the chest and shoulders, 185 cm, slow deliberate movement, parade-ground stillness — he never enters a room far
+  cranial_lock: broad weathered face, deep nasolabial folds, heavy brow, deep-set pale grey eyes, short grey-streaked military crop receding at the temples, clean-shaven, no scars
+  surface_lock: 1959 KGB-style officer service dress — olive-grey wool tunic with concealed buttons, shoulder boards with ONE brass star (Major), cornflower-blue collar piping and cap band, grey wool trousers with side stripes, black leather belt with brass buckle, polished black boots, grey overcoat outdoors
+  appendage_lock: standard human; wedding band worn on the RIGHT hand (Orthodox custom)
+  accessory_prop_lock: black leather document folder carried flat like a tray (signature); round wire reading glasses on a neck chain, lowered to look at people (the intimidation move); battered brass cigarette case he never opens (he quit in 1946); black fountain pen
+  chromatic_lock: olive-grey wool, cornflower blue accents, worn black leather, brass — against the switchboard's signal-orange lamps he always reads cold
+  material_lock: heavy wool, cracked black leather, brass, glass lenses
+  style_lock: same series register — frames from a 1959 16mm Kodak Ektachrome reversal reel, fresh print, cold archival storage
+
+  signature_visual_hooks:
+    - glasses lowered on the chain to look at someone — full stop
+    - the document folder held flat, both hands, like a tray
+    - the unopened cigarette case turned over once in the pocket hand
+    - never more than two steps into any room
+
+  DO_NOT_CHANGE:
+    - grey-streaked short crop, clean-shaven
+    - tunic cut, Major's single-star shoulder boards, cornflower-blue piping
+    - folder + glasses-on-chain + cigarette case as the prop triad
+    - right-hand wedding band
+    - 1959 period, 16mm Ektachrome register
+    - broad heavy build (against Valya's slender frame — the door vs the wire)
+
+  BOUNDED_VARIATION:
+    - cap on (outdoors/corridor) vs bare head indoors
+    - glasses on eyes vs lowered on chain
+    - overcoat on/off
+    - lighting: cold corridor spill vs warm board glow on one side of the face

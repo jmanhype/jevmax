@@ -41,3 +41,10 @@
 - New `jevmax/creative/shot-record-template.md`: per-shot record = ONE dominant Eyecandy technique mapped to camera/motion/world/grade, non-empty `withheld` list (anti-overpacking), matched assets, audio beats, takes ≥2 with vision→Jev selection, verbatim prompt appended after render. Episode header = director's brief. Rules: no technique, no shot; no two dominants; episodes must have ADVANCE'd before shot budgets.
 - DIAL M registers pre-mapped in the catalog: series grade = Vintage/Halation/Vignette; switchboard grammar candidates = Central Framing, Cut-ins, Over the Shoulder, Split Diopter, Focal shift, Locked-On, Voyeur, Typography.
 - First application: EP001 storyboard (next stage) will be built as shot records per this template.
+
+## 2026-09-23 — EP001 STORYBOARD + KORABELNIKOV BIBLE (user: "go")
+
+- `episodes/EP001/storyboard.md`: 10 shot records per template — director's brief header (110s, 9:16, grade lock, cast Elements, grammar budget 5) + shots S01-S10 with one dominant Eyecandy technique each (Central Framing ×2, Cut-ins ×4, Focal shift ×2, Over the Shoulder, Split Diopter), non-empty withheld lists, matched assets, audio beats, takes=2 + gates. Note: shot 01 (16:9) = S01 proof master; vertical re-render queued.
+- Korabelnikov 4-page supporting bible complete (140 cr): `bibles/korabelnikov/` — anchor QC full pass (single-star boards, cornflower piping, glasses-on-chain, folder; set Cyrillic «ЦЕНТРАЛЬНЫЙ ПУНКТ СВЯЗИ» correctly spelled); 4/4 unique MD5s; generated from Valya's page 1 as world-consistency reference, no face-bleed.
+- Kling Element **322152680652417** "Major Korabelnikov" (cover anchor; secondary 02/04/07).
+- Episode cast is now fully Element-anchored. **Render budget for EP001 (awaiting go): 10 shots × 2 takes × 60 cr = 1,200 credits.**
