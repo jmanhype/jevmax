@@ -68,3 +68,11 @@
 - Env: `~/workspace/depth-venv` (torch 2.14.0+cpu, torchvision 0.29.0+cpu, transformers 5.17.0). Model weights at `~/.cache/huggingface/hub/models--depth-anything--Depth-Anything-V2-Small-hf/snapshots/manual/` (downloaded via curl — huggingface_hub's httpx client chokes on this VM's proxy env, so HF library downloads are broken here; curl works).
 - Rule: for shots blocked in Shot Composer, prefer exact depth exported from the 3D scene; use estimated depth only for real reference material (photos, plates, prior takes).
 - Verified 2026-09-23 on S06 winner keyframe: clean silhouette/geometry separation (Valya, lamp, switchboard).
+
+## 2026-09-23 — EP001 RENDERED: pure-PixVerse, 20 takes, 920 credits
+
+- Strategy call (user): **pure PixVerse**. Phase A: 9 free 9:16 seed stills (gpt-image-2.5-flare, multi-ref from bible pages; full model name matters — "gpt-image-2.5" 400s). S01 seeded direct from Valya page 1. Phase B: v6 I2V, 5s, 720p, 9:16, --count 2, --seed 1959, idempotency keys; dialogue shots (S03/S06/S07/S09) --no-audio for later TTS, others native ambience.
+- **Spend: 920 credits (46/take avg), balance 7,145 → 6,225.** All 20 takes Completed.
+- **Incident + recovery (the valuable lesson):** driver parsed the wrong JSON field — CLI returns `items[]`, not `video_url` — so all 10 submissions charged, rendered, and downloaded nothing. Re-submission with same idempotency keys 400'd (dedupe did NOT apply). Full recovery without re-charging via `pixverse task status <ids>` + `asset list` (found both take ids per shot by prompt match + timestamps) → direct curl of returned URLs. **Recovery playbook: asset list → task status → curl. Never blind-resubmit.**
+- Files: `renders/seeds/*_seed.png` (9), `renders/takes/S##_take{1,2}.mp4` (20), `renders/render_log.csv`, `renders/ep001_driver.py`, `renders/recover_takes.ps1`. S01 take1 verified by eye: centered anchor, lamps, plug insert, lean-in, 16mm register holds in motion.
+- Next: take-selection gate per shot (vision describe → Jev select between take1/take2) → edit sheet assembly (ffmpeg install pending) → TTS pass (StepFun, needs top-up).
