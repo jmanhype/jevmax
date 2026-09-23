@@ -4,6 +4,18 @@ Studied 2026-09-23. Source: OpenArt AI Ad Awards entry — 99s photoreal
 ad for a fictional smartwatch ("SILENCE™"), made with Wan 3.0.
 Frame-verified at 6 timestamps across the runtime.
 
+## Scope and limits
+
+Photoreal long-form is scarce in his public output: this ad is currently
+his clearest, longest photoreal piece. Most posted work is the stylized
+Johnny series (plus the animated "Memory Maker"); older or promotional
+clips are shorter and less character-driven, and the full playbook is not
+always applied there. So: the method below is his reliable approach for
+projects that need careful character continuity — in the serial western
+and in this one solid photoreal example — not a universal rule for every
+clip he posts. Do not claim it has been stress-tested across dozens of
+photoreal projects.
+
 ## The continuity verdict (verified, not assumed)
 
 - **The protagonist IS the same man** across Times Square → office plaza
