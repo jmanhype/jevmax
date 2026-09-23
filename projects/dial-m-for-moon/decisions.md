@@ -24,3 +24,12 @@
 - Kling Element `322149783311120` "Valya Orlova" — cover: page 1 anchor; secondary: pages 2 (turnaround), 4 (expressions), 5 (details). Tag: Characters. Note: Element cover is immutable per Kling — replacing the anchor later means delete + recreate.
 - SHOT 01 "switchboard mayday": kling-video-v3_0, first_image = page 1, elements = [322149783311120], 5s, 1080p, native audio, single shot. 60 credits. Beat: calm focus → plug insert → crackle → sharp lean-in; push-in + handheld drift, Ektachrome look. File: `shot_01_switchboard_mayday.mp4` (9.6 MB).
 - Session spend: 446 credits, balance 5,612.
+
+## 2026-09-23 — WRITING SPRINT COMPLETE (user: "write it")
+
+- Format: **vertical short-drama series** (12 × ~110s, 9:16) recommended and written to; 16:9 short-film fallback documented in story-bible.md (reversible at storyboard). Rationale: engine score 1.81 = premise's series virtue; stack-native; Cannon Buy criterion = vertical audience.
+- `story-bible.md` (sw-workflow state file): premise, controlling idea, the lie of the world, cast (Valya / Korabelnikov / Riva / SEVEN-THREE), 12-episode arc, both format analyses, production checklist, resume protocol.
+- `episode-map.csv` gated (6,050 in / 562 out tokens): eps 1-9 ADVANCE (pilot 10.21, ep 6 father-tape 10.18; cliffhanger tier 3.1-3.8 throughout). HOLDs 7/10/8 structural (8.16-8.78, near-miss); ep 12 finale hook 1.02 = measurement artifact (finales open quiet; its job is payoff) — human note, not a defect.
+- `episodes/EP001/script.md` written (short-drama-write format; opening beat = canon shot 01).
+- Canon gates on real script: vs identity lock 4/4 PASS (0.94-0.99); vs story bible first run flagged "Section 7: bible_silent" → REVIEW (correct: script invented a world-fact) → Section 7 canonized into story-bible.md → re-gate 5/5 PASS (0.96-1.00). Total ~9.4k tokens for all sprint gates.
+- Next: Korabelnikov 4-page bible (supporting tier), storyboard + prompts for EP001 (eps 2-12 after), then batch animation.
