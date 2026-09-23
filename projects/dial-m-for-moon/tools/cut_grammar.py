@@ -80,27 +80,30 @@ QUESTIONS = {
     "flow": {
         "type": "score",
         "instructions": "How well does this transition carry the scene's rhythm and legibility?",
-        "criteria": {
-            "0": "Disorienting; breaks the scene. The audience loses space, time, or the thread.",
-            "1": "Choppy; the edit shows. Understandable but mechanical — assembly-cutting.",
-            "2": "Serviceable; carries the beat. The cut does its job without calling attention.",
-            "3": "Seamless; the cut disappears. Space, time, and emotion read as continuous.",
-        },
+        "criteria": [
+            "Disorienting; breaks the scene. The audience loses space, time, or the thread.",
+            "Choppy; the edit shows. Understandable but mechanical — assembly-cutting.",
+            "Serviceable; carries the beat. The cut does its job without calling attention.",
+            "Seamless; the cut disappears. Space, time, and emotion read as continuous.",
+        ],
     },
     "audio_bridge": {
         "type": "noul",
         "instructions": "Should the audio lead or linger across the picture cut (a J-cut or L-cut) rather than cutting with the picture?",
-        "criteria": "The transition is better served by offsetting audio from picture: incoming audio arrives early (J-cut) or outgoing audio lingers over the next shot (L-cut).",
+        "criteria": {
+            "true": "The transition is better served by offsetting audio from picture: incoming audio arrives early (J-cut) or outgoing audio lingers over the next shot (L-cut).",
+            "false": "Audio should cut together with the picture — a hard, synchronized audio-image cut is correct here.",
+        },
     },
     "tension": {
         "type": "score",
         "instructions": "What dramatic register does this transition demand on the episode's escalation curve? (Descriptive, not a quality grade.)",
-        "criteria": {
-            "0": "Release / exhale. The scene lets go here.",
-            "1": "Hold. Sustains the current pressure without raising it.",
-            "2": "Build. Pressure rises across the cut.",
-            "3": "Spike. A jolt, revelation, or rupture.",
-        },
+        "criteria": [
+            "Release / exhale. The scene lets go here.",
+            "Hold. Sustains the current pressure without raising it.",
+            "Build. Pressure rises across the cut.",
+            "Spike. A jolt, revelation, or rupture.",
+        ],
     },
 }
 
@@ -117,16 +120,25 @@ def build_state(episode, transition, shot_a, shot_b, beat_intent):
     }
 
 
-def judge_transition(state):
-    answers, _usage = ask(state, QUESTIONS)
-    return answers
+def judge_transition(state, retries=3):
+    import time
+
+    last = None
+    for attempt in range(retries):
+        try:
+            answers, _usage = ask(state, QUESTIONS)
+            return answers
+        except OSError as e:  # transient drops through the egress proxy
+            last = e
+            time.sleep(2.0 * (attempt + 1))
+    raise last
 
 
 def composite(answers, weights=WEIGHTS):
     flow = answers["flow"]["score"] / 3.0
     cut_conf = answers["cut_type"]["confidence"]
     line_ok = 0.0 if answers["line_discipline"]["choice"] == "crossed_accidental" else 1.0
-    p_audio = answers["audio_bridge"]["probability"]
+    p_audio = answers["audio_bridge"]["noul"]
     audio_decided = 0.0 if AUDIO_AMBIGUOUS[0] <= p_audio <= AUDIO_AMBIGUOUS[1] else 1.0
     return (
         weights["flow"] * flow
@@ -163,7 +175,7 @@ def route(answers):
         )
     if line["choice"] == "crossed_accidental":
         escalations.append("line_discipline: crossed_accidental — axis error, must be re-blocked")
-    p_audio = answers["audio_bridge"]["probability"]
+    p_audio = answers["audio_bridge"]["noul"]
     if AUDIO_AMBIGUOUS[0] <= p_audio <= AUDIO_AMBIGUOUS[1]:
         escalations.append(f"audio_bridge: p={p_audio:.2f} is ambiguous — Jay decides J/L/hard")
 

@@ -78,7 +78,7 @@
 - **Confidence-gated routing:** 0.6 floor → escalate to Jay (existing project rule, now doc-backed); audio_bridge in [0.4, 0.6] → ambiguous → Jay; `crossed_accidental` and `none_of_above` always escalate; smash_cut / deliberate line-cross need > 0.85. Composite = weighted atomic scores (weights code-owned, retunable without re-inference).
 - **`transition-record-template.md`:** per-cut record — beat intent, A-ends/B-opens, Jev verdict, routing, Jay's decision, generation handoff (shot B prompt + audio edit note).
 - **Placement:** pre-generation gate for EP002+ (transition records before shot budgets); EP001 retro = run judge over the 9 existing transitions, spot-check vs Jay's judgment before trusting the gate.
-- Verified 2026-09-23: schema builds, routing fires (ambiguous noul + accidental crossing escalate; clean pass does not). Dry-run tested; no live Jev calls made.
+- Verified 2026-09-23: schema builds, routing fires (ambiguous noul + accidental crossing escalate; clean pass does not). **Live test on 2 real EP001 transitions (S03→S04, S04→S05): works end to end.** S04→S05 judged `match_on_action` @ 0.56 (textbook-correct, escalates just under the 0.6 floor); S03→S04 judged `eyeline_match` @ 0.45 with ambiguous audio (0.55) — genuinely uncertain, correctly routed to Jay. Two API contract fixes found by the test: Score criteria must be a list (not a dict), Noul criteria must be `{true, false}` and its answer field is `noul` (not `probability`). Added transient-drop retry (egress proxy flakes) in `judge_transition`.
 
 ## 2026-09-23 — EP001 RENDERED: pure-PixVerse, 20 takes, 920 credits
 
