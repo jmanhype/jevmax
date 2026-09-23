@@ -55,4 +55,3 @@
 - QC flags (minor, human call): (1) shoulder boards on pages 01/02/04 render TWO gilt stars (podpolkovnik) vs the lock's major's ONE star — page 07's loose board correctly shows one; (2) cigarette-case engraving reads "M.K." not "A.K." (page 07); (3) stray red star on the greatcoat shoulder strap (page 07). Face/identity consistent across pages; Ektachrome look holds.
 - No Kling Element created (Kling-only concept; the native bible stands alone).
 - Committed locally; push pending Jay's go-ahead.
->>>>>>> 6c7161a (Korabelnikov 4-page bible: native redo, 0 Kling credits)
