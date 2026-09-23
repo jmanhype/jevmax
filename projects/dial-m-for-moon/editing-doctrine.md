@@ -198,19 +198,28 @@ generation:
   RE-DRESS the set under a locked camera (take2: the right-side jackfield
   becomes a meter panel between head and tail). The lock is necessary but
   not sufficient; verify with the QC below.
-- QC step: run `tools/qc_shot_lock.py` on every take. It NCC-matches
-  head-frame patches against the same locations in the tail frame:
-  candidate_bg = % of frame with low head-tail change, bg_hold = % of that
-  which structurally matches. FLAG if candidate_bg < 5% (nothing verifiable)
-  or bg_hold < 50% (background changed). Calibrated 2026-09-23: S03 take1
-  bg_hold 1.2%, take2 0.2% (both FLAG — take2's re-dress is real), S02 take2
-  50.6% (PASS). A FLAG means human review, not auto-reject; use
-  --allow-motion for action shots where the subject legitimately sweeps the
-  frame (there the check is INCONCLUSIVE, not a verdict).
+- QC step: run `tools/qc_continuity.py` on every take (supersedes
+  `tools/qc_shot_lock.py`, kept as a classical fallback). Three signals,
+  all CPU-friendly: CLIP ViT-B/32 cosine similarity across 8 evenly-sampled
+  frames (min consecutive-frame sim, head-vs-tail sim), Farneback dense
+  optical flow median magnitude at 320px width (motion energy), and
+  consecutive grayscale MSE as an informational change detector. FLAG if
+  min_consecutive < 0.90, head_tail < 0.85, or max median flow > 2.0px.
+  Calibrated 2026-09-23: LOCKED (S02 take2) 0.931/0.927/0.6px -> PASS;
+  DRIFT (S03 take1) 0.903/0.779/19.6px -> FLAG; REDRESS (S03 take2)
+  0.866/0.831/13.5px -> FLAG (both CLIP branches — the subtle re-dress is
+  real); SWEEP (S01 take1, legit action) 0.875/0.861/26.9px -> FLAG. A FLAG
+  means human review, not auto-reject; use --allow-motion for action shots
+  where the subject legitimately sweeps the frame (there flow is
+  informational and CLIP still flags for review).
 - The depth model (Depth-Anything-V2-Small) was tried for this QC job and
   REJECTED 2026-09-23: its relative depth is scene-context dependent — the
   same wall scores different depth when foreground composition changes, so a
-  truly locked take scored the same "drift" as a drifting one. Template
-  search failed too (jackfield's periodic texture gives false NCC peaks at
-  shifted positions). Cross-frame continuity is verified classically;
-  depth stays parked for single-frame structure work.
+  truly locked take scored the same "drift" as a drifting one. Depth maps
+  are independently inferred and normalized per frame (scale/shift
+  ambiguity, no temporal constraint) — cross-frame depth comparison is
+  invalid by construction; the model is reserved for single-frame creative
+  work (keyframe structure gating, depth-driven post, 3D Ken Burns
+  fillers). Continuity QC is CLIP + optical flow + MSE; DINO/ORB and
+  heavier point trackers are available if this minimal stack ever misses,
+  but are not needed today.
