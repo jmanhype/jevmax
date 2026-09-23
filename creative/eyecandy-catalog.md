@@ -52,3 +52,42 @@ framing), Cut-ins (plug/hand/lamp inserts), Over the Shoulder (Korabelnikov
 demanding the log), Split Diopter (Valya + board lamps both sharp), Focal
 shift (attention as focus pull), Locked-On (surveillance dread), Voyeur
 (the traced transmitter), Typography (Cyrillic log placards, [画面文字]).
+
+## Prompt-language layer (Cinematique, vvsvs.pro/cinematique — adopted 2026-09-23)
+
+Cinematique is a free 150+ technique library whose value to us is the
+*prompt phrasing* layer: Eyecandy NAMES the dominant technique; Cinematique
+supplies the tested language that makes a generator deliver it. Role chain:
+**Eyecandy names it → Cinematique phrases it → PERIOD STOCK constrains it →
+Shot Composer verifies it → wallet renders it.** Open source (based on
+grokfilm.app); free for any use per their FAQ.
+
+Most useful vocabulary for the DIAL M register (period-filtered):
+
+- **Lighting** (our thinnest layer): low-key (deep shadow, select
+  illumination — the night-shift default), chiaroscuro (sculpted
+  tenebrism — Korabelnikov interrogations), practical lighting (the board
+  lamps ARE the sources — motivated, Barry Lyndon doctrine), hard light
+  (bare tungsten bulbs, sharp shadow edges), short lighting (key on the
+  far side of the face — thriller default for Valya), side lighting
+  (bisected faces, moral duality), kicker (edge separation in dark rooms),
+  eye light (signal-lamp catchlights — "eyes without catchlights appear
+  dead"), gobo (venetian-blind/window-frame shadow patterns), color
+  temperature as dramaturgy (tungsten amber = the board, cool spill =
+  the corridor/Moscow).
+- **Composition**: framing-within-frame (doorways and window frames —
+  Korabelnikov never enters far, the frame traps; Ford/Hitchcock lineage),
+  deep focus (both planes critical — pairs with Split Diopter), figure-
+  ground (noir merging of subject into shadow), negative space (the empty
+  bay after he leaves), leading lines (cord webs, corridor perspective).
+- **Editing grammar** (edit-sheet stage): the insert/cut-in, reaction shot
+  (Kuleshov), cutaway, smash cut (to black on the button), cross-cutting
+  (two empires), dissolve (the tape flashbacks), in medias res + cliffhanger
+  (already our episode doctrine — external validation).
+
+**PERIOD GATE (mandatory):** all Cinematique gear citations pass the 1959
+lock before entering a prompt. Allowed: tungsten practicals, reflected/
+bounce light, 16mm Ektachrome reversal, period spherical primes, halation,
+gate weave. Forbidden: ARRI/Vision3/Master Primes and any post-1959 stock,
+lens, or digital grade language — the template text is modern; the era
+wins.
