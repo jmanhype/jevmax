@@ -192,5 +192,25 @@ generation:
   the model invents new background per angle — the room morphs (EP003 S03
   take1: three different walls in 10 seconds). Fix: lock the camera
   ("does not move, pan, tilt, or rotate at any point") and state the
-  background stays identical; the performer moves within the fixed frame
-  (S03 take2: background, headset, bun, red pencil all hold).
+  background stays identical; the performer moves within the fixed frame.
+  Caveat learned 2026-09-23: the locked camera fixed take1's gross morph and
+  take2 holds headset, bun, and red pencil — but the model can still
+  RE-DRESS the set under a locked camera (take2: the right-side jackfield
+  becomes a meter panel between head and tail). The lock is necessary but
+  not sufficient; verify with the QC below.
+- QC step: run `tools/qc_shot_lock.py` on every take. It NCC-matches
+  head-frame patches against the same locations in the tail frame:
+  candidate_bg = % of frame with low head-tail change, bg_hold = % of that
+  which structurally matches. FLAG if candidate_bg < 5% (nothing verifiable)
+  or bg_hold < 50% (background changed). Calibrated 2026-09-23: S03 take1
+  bg_hold 1.2%, take2 0.2% (both FLAG — take2's re-dress is real), S02 take2
+  50.6% (PASS). A FLAG means human review, not auto-reject; use
+  --allow-motion for action shots where the subject legitimately sweeps the
+  frame (there the check is INCONCLUSIVE, not a verdict).
+- The depth model (Depth-Anything-V2-Small) was tried for this QC job and
+  REJECTED 2026-09-23: its relative depth is scene-context dependent — the
+  same wall scores different depth when foreground composition changes, so a
+  truly locked take scored the same "drift" as a drifting one. Template
+  search failed too (jackfield's periodic texture gives false NCC peaks at
+  shifted positions). Cross-frame continuity is verified classically;
+  depth stays parked for single-frame structure work.
