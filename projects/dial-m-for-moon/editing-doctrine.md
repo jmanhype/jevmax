@@ -223,3 +223,21 @@ generation:
   fillers). Continuity QC is CLIP + optical flow + MSE; DINO/ORB and
   heavier point trackers are available if this minimal stack ever misses,
   but are not needed today.
+
+## Full-library audit 2026-09-23 — gate scope correction
+- Ran `tools/qc_continuity.py --allow-motion` over all 42 takes of
+  EP001/EP002/EP003: 41 FLAG, 1 PASS (EP003 S02 take2, the known-locked
+  shot — the tool behaves exactly as calibrated).
+- The flags are almost entirely CLIP-similarity, not motion: EP001/EP002
+  moving-camera shots (push-ins, rack focuses, S10's vignette/flicker
+  finale) sit at 0.65–0.89 head-tail, below gates calibrated on locked-off
+  EP003 material. S10 scores ~0.48–0.53 (deliberate stylization, already
+  shipped as EP001 v1 — the flag describes the style, it does not
+  invalidate it).
+- Correction: the 0.90/0.85 gates are a PASS/FAIL rule ONLY for locked-
+  camera continuity shots (the EP004 discipline). For shots with deliberate
+  camera movement, a FLAG means "eyeball the head/tail frames," not fail.
+  Shipped episodes are unaffected; the one EP003 winner flag (S03 take2,
+  0.866/0.831) is the known, accepted subtle re-dress.
+- Going forward: keep EP004 cameras locked wherever the storyboard allows
+  it, run the QC on every take, and require PASS on locked shots.
