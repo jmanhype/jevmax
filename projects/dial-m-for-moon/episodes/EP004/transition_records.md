@@ -76,3 +76,11 @@ two-part movement, never three ideas in one shot.
   composition"). **PASS: 0.926 / 0.875 / 1.27px.** Head/tail frames
   verified identical framing; only she moves (marking -> gaze lifting).
   Winner.
+
+### Actuals — S02b redacted-file shot (2026-09-23)
+- take1: CLIP 0.9195/0.9165 PASS both branches; flow 3.47px flags the
+  2.0px gate. Human review: framing identical head-to-tail, redaction
+  bars and stamp hold, no text becomes readable (faint typewriter-noise
+  texture under the bars only). The flow is the planned micro-motion —
+  paper tremor, thumb easing along the page edge. Accepted as winner
+  (s02b_winner.mp4). Hard cut from S02a winner per plan.
