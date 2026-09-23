@@ -23,6 +23,7 @@ WORKFLOWS = {
     "8": ("Read-only account audit", "audit.py"),
     "9": ("SEO/GEO export analysis", "seo_geo.py"),
     "10": ("Bounded Ad Library sampler", "ad_library_sampler.py"),
+    "11": ("Drama concept gates", "drama_gate.py"),
 }
 
 
@@ -95,6 +96,7 @@ def selftest() -> int:
         ("seo", [sys.executable, "seo_geo.py", "search-console", "benchmarks/search_console_sample.csv", "--own-domain", "example.com", "--out", "seo_geo_report.json"]),
         ("citations", [sys.executable, "seo_geo.py", "citations", "benchmarks/citation_sample.csv", "--own-domain", "example.com", "--out", "citation_report.json"]),
         ("dashboard", [sys.executable, "dashboard.py", "--out", "dashboard.html"]),
+        ("drama-gate", [sys.executable, "drama_gate.py", "selftest"]),
     ]
     for name, cmd in commands:
         proc = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True)

@@ -1,0 +1,19 @@
+{
+  "title": "DIAL M FOR MOON",
+  "era": "1959 Cold War thriller, 16mm Kodak Ektachrome",
+  "criteria": {
+    "buy": "0.68",
+    "era_authentic": "0.47",
+    "unique": "0.84"
+  },
+  "verdict": "KILLED",
+  "weakest_criterion": "era_authentic",
+  "pending_visual_criteria": [
+    "glance",
+    "thumbnail"
+  ],
+  "usage": {
+    "input_tokens": 725,
+    "output_tokens": 56
+  }
+}
