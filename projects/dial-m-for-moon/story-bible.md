@@ -96,9 +96,12 @@ bible serves both.
 - [x] Valya bible + Element; shot 01 rendered (= EP001 opening beat)
 - [x] Story bible (this file), episode map gated
 - [x] EP001 script written + canon-gated
-- [ ] Korabelnikov bible (supporting tier: 4 pages) — before his episodes render
-- [ ] Storyboard + image/video prompts per episode (short-drama pipeline)
-- [ ] Batch animation; edit stage (needs ffmpeg)
+- [x] Korabelnikov bible (supporting tier: 4 pages) + Element
+- [x] EP001 storyboard (10 shot records, Eyecandy grammar, template v1.1)
+- [x] Previz layer installed (Shot Composer) — S06/S07/S09/S10 get previz frames before renders
+- [ ] Render strategy call: hybrid / pure-PixVerse / pure-Kling (budgets in decisions.md)
+- [ ] Previz pass on complex shots, then batch animation (platform-routed)
+- [ ] Edit stage (needs ffmpeg)
 
 ## Resume protocol
 

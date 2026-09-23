@@ -24,6 +24,7 @@ WORKFLOWS = {
     "9": ("SEO/GEO export analysis", "seo_geo.py"),
     "10": ("Bounded Ad Library sampler", "ad_library_sampler.py"),
     "11": ("Drama concept gates", "drama_gate.py"),
+    "12": ("Voice generation (StepFun TTS)", "stepfun.py"),
 }
 
 
