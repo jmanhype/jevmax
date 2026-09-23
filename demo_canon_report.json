@@ -1,0 +1,40 @@
+{
+  "bible": "C:\\Users\\ged\\.zcode\\workspace\\default\\dial-m-for-moon\\bibles\\valentina-orlova\\identity_lock.yaml",
+  "script": "demo_episode_excerpt.md",
+  "entities": [
+    {
+      "entity": "Valya",
+      "judgment": "contradicts",
+      "probability": "0.61",
+      "verdict": "REVIEW"
+    },
+    {
+      "entity": "headset",
+      "judgment": "consistent",
+      "probability": "0.97",
+      "verdict": "PASS"
+    },
+    {
+      "entity": "red pencil",
+      "judgment": "consistent",
+      "probability": "1.00",
+      "verdict": "PASS"
+    },
+    {
+      "entity": "logbook",
+      "judgment": "consistent",
+      "probability": "0.98",
+      "verdict": "PASS"
+    },
+    {
+      "entity": "hair",
+      "judgment": "contradicts",
+      "probability": "1.00",
+      "verdict": "FAIL"
+    }
+  ],
+  "usage": {
+    "input_tokens": 1965,
+    "output_tokens": 219
+  }
+}

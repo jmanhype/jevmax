@@ -23,6 +23,8 @@ Usage:
     python3 drama_gate.py cannon --title "T" --tagline "T" --era "1970s giallo" \
         --concept "..." --poster "description of the poster" \
         [--prior "prior key visual;another prior"] [--out verdict.json]
+    python3 drama_gate.py episodes episode_map.csv [--advance 5] [--out ranked_episodes.csv]
+    python3 drama_gate.py canon bible.yaml episode.md [--entities "Name;Prop"] [--out canon_report.json]
     python3 drama_gate.py selftest
 """
 import argparse
@@ -182,10 +184,160 @@ def cannon(title, tagline, era, concept, poster, prior, out_path):
             json.dump(result, f, indent=2)
 
 
+HOOK_EP_LEVELS = [
+    "Dead air: opens on setup or recap, no tension, scroll-away",
+    "Weak: some motion but the first beat is administrative",
+    "Decent: clear promise but a familiar pattern for the genre",
+    "Strong: cold-opens on trouble in progress, question raised in seconds",
+    "Exceptional: instant pattern-interrupt, the hook IS the premise",
+]
+CLIFF_LEVELS = [
+    "None: episode resolves cleanly, no reason to return",
+    "Soft: mild curiosity, easily abandoned",
+    "Decent: real question raised but predictable",
+    "Strong: threat or reversal lands on the final beat, unresolved",
+    "Exceptional: gut-punch button that demands the next episode immediately",
+]
+PRODUCE_LEVELS = [
+    "Expensive: new locations, new cast, crowd or action set-pieces",
+    "Costly: mostly new sets or one new principal character",
+    "Moderate: mix of existing sets and a couple of new elements",
+    "Cheap: existing sets and cast, new blocking only",
+    "Cheapest: single existing set, Element-anchored principals only",
+]
+
+
+def episodes(csv_path, advance, out_path):
+    """Gate the episode map BEFORE any shot is budgeted (~60 cr/shot downstream)."""
+    with open(csv_path, newline="", encoding="utf-8-sig") as f:
+        reader = csv.DictReader(f)
+        fields = reader.fieldnames
+        ep_col = find_named(fields, ["episode", "ep", "number"]) or fields[0]
+        title_col = find_named(fields, ["title"])
+        beat_col = find_named(fields, ["beat", "summary", "episode", "ep", "synopsis", "description", "concept"]) or fields[-1]
+        cliff_col = find_named(fields, ["cliffhanger", "button", "end"])
+        rows = [r for r in reader if (r.get(beat_col) or "").strip()]
+
+    state = {}
+    questions = {}
+    for i, row in enumerate(rows):
+        state[f"e{i}"] = {
+            "episode": (row.get(ep_col) or str(i + 1)).strip(),
+            "title": (row.get(title_col) or "").strip() if title_col else "",
+            "beat": row[beat_col].strip(),
+            "cliffhanger": (row.get(cliff_col) or "").strip() if cliff_col else "",
+        }
+        questions[f"e{i}_hook"] = {
+            "type": "score",
+            "instructions": f"How strong is the OPENING hook of episode `e{i}` — would it hold a vertical-drama viewer past the first seconds?",
+            "criteria": HOOK_EP_LEVELS,
+        }
+        questions[f"e{i}_cliff"] = {
+            "type": "score",
+            "instructions": f"How strong is the ENDING button of episode `e{i}` — cliffhanger field if present, else the beat as written?",
+            "criteria": CLIFF_LEVELS,
+        }
+        questions[f"e{i}_cost"] = {
+            "type": "score",
+            "instructions": f"How cheap is episode `e{i}` to produce with existing sets and Element-anchored principals? Higher = fewer new assets needed.",
+            "criteria": PRODUCE_LEVELS,
+        }
+
+    print(f"Gating {len(rows)} episode(s)...")
+    answers, usage = ask(state, questions)
+
+    out_rows = []
+    for i, row in enumerate(rows):
+        a = (answers[f"e{i}_hook"]["score"], answers[f"e{i}_cliff"]["score"], answers[f"e{i}_cost"]["score"])
+        r = dict(row)
+        r["hook"], r["cliffhanger_score"], r["producibility"] = (f"{x:.2f}" for x in a)
+        r["total"] = f"{sum(a):.2f}"
+        out_rows.append(r)
+    out_rows.sort(key=lambda r: float(r["total"]), reverse=True)
+    for j, r in enumerate(out_rows):
+        r["gate"] = "ADVANCE" if j < advance else "HOLD"
+
+    with open(out_path, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=list(out_rows[0].keys()))
+        w.writeheader()
+        w.writerows(out_rows)
+    for r in out_rows:
+        print(f"  {r['gate']:<7} total {r['total']:>5}  hook {r['hook']}  cliff {r['cliffhanger_score']}  cheap {r['producibility']}  | ep {r.get('episode', '?')}")
+    print(f"Usage: {usage['input_tokens']} in / {usage['output_tokens']} out tokens")
+
+
+CANON_OPTIONS = {
+    "consistent": "The script's use of the entity matches the bible's specification in every visible detail",
+    "contradicts": "The script's use of the entity conflicts with a specific fact in the bible",
+    "bible_silent": "The bible does not specify what the script asserts about this entity",
+}
+AUTO_ACCEPT = 0.80
+
+
+def canon_verdict(option, prob):
+    if option == "contradicts" and prob >= AUTO_ACCEPT:
+        return "FAIL"
+    if option == "consistent" and prob >= AUTO_ACCEPT:
+        return "PASS"
+    return "REVIEW"
+
+
+def canon(bible_path, script_path, entities_arg, out_path):
+    """Citation-check transplant: script facts vs the story/identity bible.
+
+    Deterministic pass first (entity mentioned at all — free), then one Choice
+    per mentioned entity: consistent / contradicts / bible_silent. Verdicts are
+    confidence-banded; anything not auto-accepted goes to the human.
+    """
+    bible = open(bible_path, encoding="utf-8").read()
+    script = open(script_path, encoding="utf-8").read()
+    entities = [e.strip() for e in entities_arg.split(";") if e.strip()]
+    if not entities:
+        import re
+        entities = sorted(set(re.findall(r"^\s*name:\s*(.+)$", bible, re.M)))
+
+    mentioned = [e for e in entities if e.lower() in script.lower()]
+    missing = [e for e in entities if e not in mentioned]
+    if missing:
+        print(f"  not mentioned in script (free check): {', '.join(missing)}")
+    if not mentioned:
+        print("canon: no bible entities appear in the script — nothing to check.")
+        return
+
+    state = {"bible": bible, "script": script}
+    questions = {}
+    for e in mentioned:
+        questions[f"canon_{e}"] = {
+            "type": "choice",
+            "instructions": f"Judging `bible` and `script` together: how does the script's use of '{e}' relate to the bible's specification of '{e}'?",
+            "criteria": CANON_OPTIONS,
+        }
+    answers, usage = ask(state, questions)
+
+    report = []
+    for e in mentioned:
+        a = answers[f"canon_{e}"]
+        option = max(a["probabilities"], key=a["probabilities"].get)
+        prob = a["probabilities"][option]
+        verdict = canon_verdict(option, prob)
+        report.append({"entity": e, "judgment": option, "probability": f"{prob:.2f}", "verdict": verdict})
+        print(f"  {verdict:<6} {e}: {option} at {prob:.2f}")
+    flagged = [r for r in report if r["verdict"] != "PASS"]
+    print(f"  -> {len(report) - len(flagged)} pass, {len(flagged)} need a human look" if flagged else f"  -> all {len(report)} auto-passed")
+    print(f"Usage: {usage['input_tokens']} in / {usage['output_tokens']} out tokens")
+    if out_path:
+        with open(out_path, "w", encoding="utf-8") as f:
+            json.dump({"bible": bible_path, "script": script_path, "entities": report, "usage": usage}, f, indent=2)
+
+
 def selftest():
     assert verdict_band({"buy": 0.9, "era_authentic": 0.8, "unique": 0.95})[0] == "GREENLIT"
     assert verdict_band({"buy": 0.9, "era_authentic": 0.6, "unique": 0.95}) == ("CONDITIONAL", "era_authentic")
     assert verdict_band({"buy": 0.4, "era_authentic": 0.9, "unique": 0.95})[0] == "KILLED"
+    assert canon_verdict("consistent", 0.93) == "PASS"
+    assert canon_verdict("contradicts", 0.97) == "FAIL"
+    assert canon_verdict("consistent", 0.55) == "REVIEW"
+    assert canon_verdict("bible_silent", 0.9) == "REVIEW"
     tmp = ROOT / "selftest_concepts.csv"
     tmp.write_text("title,tagline,concept\nT1,G1,C1\nT2,G2,C2\n", encoding="utf-8")
     with open(tmp, newline="", encoding="utf-8") as f:
@@ -222,6 +374,15 @@ def main():
     c.add_argument("--poster", required=True)
     c.add_argument("--prior", default="", help="Prior run key visuals, ';'-separated, for uniqueness")
     c.add_argument("--out", default=None)
+    e = sub.add_parser("episodes")
+    e.add_argument("csv_path")
+    e.add_argument("--advance", type=int, default=5)
+    e.add_argument("--out", default="ranked_episodes.csv")
+    n = sub.add_parser("canon")
+    n.add_argument("bible_path")
+    n.add_argument("script_path")
+    n.add_argument("--entities", default="", help="';'-separated entities; default: name: fields from the bible")
+    n.add_argument("--out", default=None)
     sub.add_parser("selftest")
     args = ap.parse_args()
 
@@ -229,6 +390,10 @@ def main():
         return selftest()
     if args.cmd == "rank":
         rank(args.csv_path, args.advance, args.out)
+    elif args.cmd == "episodes":
+        episodes(args.csv_path, args.advance, args.out)
+    elif args.cmd == "canon":
+        canon(args.bible_path, args.script_path, args.entities, args.out)
     else:
         prior = [p.strip() for p in args.prior.split(";") if p.strip()]
         cannon(args.title, args.tagline, args.era, args.concept, args.poster, prior, args.out)
