@@ -8,7 +8,8 @@ beat-in: dead night shift, traffic zero     beat-out: log entry erased, lamp 14 
 grade register: 16mm Ektachrome reversal look (Vintage register), halation on
   practicals only, mild archive vignette — series lock, no shot-level deviation
 cast: Valya — Element 322149783311120 + identity_lock.yaml
-      Korabelnikov — Element (this stage) + bibles/korabelnikov/identity_lock.yaml
+      Korabelnikov — bibles/arkady-korabelnikov/ (native bible, canonical —
+      no Kling Element per user preference)
       SEVEN-THREE — voice only (TTS at edit stage)
 grammar budget: 5 distinct dominants — Central Framing · Cut-ins · Focal shift ·
   Over the Shoulder · Split Diopter
@@ -101,7 +102,7 @@ eyecandy: Over the Shoulder (technique/over-the-shoulder)
   world:   dark corridor behind him, cold spill light vs warm board glow
   grade:   none
 withheld: Low Angle, Voyeur (door frame is confrontational, not hidden)
-assets: Korabelnikov Element + lock (this stage); Valya Element (shoulder)
+assets: Korabelnikov native bible (bibles/arkady-korabelnikov/); Valya Element (shoulder)
 audio: door hinges, boot heels stop, one floor creak
 takes: 2 · gate: Major's silhouette + cap readable; door framing dominant
 prompt: (after render)
