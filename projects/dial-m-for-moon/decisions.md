@@ -33,3 +33,11 @@
 - `episodes/EP001/script.md` written (short-drama-write format; opening beat = canon shot 01).
 - Canon gates on real script: vs identity lock 4/4 PASS (0.94-0.99); vs story bible first run flagged "Section 7: bible_silent" → REVIEW (correct: script invented a world-fact) → Section 7 canonized into story-bible.md → re-gate 5/5 PASS (0.96-1.00). Total ~9.4k tokens for all sprint gates.
 - Next: Korabelnikov 4-page bible (supporting tier), storyboard + prompts for EP001 (eps 2-12 after), then batch animation.
+
+## 2026-09-23 — GRAMMAR LAYER INSTALLED: Eyecandy + platform adoptions
+
+- Reviewed the closed-platform landscape (Dramagic/BytePlus, Slate/xAI). Adopted into the open stack: Dramagic's structured shot table + matched assets; Slate's director's brief + takes (generate N, gate, keep best). Not adopted: their platforms.
+- **Eyecandy (eyecannndy.com) is now the grammar layer** (jevmax layer 3): full live catalog fetched 2026-09-23 — 136 techniques — as `jevmax/creative/eyecandy-catalog.md` (site had 138 on the author's 09-20 fetch; 2 since reorganized). Existing `creative/eyecandy-source-grammar.md` (Ava mappings) restored to the working copy from the GitHub clone.
+- New `jevmax/creative/shot-record-template.md`: per-shot record = ONE dominant Eyecandy technique mapped to camera/motion/world/grade, non-empty `withheld` list (anti-overpacking), matched assets, audio beats, takes ≥2 with vision→Jev selection, verbatim prompt appended after render. Episode header = director's brief. Rules: no technique, no shot; no two dominants; episodes must have ADVANCE'd before shot budgets.
+- DIAL M registers pre-mapped in the catalog: series grade = Vintage/Halation/Vignette; switchboard grammar candidates = Central Framing, Cut-ins, Over the Shoulder, Split Diopter, Focal shift, Locked-On, Voyeur, Typography.
+- First application: EP001 storyboard (next stage) will be built as shot records per this template.
