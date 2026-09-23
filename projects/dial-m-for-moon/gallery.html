@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>DIAL M FOR MOON — production gallery</title>
+<style>
+  body { background:#111318; color:#e8e4da; font-family: Georgia, 'Times New Roman', serif; margin:0; padding:40px 4vw; }
+  h1 { font-size:42px; letter-spacing:6px; margin:0; color:#f2ede1; }
+  .tagline { color:#e07b2f; letter-spacing:3px; font-size:14px; margin:6px 0 30px; text-transform:uppercase; }
+  h2 { border-bottom:1px solid #3a3f4a; padding-bottom:8px; letter-spacing:2px; font-size:20px; color:#cfd4de; margin-top:48px; }
+  .meta { font-family: 'Consolas', monospace; font-size:12.5px; color:#9aa3b2; line-height:1.7; max-width:900px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(300px, 1fr)); gap:22px; margin-top:20px; }
+  figure { margin:0; background:#191c23; border:1px solid #2c313c; padding:10px; }
+  figure img { width:100%; height:auto; display:block; }
+  figcaption { font-family:'Consolas', monospace; font-size:11.5px; color:#9aa3b2; padding:8px 4px 2px; line-height:1.5; }
+  figcaption b { color:#e8e4da; }
+  .poster { max-width:520px; }
+  .pass { color:#6fbf73; } .fail { color:#d9634e; } .warn { color:#e0a52f; }
+  .strip { background:#191c23; border-left:3px solid #e07b2f; padding:12px 16px; font-family:'Consolas',monospace; font-size:12.5px; color:#c9cedb; line-height:1.8; max-width:900px; margin-top:14px; }
+</style>
+</head>
+<body>
+
+<h1>DIAL M FOR MOON</h1>
+<div class="tagline">One frequency. Two empires. No sign-off.</div>
+
+<div class="meta">
+1959 Cold War thriller — Object 10-D, a secret Soviet lunar listening post. A switchboard operator intercepts
+an American astronaut's mayday that officially never happened, and both empires want the tape.
+<br>Jev rank gate: <b class="pass">ADVANCE 7.85/15</b> (hook 2.58 · era 3.46 · engine 1.81) · Session spend: 386 credits · Balance: 5,672
+</div>
+
+<h2>CAN KEY ART — poster v1 <span class="warn">(human override of Cannon gate)</span></h2>
+<div class="grid">
+  <figure class="poster">
+    <img src="poster-v1.png" alt="Poster v1">
+    <figcaption><b>gpt-image-2 · 2:3 · 35 credits</b><br>
+    Cannon gate on vision description: buy <span class="pass">0.67</span> · unique <span class="pass">0.86</span> ·
+    era <span class="fail">0.33</span> (reads as modern homage) → gate said KILLED ·
+    <b class="warn">user APPROVED as canon</b> — homage-vs-artifact is a human call.</figcaption>
+  </figure>
+</div>
+
+<h2>CHARACTER BIBLE — Valentina &ldquo;Valya&rdquo; Orlova, 8/8 pages</h2>
+<div class="meta">
+Starshina, Soviet Signal Troops, 27. Anchor page 1 first; pages 2–8 generated <i>from</i> page 1 as reference.
+All 8 MD5 hashes unique (no duplicate cascade). <span class="warn">QC amendment:</span> left-eyebrow scar is
+script-only canon — two render attempts failed; ribbon soft-visible by design.
+</div>
+<div class="grid">
+  <figure><img src="bibles/valentina-orlova/images/page_01_primary_hero_reference.png" alt="Page 1">
+  <figcaption><b>01 · PRIMARY HERO REFERENCE</b> — anchor. Insignia, piping, headset, red pencil: <span class="pass">pass</span>. Scar: <span class="fail">absent after 2 attempts</span> → demoted to script canon.</figcaption></figure>
+  <figure><img src="bibles/valentina-orlova/images/page_02_orthographic_turnaround.png" alt="Page 2">
+  <figcaption><b>02 · ORTHOGRAPHIC TURNAROUND</b> — front/side/back. Same woman all views; bun + ribbon legible from behind: <span class="pass">pass</span>.</figcaption></figure>
+  <figure><img src="bibles/valentina-orlova/images/page_03_morphology_proportions_silhouette.png" alt="Page 3">
+  <figcaption><b>03 · MORPHOLOGY / PROPORTIONS / SILHOUETTE</b> — 168 cm, slender, narrow shoulders; measurement lines + silhouette panel.</figcaption></figure>
+  <figure><img src="bibles/valentina-orlova/images/page_04_expression_emotion_sheet.png" alt="Page 4">
+  <figcaption><b>04 · EXPRESSION / EMOTION SHEET</b> — calm · focused · alarm · grief · defiance · tired smile. Same face throughout.</figcaption></figure>
+  <figure><img src="bibles/valentina-orlova/images/page_05_cranial_appendage_details.png" alt="Page 5">
+  <figcaption><b>05 · CRANIAL / APPENDAGE DETAILS</b> — face, hands with plug and ink stain, boots.</figcaption></figure>
+  <figure><img src="bibles/valentina-orlova/images/page_06_surface_treatment_construction.png" alt="Page 6">
+  <figcaption><b>06 · SURFACE TREATMENT / CONSTRUCTION</b> — gabardine twill, gilt placket, rank stripe, brass star buckle, skirt hem, ribbon.</figcaption></figure>
+  <figure><img src="bibles/valentina-orlova/images/page_07_extremities_props_accessories.png" alt="Page 7">
+  <figcaption><b>07 · EXTREMITIES / PROPS / ACCESSORIES</b> — headset, cord + brass jack, red pencil, logbook, pilotka, belt.</figcaption></figure>
+  <figure><img src="bibles/valentina-orlova/images/page_08_materials_color_rigging_motion.png" alt="Page 8">
+  <figcaption><b>08 · MATERIALS / COLOR / RIGGING / MOTION</b> — three poses + palette chips with <span class="pass">correct Cyrillic labels</span>; set signage reads as real Russian.</figcaption></figure>
+</div>
+
+<h2>SHOT 01 — &ldquo;SWITCHBOARD MAYDAY&rdquo; <span class="pass">Element-anchored</span></h2>
+<div class="grid">
+  <figure>
+    <video controls src="shot_01_switchboard_mayday.mp4" style="width:100%;display:block;background:#000"></video>
+    <figcaption><b>kling-video-v3_0 · 5s · 1080p · native audio · 60 credits</b><br>
+    Element 322149783311120 (bible pages 1/2/4/5) + page 1 as first frame.<br>
+    Beat: calm focus → plug insert → crackle → sharp lean-in. Push-in + handheld drift, Ektachrome look.</figcaption>
+  </figure>
+</div>
+
+<h2>PRODUCTION RECORD</h2>
+<div class="strip">
+concept CSV → <b>rank gate</b> (Jev, pennies) → ADVANCE → poster prompt → gate KILLED ×1 (era 0.47, mixed typography)<br>
+→ fix: single 1959 language (Bass geometry, Eastmancolor litho) → poster v1 (35 cr) → vision QC → gate era 0.33<br>
+→ <b>human override: APPROVED</b> → identity lock → anchor (35 cr) → QC fail: scar → retry (35 cr) → lock amended<br>
+→ pages 2–8 from anchor (245 cr) → MD5 + identity QC <b>pass</b> → <b>bible complete</b> · next: Kling Element / cast / script
+</div>
+
+</body>
+</html>

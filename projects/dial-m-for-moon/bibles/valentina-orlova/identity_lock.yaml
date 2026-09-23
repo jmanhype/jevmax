@@ -1,0 +1,41 @@
+CHARACTER_IDENTITY_LOCK:
+  name: Valentina "Valya" Orlova
+  character_class: humanoid
+  age_cohort: late twenties (27)
+  species: human
+  role: protagonist — starshina (senior sergeant), Soviet Signal Troops, switchboard supervisor at Object 10-D lunar listening post, 1959
+
+  morphology_lock: slender build, narrow shoulders, height 168 cm, upright military posture, quick precise hands of a career switchboard operator
+  cranial_lock: pale Slavic face, high cheekbones, grey-blue eyes, faint thin scar through the tail of the LEFT eyebrow, ash-blonde hair in a tight low bun at the nape wrapped in a dark-olive ribbon, no makeup, brows natural and level
+  surface_lock: 1959 Soviet Army signals uniform — olive gymnastyorka tunic with concealed gilt buttons, shoulder boards bearing the starshina's ONE long longitudinal golden stripe, stand-and-fall collar with sky-blue signals piping, dark-blue wool skirt below the knee OR olive wool trousers (never both), black leather belt with brass buckle, polished black leather boots
+  appendage_lock: standard human, two arms, two legs
+  accessory_prop_lock: Soviet black-metal telephone headset (two round Bakelite earcups on a steel band, worn on the head or around the neck like a collar); a black switchboard plug cord often coiled around the LEFT wrist; red pencil carried over the RIGHT ear; canvas-covered logbook
+  chromatic_lock: olive-khaki tunic, black leather, ash-blonde hair, cold grey-blue eyes; the only accent color permitted is the signal-orange glow of equipment lamps, never on her clothing
+  material_lock: wool gabardine tunic, aged black leather, Bakelite and steel equipment, cotton headscarf when outdoors
+  style_lock: photorealistic period documentary — the entire bible reads as frames from a 1959 16mm Kodak Ektachrome reversal-film reel, fresh print kept in cold archival storage
+
+  signature_visual_hooks:
+    - headset worn around the neck like a collar when not on the ears
+    - plug cord coiled around the left wrist
+    - red pencil over the right ear
+
+  # QC amendment 2026-09-23: the left-eyebrow scar is CANON IN SCRIPT ONLY.
+  # Two explicit generation attempts (gpt-image-2, full-body framing) failed to
+  # render it; the model omits subtle healed scars at reference distance. It is
+  # removed from visual hooks — do not require it in images, do reference it in
+  # prose/dialogue. The hair ribbon is soft-visible: describe it but do not QC-fail
+  # pages where lighting obscures it.
+
+  DO_NOT_CHANGE:
+    - hair color (ash-blonde) and the tight low bun with olive ribbon
+    - uniform cut, rank insignia (one longitudinal stripe), sky-blue piping
+    - headset model and its two round Bakelite earcups
+    - the year 1959 and the 16mm Ektachrome reversal look
+    - chromatic lock (no modern colors, no signal-orange clothing)
+
+  BOUNDED_VARIATION:
+    - lighting: tungsten amber switchboard glow vs cold moonlight vs overcast daylight
+    - expression and gaze direction
+    - head covering: bare head vs olive pilotka side-cap vs cotton headscarf outdoors
+    - skirt vs olive trousers depending on scene
+    - minor period grime: dust, faint smudges, worn boot toes
