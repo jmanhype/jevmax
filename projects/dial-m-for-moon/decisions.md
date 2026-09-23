@@ -55,3 +55,12 @@
 - QC flags (minor, human call): (1) shoulder boards on pages 01/02/04 render TWO gilt stars (podpolkovnik) vs the lock's major's ONE star — page 07's loose board correctly shows one; (2) cigarette-case engraving reads "M.K." not "A.K." (page 07); (3) stray red star on the greatcoat shoulder strap (page 07). Face/identity consistent across pages; Ektachrome look holds.
 - No Kling Element created (Kling-only concept; the native bible stands alone).
 - Committed locally; push pending Jay's go-ahead.
+
+## 2026-09-23 — EP001 PRODUCTION COMPLETE (user: "Start")
+
+- All 10 shots produced natively (image-to-video, 2 takes each, S10 ×3) — 0 Kling/PixVerse. Video prompts in `episodes/EP001/video_prompts.md`; storyboard `prompt:` fields now filled verbatim from it.
+- Take gates complete (`episodes/EP001/take_gates.md`): vision-described 2 frames/take against each shot's beat + gate criterion, then Jev-selected (beat 0.6 / period look 0.4, 4 rotations, none_of_these option). Winners: S01→take2 (0.80), S02→take1 (0.86), S03→take1 (0.74), S04→take1 (0.78), S05→take1 (0.97), S06→take1 (0.98), S07→take1 (0.61*), S08→take1 (0.99), S09→take2 (0.51*), S10→take3 (0.77). *S07 soft (none_of_these 0.27); *S09 REVIEW coin-flip vs take1 (0.42), stable over 8 rotations — either defensible, both kept.
+- Gate catches: S04 take2 printed the placard as РЕГИСТРИРОВАННЫЙ (opposite meaning) — rejected; S02 take2 had "KODAK 1959" prompt-leak text on the prop — rejected; S06/S07 take2s played a cigarette-offer beat instead of the scripted action — rejected.
+- Winners cropped to 9:16 as `shots/SXX/winner.mp4` (originals kept): S02/S04 already 720×1280; six shots center-cropped 621×1104 from 832×1104; S05 (landscape 1104×832) cropped 468×832 right-shifted to preserve the «не опознано» entry — her face at frame edge sacrificed, noted.
+- TypeSafe API was flaky today (RemoteDisconnected on multi-question requests); gates ran one question per call with retry. Prior partial note (S02→take1, S07→take1) confirmed by the full gates.
+- Committed locally; NOT pushed (per instruction).

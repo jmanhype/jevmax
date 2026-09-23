@@ -32,7 +32,9 @@ withheld: Camera Roll, Whip Pan, Handheld (staticity IS the tension)
 assets: Valya Element 322149783311120, bible page 1 as first frame
 audio: board hiss → click of plug → crackle builds → sharp intake of breath
 takes: 2 · gate: vision describe → Jev select (calm→alarm shift visible?)
-prompt: (filled verbatim after render)
+prompt: (verbatim from video_prompts.md)
+  1959 16mm Kodak Ektachrome, vertical 9:16, 8 seconds. Same woman as reference: 27, ash-blonde low bun, Soviet signals tunic with sky-blue piping, Bakelite headset, red pencil over right ear, plug cord at left wrist. Night switchboard bay, rows of signal-orange lamps, cord web.
+  She stands centered and symmetrical behind the board bay, calm. Slow push-in toward her face. Her right hand inserts a plug into a jack mid-frame; on the click her head lifts, she leans toward the board — calm breaking into alarm. Board hiss, plug click, rising crackle. End on her sharpened stare.
 
 shot: EP001-S02 · 5s · 9:16
 beat: the impossible fact — frequency 14
@@ -46,7 +48,9 @@ withheld: Fisheye, Macro distortion, Slow Motion
 assets: board prop refs (bible page 7 flat-lay, cord/jack)
 audio: hiss drops out for one beat of room tone, then hum returns
 takes: 2 · gate: dial legible as 14 at phone-screen size
-prompt: (after render)
+prompt: (verbatim from video_prompts.md)
+  1959 16mm Kodak Ektachrome, vertical 9:16, 5 seconds. Object inserts, no face. Black lacquer switchboard face, brass frequency dial rim worn to white.
+  Macro: the frequency counter needle trembles then settles exactly at 14. Hard cut to the lamp row for channel 14 igniting, filament blooming orange. Two hard inserts only. Hiss drops out for one beat of room tone, then the hum returns.
 
 shot: EP001-S03 · 8s · 9:16
 beat: SEVEN-THREE crosses the language line
@@ -61,7 +65,9 @@ withheld: Shallow Focus as separate dominant (subsumed by the two racks)
 assets: Valya Element; cut-key/placard refs
 audio: SEVEN-THREE [VO]: "Скажи им. Я ещё здесь." room hum only under it
 takes: 2 · gate: rack timing lands on the Russian line
-prompt: (after render)
+prompt: (verbatim from video_prompts.md)
+  1959 16mm Kodak Ektachrome, vertical 9:16, 8 seconds. Same woman as reference, headset on.
+  Her hand hovers over the red cut-key (soft focus), a brass Section 7 placard edge defocused above it. Rack focus to her eyes, sharp, as she hears the Russian line — micro-tremor in her fingers. Rack back to the key; her hand slowly withdraws. Room hum only. End on the untouched key.
 
 shot: EP001-S04 · 5s · 9:16
 beat: the choice visualized — log it or cut it
@@ -76,7 +82,9 @@ withheld: Typography as dominant (placard is [画面文字], not camera grammar)
 assets: placard prop, red pencil (bible page 7)
 audio: pencil off the ear — small dry knock
 takes: 2 · gate: Cyrillic legible, correctly spelled
-prompt: (after render)
+prompt: (verbatim from video_prompts.md)
+  1959 16mm Kodak Ektachrome, vertical 9:16, 5 seconds. Brass placard full-frame, engraved Cyrillic legible: СЕКЦИЯ 7 — НЕЗАРЕГИСТРИРОВАННЫЙ ПЕРЕХВАТ = ИЗМЕНА. Scratched paint fill, aged brass.
+  Slow tilt down from the placard to her hand taking the red pencil from over her right ear; the pencil turns once in her fingers. Small dry knock as it leaves the ear. Her shoulder soft below frame.
 
 shot: EP001-S05 · 8s · 9:16
 beat: first act of defiance — she logs it
@@ -90,7 +98,9 @@ withheld: Two Shot, Over the Shoulder (door-check is frame-edge, not a cutaway)
 assets: logbook, red pencil (bible page 7); Valya Element for face edge
 audio: pencil scratch, distant corridor ambience
 takes: 2 · gate: handwriting looks period-cyrillic, not gibberish
-prompt: (after render)
+prompt: (verbatim from video_prompts.md)
+  1959 16mm Kodak Ektachrome, vertical 9:16, 8 seconds. Logbook page under warm lamp glow, canvas cover edge visible.
+  The red pencil nib presses into the page, denting the paper fiber, writing in period Cyrillic hand: the date, "14", "не опознано". Her face enters at frame edge, glancing toward the door, then back down. Pencil scratch, distant corridor ambience. End on the written entry.
 
 shot: EP001-S06 · 8s · 9:16
 beat: pressure arrives
@@ -105,7 +115,9 @@ withheld: Low Angle, Voyeur (door frame is confrontational, not hidden)
 assets: Korabelnikov native bible (bibles/arkady-korabelnikov/); Valya Element (shoulder)
 audio: door hinges, boot heels stop, one floor creak
 takes: 2 · gate: Major's silhouette + cap readable; door framing dominant
-prompt: (after render)
+prompt: (verbatim from video_prompts.md)
+  1959 16mm Kodak Ektachrome, vertical 9:16, 8 seconds. Over her shoulder: her head soft in the left foreground, headset around her neck.
+  The corridor door swings and settles. KORABELNIKOV fills the doorway, backlit, service cap square, greatcoat over his arm — he never comes far in. He stands perfectly still, head tilted a fraction left, listening. Cold spill light from the corridor against the warm board glow. Door hinges, boot heels stop, one floor creak.
 
 shot: EP001-S07 · 10s · 9:16
 beat: the exchange — demand and cover
@@ -121,7 +133,9 @@ assets: both Elements; logbook, folder props
 audio: KORABELNIKOV: «Ночной журнал, старшина.» VALYA: «Обычный лунный шум,
        товарищ майор.» board hum between lines
 takes: 2 · gate: both faces/planes legible; forearm covers the entry
-prompt: (after render)
+prompt: (verbatim from video_prompts.md)
+  1959 16mm Kodak Ektachrome, vertical 9:16, 10 seconds. Split-diopter composition, both planes sharp.
+  Foreground right: her forearm sliding smoothly over the logbook page, covering the entry (sharp). Background left: his eyes over the ridge of her shoulder, watching (sharp); mid-ground soft. His slow straighten; his held hand extends, demanding the book. Board hum under the exchange. End on his extended hand.
 
 shot: EP001-S08 · 8s · 9:16
 beat: he leafs — and stops
@@ -138,7 +152,9 @@ assets: logbook prop; his hands (bible page 5 hand-study equivalent from
         worn on right hand, Orthodox custom)
 audio: paper, then nothing — one beat of true silence
 takes: 2 · gate: page reads erased-not-torn; smudge visible
-prompt: (after render)
+prompt: (verbatim from video_prompts.md)
+  1959 16mm Kodak Ektachrome, vertical 9:16, 8 seconds. Insert over the logbook in his thick-knuckled hands, wedding band on the right hand.
+  Pages turn under the lamp; then the page — blank where she wrote, a fresh ink smudge still tacky in the lamplight. The page turn stops mid-air, lowers flat. Hold one full beat on the smudge. Paper sounds, then one beat of true silence.
 
 shot: EP001-S09 · 10s · 9:16
 beat: the reversal — the threat is inside
@@ -152,7 +168,9 @@ withheld: Close-Up as separate dominant (the rack IS the close)
 assets: both Elements; logbook
 audio: KORABELNIKOV (quiet): «Интересная ночь, старшина.» stove tick far off
 takes: 2 · gate: zero-play face; the rack returns to the page, not to him
-prompt: (after render)
+prompt: (verbatim from video_prompts.md)
+  1959 16mm Kodak Ektachrome, vertical 9:16, 10 seconds. The logbook held between them on the board lip.
+  Her face soft behind the page (the page sharp in his hand). Rack focus to her eyes going perfectly still — parade rest, jaw set, blink rate dropping to zero. Rack back to the page, not to him. A stove ticks far off. End on the blank page.
 
 shot: EP001-S10 · 12s · 9:16
 beat: button — the frequency answers
@@ -169,7 +187,9 @@ withheld: Whip Pan, Light Flash (the flicker is diegetic, not editorial)
 assets: Valya Element; lamp 14, red pencil
 audio: door latch; hum; two flat knocks of static; silence; [转场] black
 takes: 2 · gate: flicker reads as a knock, not a glitch
-prompt: (after render)
+prompt: (verbatim from video_prompts.md)
+  1959 16mm Kodak Ektachrome, vertical 9:16, 12 seconds, vignette allowed to peak. The door closed behind him; she stands centered in the empty frame, the board's orange lamps ringing her.
+  Hold. Lamp 14 flickers twice — like a knock. Slow push-in on the flickering lamp, she rooted at center. Her hand rises into frame holding the red pencil — the only proof. Cut to black on the second flicker. Door latch, hum, two flat knocks of static, then silence.
 ```
 
 Totals: 10 shots · ~92s of shot time + ~18s [画面文字]/breathing room ≈ 110s.
