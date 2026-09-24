@@ -75,6 +75,12 @@ Jev fits this job for the three reasons the docs name: the cut type is a route t
 a fixed set of destinations, flow is a rubric score to branch on, and typed
 answers replace fragile "return JSON" prompting.
 
+**Prompt rule (learned 2026-09-24):** every question's instructions must name
+its actual requirement and demote everything else in the state to background
+context ("preferences, not rules"). Without this, the judge treats style
+policy and shot-description wording as hard constraints and narrows the
+criteria. One sentence per question; the criteria define the requirement.
+
 ## 4. The judgment design
 
 One TypeSafe request per transition (shot A → shot B). All independent and

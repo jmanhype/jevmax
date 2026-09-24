@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EP004 · TWO TAPES — Approval Board</title>
+<style>
+  :root { --bg:#141210; --card:#1e1b17; --ink:#e8ddc9; --dim:#a89c82;
+          --amber:#e8a33d; --green:#7ba05b; --red:#c0392b; --line:#33291d; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font-family: Georgia, 'Times New Roman', serif; }
+  header { padding:28px 20px 18px; text-align:center; border-bottom:1px solid var(--line); }
+  header h1 { margin:0 0 6px; font-size:1.5rem; letter-spacing:.04em; }
+  header p { margin:4px 0; color:var(--dim); font-size:.95rem; }
+  .gate { max-width:960px; margin:18px auto 0; padding:0 20px; }
+  .gatebox { border:2px solid var(--red); border-radius:10px; padding:14px 18px;
+             background:#241210; font-size:1rem; }
+  .gatebox b { color:var(--red); letter-spacing:.06em; }
+  .gatebox p { margin:8px 0 0; color:var(--ink); font-size:.92rem; }
+  .gatebox.ok { border-color:var(--green); background:#16210f; }
+  .gatebox.ok b { color:var(--green); }
+  .animatic { max-width:960px; margin:22px auto 0; padding:0 20px; text-align:center; }
+  .animatic video { width:100%; max-width:420px; max-height:70vh; background:#000; border-radius:12px; }
+  .animatic p { color:var(--dim); font-size:.9rem; }
+  main { max-width:960px; margin:0 auto; padding:18px 20px 60px; }
+  .shot { background:var(--card); border:1px solid var(--line); border-radius:12px;
+          margin:22px 0; overflow:hidden; }
+  .shot-head { padding:14px 18px 10px; display:flex; flex-wrap:wrap; gap:8px;
+               align-items:baseline; border-bottom:1px solid var(--line); }
+  .shot-head h2 { margin:0; font-size:1.15rem; }
+  .shot-head .dur { color:var(--dim); font-size:.85rem; }
+  .badge { margin-left:auto; font-size:.8rem; padding:3px 10px; border-radius:20px;
+           border:1px solid var(--amber); color:var(--amber); white-space:nowrap; }
+  .badge.ready { border-color:var(--green); color:var(--green); }
+  .shot-body { display:flex; flex-wrap:wrap; gap:0; }
+  .pic { flex:1 1 300px; background:#000; display:flex; justify-content:center; }
+  .pic img { max-height:520px; width:100%; object-fit:contain; background:#000; }
+  .meta { flex:1 1 280px; padding:16px 18px; font-size:.92rem; line-height:1.55; }
+  .meta .k { color:var(--dim); font-size:.78rem; text-transform:uppercase;
+             letter-spacing:.08em; }
+  .meta p { margin:6px 0 12px; }
+  footer { text-align:center; color:var(--dim); font-size:.8rem; padding:24px; }
+  footer a { color:var(--amber); }
+</style>
+</head>
+<body>
+<header>
+  <h1>EP004 · TWO TAPES</h1>
+  <p>Approval board — storyboard peaks + animatic · native pipeline · 1959 16mm Ektachrome look</p>
+  <p>Directing lens: Hitchcock (primary) · Polanski ambiguity · Kurosawa stillness · 2026-09-24</p>
+</header>
+
+<div class="gate">
+  <div class="gatebox ok">
+    <b>◉ GATE: APPROVED BY JAY — 2026-09-24</b>
+    <p>Board, cold open, and premise approved. Animation unlocked: key-pose /
+    start-frame set is now in production, then shot-by-shot animation under
+    strict continuity/QC gates. Full audit trail:
+    <a href="decisions.md" style="color:var(--amber);">decisions.md</a>.</p>
+  </div>
+</div>
+
+<div class="animatic">
+  <h2 style="font-size:1.1rem;">Animatic v1 — 107s, temp sound</h2>
+  <video controls preload="metadata" src="animatic/EP004_animatic_v1.mp4"></video>
+  <p>Board panels hard-cut to time. Temp sound is synthesized: hiss bed, pencil stop, two bangs, total silence at the warm headset. Watch like a cold viewer — boredom or confusion marks the surgery points.</p>
+</div>
+
+<main>
+
+<section class="shot">
+  <div class="shot-head"><h2>COLD OPEN — The bang, first</h2><span class="dur">2s</span><span class="badge">awaiting approval</span></div>
+  <div class="shot-body">
+    <div class="pic"><img src="shots/S08/coldopen-spark-detail.png" alt="cold open spark crop"></div>
+    <div class="meta"><div class="k">Beat</div><p>Macro crop of the S08 spark-out. Hiss, then the BANG, then silence into title. The audience knows the explosion is coming; Valya doesn't — Hitchcock's bomb under the table.</p>
+    <div class="k">Sound</div><p>Hiss up → bang at 0.5s → decay. Hard cut to silence.</p></div>
+  </div>
+</section>
+
+<section class="shot">
+  <div class="shot-head"><h2>S01 — Title card</h2><span class="dur">3s</span><span class="badge">awaiting approval</span></div>
+  <div class="shot-body">
+    <div class="pic"><img src="shots/S01/title_card.png" alt="title card"></div>
+    <div class="meta"><div class="k">Beat</div><p>Title. The rewind begins after it.</p>
+    <div class="k">Sound</div><p>Low room tone, faint hiss. Nothing else.</p></div>
+  </div>
+</section>
+
+<section class="shot">
+  <div class="shot-head"><h2>S02 — Coordinates</h2><span class="dur">10s</span><span class="badge ready">keyframe locked · v5</span></div>
+  <div class="shot-body">
+    <div class="pic"><img src="shots/S02/media-generation-ep004-s02-v5-realization-0-d0d65e51-73a5-450c-8c50-d227b78670cb.webp" alt="S02 realization"></div>
+    <div class="meta"><div class="k">Beat</div><p>Valya realizes the mayday coordinates are not American. Pencil stopped mid-line; eyes lifting toward the Russian mayday slip. The peak of the realization, not the reading of it.</p>
+    <div class="k">Sound</div><p>Pencil-scratch hiss bed that STOPS DEAD mid-shot. The absence of the scratch is the realization.</p></div>
+  </div>
+</section>
+
+<section class="shot">
+  <div class="shot-head"><h2>S03 — Erased man</h2><span class="dur">10s</span><span class="badge ready">keyframe locked · v3</span></div>
+  <div class="shot-body">
+    <div class="pic"><img src="shots/S03/media-generation-ep004-s03-v3-flat-file-0-25a831d3-d3cf-46f6-9913-525171bb6d0a.webp" alt="S03 erased man"></div>
+    <div class="meta"><div class="k">Beat</div><p>A flight file contains a violently redacted name. The state lied about a dead man. No second face — the redaction is the character.</p>
+    <div class="k">Sound</div><p>Soft paper handling, two small rustle swells.</p></div>
+  </div>
+</section>
+
+<section class="shot">
+  <div class="shot-head"><h2>S04 — Decision</h2><span class="dur">10s</span><span class="badge ready">keyframe locked · v2</span></div>
+  <div class="shot-body">
+    <div class="pic"><img src="shots/S04/media-generation-ep004-s04-v2-the-choice-0-5ba48878-306c-4b77-ac7a-cb89bb5fc1c5.webp" alt="S04 the choice"></div>
+    <div class="meta"><div class="k">Beat</div><p>She takes a blank reel while checking the door. Hand commits; eyes price the risk. Her choice must feel costly — this frame is the cost.</p>
+    <div class="k">Sound</div><p>Room tone; one soft wooden clunk as the reel leaves the shelf.</p></div>
+  </div>
+</section>
+
+<section class="shot">
+  <div class="shot-head"><h2>S05 — Crime</h2><span class="dur">10s</span><span class="badge ready">keyframe locked · v4-clean</span></div>
+  <div class="shot-body">
+    <div class="pic"><img src="shots/S05/media-generation-ep004-s05-v4-no-badge-0-98eb7476-bcea-4522-a0eb-ffd4bdf11b19-clean.webp" alt="S05 the crime"></div>
+    <div class="meta"><div class="k">Beat</div><p>She operates the dub control while watching the door. Treason performed as routine — the crime sounds ordinary, that's the point.</p>
+    <div class="k">Sound</div><p>Deck hum under hiss. Deliberately unremarkable.</p></div>
+  </div>
+</section>
+
+<section class="shot">
+  <div class="shot-head"><h2>S06 — Cover-up</h2><span class="dur">10s</span><span class="badge ready">keyframe locked · v4</span></div>
+  <div class="shot-body">
+    <div class="pic"><img src="shots/S06/media-generation-ep004-s06-v4-the-burial-0-ac662faf-8808-4251-adf0-027fa54ea535.webp" alt="S06 the burial"></div>
+    <div class="meta"><div class="k">Beat</div><p>She buries the labeled copy beneath folded headbands. Hands smoothing fabric over evidence — the tenderness of the gesture against what it hides.</p>
+    <div class="k">Sound</div><p>Fabric rustle, one soft thud. Then near-quiet.</p></div>
+  </div>
+</section>
+
+<section class="shot">
+  <div class="shot-head"><h2>S07 — Stillness</h2><span class="dur">10s</span><span class="badge ready">keyframe locked · v1</span></div>
+  <div class="shot-body">
+    <div class="pic"><img src="shots/S07/media-generation-ep004-s07-v1-stillness-0-8ccb708a-ea91-4f1e-b5d8-4c1d16601e1f.webp" alt="S07 stillness"></div>
+    <div class="meta"><div class="k">Beat</div><p>She freezes and listens. Kurosawa held stillness — her listening is the loudest thing in the room.</p>
+    <div class="k">Sound</div><p>Near-silence. Faint room tone only.</p></div>
+  </div>
+</section>
+
+<section class="shot">
+  <div class="shot-head"><h2>S08 — Spark-out</h2><span class="dur">10s</span><span class="badge ready">keyframe locked · v2-photoreal</span></div>
+  <div class="shot-body">
+    <div class="pic"><img src="shots/S08/media-generation-ep004-s08-v2-photoreal.webp" alt="S08 spark-out"></div>
+    <div class="meta"><div class="k">Beat</div><p>The tape deck shorts electrically and she recoils. The kinetic peak — and the plot turn: the bang sends her to check the crate. Photo and physics realism, no digital starbursts.</p>
+    <div class="k">Sound</div><p>The BANG — electrical crack, low thump, then a thin high ringing decaying across the shot. Second angle planned (money-beat coverage).</p></div>
+  </div>
+</section>
+
+<section class="shot">
+  <div class="shot-head"><h2>S09 — Empty crate</h2><span class="dur">10s</span><span class="badge ready">keyframe locked · v1</span></div>
+  <div class="shot-body">
+    <div class="pic"><img src="shots/S08/media-generation-ep004-s08-v1-empty-crate-0-7f6e23a9-42cb-4303-a397-3afb7a20cb25.webp" alt="S09 empty crate"></div>
+    <div class="meta"><div class="k">Beat</div><p>After an unmarked time gap, the reel is gone. The cut into this shot is unconditioned — the audience feels the missing time. The violation has a sound: her tearing through the crate.</p>
+    <div class="k">Sound</div><p>Ringing gone by mid-shot; fabric rustle as she searches.</p></div>
+  </div>
+</section>
+
+<section class="shot">
+  <div class="shot-head"><h2>S10 — Warm headset</h2><span class="dur">10s</span><span class="badge ready">keyframe locked · v1</span></div>
+  <div class="shot-body">
+    <div class="pic"><img src="shots/S10/media-generation-ep004-s09-v1-warm-headset-0-c4601c8a-8884-4aad-acb4-797d9aec5206.webp" alt="S10 warm headset"></div>
+    <div class="meta"><div class="k">Beat</div><p>She detects warmth at the earcup. Polanski ambiguity — the room was never empty. TOTAL SILENCE around the reveal. The quiet is the scare.</p>
+    <div class="k">Sound</div><p>Nothing. No tone, no hiss.</p></div>
+  </div>
+</section>
+
+<section class="shot">
+  <div class="shot-head"><h2>S11 — The door</h2><span class="dur">12s</span><span class="badge ready">keyframe locked · v1</span></div>
+  <div class="shot-body">
+    <div class="pic"><img src="shots/S10/media-generation-ep004-s10-v1-final-look-0-e2203ddc-96be-4a1d-9e69-3520ed99f140.webp" alt="S11 final look"></div>
+    <div class="meta"><div class="k">Beat</div><p>Close on her looking toward the door, held beyond comfort. The episode's open thread: resolve the beat, not the story. Second angle planned (money-beat coverage).</p>
+    <div class="k">Sound</div><p>Faint room tone creeps back in. Nothing resolves. Cut on tone, not on silence.</p></div>
+  </div>
+</section>
+
+</main>
+<footer>
+  EP004 · TWO TAPES · approval board v1 · 2026-09-24<br>
+  Audit trail: <a href="decisions.md">decisions.md</a> · Animatic: <a href="animatic/EP004_animatic_v1.mp4">EP004_animatic_v1.mp4</a>
+</footer>
+</body>
+</html>

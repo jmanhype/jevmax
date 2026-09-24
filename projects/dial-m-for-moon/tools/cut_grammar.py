@@ -50,7 +50,11 @@ QUESTIONS = {
         "instructions": (
             "Given shot A's ending (final frame, action, gaze, outgoing audio) and "
             "shot B's beginning, which cut grammar best serves this transition? "
-            "Choose the single option whose coverage matches the dramatic job."
+            "Choose the single option whose coverage matches the dramatic job. "
+            "The requirement is the dramatic job (beat_intent) matched against "
+            "the criteria below; the style policy and shot-description wording "
+            "are background context — preferences, not rules — and must not "
+            "narrow the criteria."
         ),
         "criteria": {
             "match_on_action": "A movement, gesture, or turn begins in shot A and completes in shot B; the motion masks the edit. Covers continuous physical action across the cut; does NOT cover dialogue exchanges or static-to-static cuts.",
@@ -68,7 +72,10 @@ QUESTIONS = {
         "type": "choice",
         "instructions": (
             "Does this transition respect the 180-degree rule and screen direction? "
-            "A line exists whenever two subjects or a consistent movement direction are involved."
+            "A line exists whenever two subjects or a consistent movement direction are involved. "
+            "The requirement is spatial consistency only — camera side, screen "
+            "positions, movement direction. Everything else in the state is "
+            "background context, not a rule."
         ),
         "criteria": {
             "line_honored": "Camera stays on one side of the axis; screen positions and movement direction are consistent across the cut.",
@@ -79,7 +86,10 @@ QUESTIONS = {
     },
     "flow": {
         "type": "score",
-        "instructions": "How well does this transition carry the scene's rhythm and legibility?",
+        "instructions": "How well does this transition carry the scene's rhythm and legibility? "
+        "The requirement is rhythm and legibility of the cut alone. Period "
+        "style, production design, and shot-description detail are background "
+        "context — never grade them here.",
         "criteria": [
             "Disorienting; breaks the scene. The audience loses space, time, or the thread.",
             "Choppy; the edit shows. Understandable but mechanical — assembly-cutting.",
@@ -89,7 +99,9 @@ QUESTIONS = {
     },
     "audio_bridge": {
         "type": "noul",
-        "instructions": "Should the audio lead or linger across the picture cut (a J-cut or L-cut) rather than cutting with the picture?",
+        "instructions": "Should the audio lead or linger across the picture cut (a J-cut or L-cut) rather than cutting with the picture? "
+        "The requirement is whether offsetting the audio serves the beat. All "
+        "other state is background context.",
         "criteria": {
             "true": "The transition is better served by offsetting audio from picture: incoming audio arrives early (J-cut) or outgoing audio lingers over the next shot (L-cut).",
             "false": "Audio should cut together with the picture — a hard, synchronized audio-image cut is correct here.",
@@ -97,7 +109,9 @@ QUESTIONS = {
     },
     "tension": {
         "type": "score",
-        "instructions": "What dramatic register does this transition demand on the episode's escalation curve? (Descriptive, not a quality grade.)",
+        "instructions": "What dramatic register does this transition demand on the episode's escalation curve? (Descriptive, not a quality grade.) "
+        "The requirement is an honest read of the register. Do not inflate or "
+        "deflate it to match the style policy or shot descriptions.",
         "criteria": [
             "Release / exhale. The scene lets go here.",
             "Hold. Sustains the current pressure without raising it.",
