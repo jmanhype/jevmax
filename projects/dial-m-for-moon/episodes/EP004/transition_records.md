@@ -84,3 +84,11 @@ two-part movement, never three ideas in one shot.
   texture under the bars only). The flow is the planned micro-motion —
   paper tremor, thumb easing along the page edge. Accepted as winner
   (s02b_winner.mp4). Hard cut from S02a winner per plan.
+
+### Actuals — S03 reels insert (2026-09-23)
+- take1: **PASS 0.9600/0.9423/0.46px** on the strict locked-camera gates.
+  Head/tail review: deck alone -> hand enters from frame left -> hand
+  rests on the stopped left reel, tunic cuff with sky-blue piping
+  visible. Framing identical throughout; the low flow is the reels'
+  rotation (small at this scale) plus the late hand entry. Winner.
+  Picture rupture from S02b per plan; tape hiss bridges it.
