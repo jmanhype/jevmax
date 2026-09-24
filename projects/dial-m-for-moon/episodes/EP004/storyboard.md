@@ -36,10 +36,13 @@ then stills — pencil hovering. Caption: "These are not American
 coordinates." Beat 2: she pulls the flight file; the cosmonaut's name is
 struck through. The flight never happened. Caption: "He never flew."
 
-### S03 — object insert: the reels
-Close on the reel-to-reel deck: both reels turning, tape hissing.
-Her hand enters frame and stops the reels. (Spine insert — hold 5s,
-then the hand.)
+### S03 — CUT (directorial decision, 2026-09-23)
+Was: object insert of the deck, hand stopping the reels. Jay flagged it
+as the weakest link — a pure hardware insert with no face and no
+self-contained meaning, slowing momentum between S02b and S04. The
+reel-stop/machine action is folded into the first 2–3 seconds of S04.
+The generated take is kept in shots/S03/ for reference only; it is not
+part of the episode. Episode is now a 9-shot structure + title card.
 
 ### S04 — the copy
 She threads a second deck and starts the dub: fingers on reels, tape

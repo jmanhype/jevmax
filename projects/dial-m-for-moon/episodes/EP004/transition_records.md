@@ -92,3 +92,14 @@ two-part movement, never three ideas in one shot.
   visible. Framing identical throughout; the low flow is the reels'
   rotation (small at this scale) plus the late hand entry. Winner.
   Picture rupture from S02b per plan; tape hiss bridges it.
+
+### Directorial decision — S03 CUT (2026-09-23)
+Jay: S03 (deck close-up, hand stopping reels) is the weakest link after
+the strong S02 -> S02b cut; a pure hardware insert with no face and no
+self-contained meaning risks slowing momentum before the copy/hide
+beats. CUT. Any necessary reel-stop/machine action folds into the first
+2-3 seconds of S04. Episode becomes 9 shots + title card. The S03 take1
+winner stays in shots/S03/ for reference only.
+Planned S02b -> S04 cut: hard cut, tape hiss bridges the picture
+rupture (same bridge as planned for S02->S03). Do NOT condition S04 on
+any S03 frame.
