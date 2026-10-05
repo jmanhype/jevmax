@@ -49,3 +49,30 @@ BY OFFER (tagged at baseline only):
 ```
 
 Scans: keyword 50 (est 5921) / comfrt 25 (est 4006) / goodell 1 / neyoa 4 / lucas 0. Snapshot: 80 unique IDs (prev week 81, delta -1).
+## 2026-10-05
+
+```
+4 snapshot(s), 2026-09-20 .. 2026-10-05; newest has 78 live IDs
+No baseline is 60+ days old yet (earliest is 15d). First survival number readable on 2026-11-19.
+```
+
+Diagnostics (window churn, NOT official): 14d=0/184, 7d=3/264. Real page-set signal: NEYOA 09-28 pair survived a week (2 of today's 3 7d-hits), but the 09-21 NEYOA veterans that survived week 1 died in week 2; Goodell's Nike re-post now 2 weeks live.
+```
+4 snapshot(s), 2026-09-20 .. 2026-10-05; newest has 78 live IDs
+SURVIVAL (live 7+ days, baseline vs newest snapshot): 3/264 overall (1%)
+  baseline 2026-09-20  n=103  alive=0    0%
+  baseline 2026-09-21  n=81   alive=0    0%
+  baseline 2026-09-28  n=80   alive=3    4%
+
+BY HOOK (tagged at baseline only):
+  direct_offer     n=44   0%
+  curiosity_claim  n=18   0%
+  (untagged)       n=12   0%
+
+BY OFFER (tagged at baseline only):
+  other_product    n=53   0%
+  (untagged)       n=12   0%
+  saas_subscription n=9    0%
+```
+
+Scans: keyword 50 (est 6484) / comfrt 25 (est 2336, full creative swap: Dreamer Blanket + Airplane Mode Travel Hoodie) / goodell 1 / neyoa 2 / lucas 0. Snapshot: 78 unique IDs (prev 80, delta -2).
