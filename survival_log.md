@@ -76,3 +76,30 @@ BY OFFER (tagged at baseline only):
 ```
 
 Scans: keyword 50 (est 6484) / comfrt 25 (est 2336, full creative swap: Dreamer Blanket + Airplane Mode Travel Hoodie) / goodell 1 / neyoa 2 / lucas 0. Snapshot: 78 unique IDs (prev 80, delta -2).
+## 2026-10-12
+
+```
+5 snapshot(s), 2026-09-20 .. 2026-10-12; newest has 79 live IDs
+No baseline is 60+ days old yet (earliest is 22d). First survival number readable on 2026-11-19.
+```
+
+**METHODOLOGY CORRECTION + FINDING:** NEYOA's Sep-21 pair (2367876897085532, 1740385033840426) reappeared this week after being absent on 10-05 — they FLAPPED (pause/resume or Library visibility), they did not die. Last week's 'died in week 2' note was wrong. Implication: snapshot absence != death; the survival metric should eventually count an ad alive if seen in ANY snapshot within its window (survival.py refinement TODO), and the 60-day baseline remains the right denoiser.
+
+```
+5 snapshot(s), 2026-09-20 .. 2026-10-12; newest has 79 live IDs
+SURVIVAL (live 21+ days, baseline vs newest snapshot): 3/184 overall (2%)
+  baseline 2026-09-20  n=103  alive=1    1%
+  baseline 2026-09-21  n=81   alive=2    2%
+
+BY HOOK (tagged at baseline only):
+  direct_offer     n=44   2%
+  curiosity_claim  n=18   0%
+  (untagged)       n=12   0%
+
+BY OFFER (tagged at baseline only):
+  other_product    n=53   2%
+  (untagged)       n=12   0%
+  saas_subscription n=9    0%
+```
+
+Scans: keyword 50 (est 5994) / comfrt 25 (est 4540; 'Cozy With Something to Fidget' wave + Dreamer Blanket/hoodie carryover) / goodell 0 (Nike re-post died wk3) / neyoa 4 / lucas 0. Snapshot: 79 unique IDs (prev 78, delta +1).
