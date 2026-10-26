@@ -103,3 +103,32 @@ BY OFFER (tagged at baseline only):
 ```
 
 Scans: keyword 50 (est 5994) / comfrt 25 (est 4540; 'Cozy With Something to Fidget' wave + Dreamer Blanket/hoodie carryover) / goodell 0 (Nike re-post died wk3) / neyoa 4 / lucas 0. Snapshot: 79 unique IDs (prev 78, delta +1).
+## 2026-10-26
+
+NOTE: 2026-10-19 scan MISSED (cron did not run that Monday) — one week gap in snapshot continuity.
+
+```
+6 snapshot(s), 2026-09-20 .. 2026-10-26; newest has 75 live IDs
+No baseline is 60+ days old yet (earliest is 36d). First survival number readable on 2026-11-19.
+```
+
+Diagnostics (window churn, NOT official): 28d=0/264. NEYOA fully empty this week (all 4 from 10-12 gone — death or flap; flapping precedent says wait before calling it). Comfrt rotated creative AGAIN (all 25 created within ~2h of scan: Teddy Softness / Stay-In Season / Snak Hoodie / One More Look).
+```
+6 snapshot(s), 2026-09-20 .. 2026-10-26; newest has 75 live IDs
+SURVIVAL (live 28+ days, baseline vs newest snapshot): 0/264 overall (0%)
+  baseline 2026-09-20  n=103  alive=0    0%
+  baseline 2026-09-21  n=81   alive=0    0%
+  baseline 2026-09-28  n=80   alive=0    0%
+
+BY HOOK (tagged at baseline only):
+  direct_offer     n=44   0%
+  curiosity_claim  n=18   0%
+  (untagged)       n=12   0%
+
+BY OFFER (tagged at baseline only):
+  other_product    n=53   0%
+  (untagged)       n=12   0%
+  saas_subscription n=9    0%
+```
+
+Scans: keyword 50 (est 6277) / comfrt 25 (est 6443) / goodell 0 / neyoa 0 / lucas 0. Snapshot: 75 unique IDs (prev 79, delta -4).
