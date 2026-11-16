@@ -142,3 +142,13 @@ No baseline is 60+ days old yet (earliest is 43d). First survival number readabl
 Notes: NEYOA empty a 2nd straight week (death increasingly likely vs flap — 3rd week will settle it). Goodell dormant 3rd week, Lucas 7th. Keyword window now dominated by an InstantTranslator-US cluster (~17 ad IDs, one creative, many dupes) — the same translate-via-AirPods category we tagged in Sep; Comfrt rotated all 25 again within one hour, now offer-led ('Shop Dreamer, Get $20 Credit' x7).
 
 Scans: keyword 50 (est 6464) / comfrt 25 (est 5311) / goodell 0 / neyoa 0 / lucas 0. Snapshot: 75 unique IDs (prev 75, delta 0).
+## 2026-11-16
+
+```
+8 snapshot(s), 2026-09-20 .. 2026-11-16; newest has 75 live IDs
+No baseline is 60+ days old yet (earliest is 57d). First survival number readable on 2026-11-19.
+```
+
+Notes: baseline is 57d — 3 days from the 60d threshold; FIRST VERDICT lands with the 2026-11-23 run. Keyword window hit est. 7,101 (new high) with the Black Friday wave visible (Journey-JRNY 'MEGA Black Friday' x10, Fatal Embrace novel-funnel x7, translation-app cluster continues, Ceretone hearing aids). Comfrt rotated all 25 again within ~15 minutes (Cloud Lounge / Texture / Soft on Both Sides / Sweater Knit — blanket-texture hook wave). NEYOA dark 3rd straight week (dead, flap window closed). Goodell 4th, Lucas 9th.
+
+Scans: keyword 50 (est 7101) / comfrt 25 (est 6873) / goodell 0 / neyoa 0 / lucas 0. Snapshot: 75 unique IDs (prev 75, delta 0).
