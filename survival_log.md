@@ -152,3 +152,6 @@ No baseline is 60+ days old yet (earliest is 57d). First survival number readabl
 Notes: baseline is 57d — 3 days from the 60d threshold; FIRST VERDICT lands with the 2026-11-23 run. Keyword window hit est. 7,101 (new high) with the Black Friday wave visible (Journey-JRNY 'MEGA Black Friday' x10, Fatal Embrace novel-funnel x7, translation-app cluster continues, Ceretone hearing aids). Comfrt rotated all 25 again within ~15 minutes (Cloud Lounge / Texture / Soft on Both Sides / Sweater Knit — blanket-texture hook wave). NEYOA dark 3rd straight week (dead, flap window closed). Goodell 4th, Lucas 9th.
 
 Scans: keyword 50 (est 7101) / comfrt 25 (est 6873) / goodell 0 / neyoa 0 / lucas 0. Snapshot: 75 unique IDs (prev 75, delta 0).
+## 2026-11-23
+
+**SCAN FAILED — no snapshot taken.** Agent-side tool-dispatch malfunction:  could not be invoked this run (not a Meta auth error). Baseline 2026-09-20 is 64d old — the 60d verdict is NOT lost; it only requires a new scan any day from 2026-11-19 onward. Retry: manual re-run or the 2026-11-30 cron.
