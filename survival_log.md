@@ -154,4 +154,4 @@ Notes: baseline is 57d — 3 days from the 60d threshold; FIRST VERDICT lands wi
 Scans: keyword 50 (est 7101) / comfrt 25 (est 6873) / goodell 0 / neyoa 0 / lucas 0. Snapshot: 75 unique IDs (prev 75, delta 0).
 ## 2026-11-23
 
-**SCAN FAILED — no snapshot taken.** Agent-side tool-dispatch malfunction:  could not be invoked this run (not a Meta auth error). Baseline 2026-09-20 is 64d old — the 60d verdict is NOT lost; it only requires a new scan any day from 2026-11-19 onward. Retry: manual re-run or the 2026-11-30 cron.
+**SCAN FAILED — no snapshot taken.** Agent-side tool-dispatch malfunction: ads_library_search could not be invoked this run (not a Meta auth error). Baseline 2026-09-20 is 64d old — the 60d verdict is NOT lost; it only requires a new scan any day from 2026-11-19 onward. Retry: manual re-run or the 2026-11-30 cron.
